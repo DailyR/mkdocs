@@ -6,4 +6,4 @@ test1
 mkdocs project for readthedocs
 
 
-mkdcos build auto
+mkdcos build auto by webhook
