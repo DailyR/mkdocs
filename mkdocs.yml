@@ -1,9 +1,2 @@
 site_name: My - Dailysword - web 
-theme:
-    name: "material"
-    logo:
-        icon: "mkdocs"
-    palette:
-        primary: "black"
-        accent: "deep orange"
-    language: "zh"
+theme: "material"
