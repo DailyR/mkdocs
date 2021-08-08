@@ -8,3 +8,5 @@
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## test1
+
+如何搜索中文
