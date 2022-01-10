@@ -1,4 +1,5 @@
 # DailysCodeDocs
+
 ## coding just for fun by myself
 
 
@@ -9,11 +10,15 @@
 
 
 ···
+
+'''
+
 - 更多的是激发编程热情和思考的能力
 
 - 解决问题的能力
 
 - 无它，唯手熟尔
+
 '''
 
 练习了gitlab的pages，跟github的挺像的，不过最方便的感觉还是github pages
