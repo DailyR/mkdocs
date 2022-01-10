@@ -1,4 +1,4 @@
-# DailyDode
+# DailyCode
 ## coding just for fun by myself
 
 ### 放在服务端改一下时间，这个比较暴力，直接改物理机的时间，一台服务器支持多个改时间的时候还要修改虚拟时间
