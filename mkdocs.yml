@@ -1,4 +1,7 @@
 site_name: Dailysword 
 #theme: "material"
-#theme:
+#注释掉就是readthedocs就是默认的mkdocs模式，不过老版的渲染有一丁点格式问题，所以用readthedocs主题
+#theme:             
     #name: readthedocs
+theme:             
+    name: readthedocs
