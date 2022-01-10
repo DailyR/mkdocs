@@ -1,7 +1,8 @@
 # DailysCodeDocs
 
+'''
 ··· coding just for fun by myself
-
+'''
 
 ###分小中大型 模块， 太大的模块就独立一个项目了，一般也不会用到特别大的模块，能把思路表达清楚就好
 
