@@ -16,5 +16,3 @@ mkdocs还可以适用于github-pages，可以在setting里找到pages来进行�
 web link:https://dailyr.github.io/mkdocs/
 
 
-
-新建一个分支
