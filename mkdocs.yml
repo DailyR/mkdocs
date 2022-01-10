@@ -1,5 +1,5 @@
 site_name: Dailysword 
 #theme: "material"
-theme:
-	name: mkdocs
+#theme:
+	#name: mkdocs
     #name: readthedocs
