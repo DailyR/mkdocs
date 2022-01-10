@@ -1,6 +1,6 @@
-# DailysCodeDocs
+# DailysGamemirrorDocs
 
-## coding just for gamemirrot
+## coding just for gamemirror
 
 
 ###  
