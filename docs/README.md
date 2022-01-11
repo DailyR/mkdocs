@@ -10,7 +10,6 @@
 **更多的是注释和使用**
 
 
-
 (```)
 
 - 更多的是激发编程热情和思考的能力
@@ -18,6 +17,7 @@
 - 解决问题的能力
 
 - 无它，唯手熟尔
+
 
 (```)
 
@@ -31,19 +31,19 @@
 
 - 隔一段时间再编程的话最好有时间可以再练练基础
 
+
 (```)
-'''
->> *- print hello world 不算，主要是以下这类的基础 *
 
->> *- Sys.argv[] 系统级别的输入 *
+>> - print hello world 不算，主要是以下这类的基础 
 
->> *- 函数MFA *
+>> - Sys.argv[] 系统级别的输入 
 
->> *- 字符串Str   find  replace rfind *
+>> - 函数MFA 
 
->> *- 正则表达式 *
+>> - 字符串Str   find  replace rfind 
 
->> *- list set 的交集并集等， 59 specialfic ways to write better python *
+>> - 正则表达式 
 
-'''
+>> - list set 的交集并集等， 59 specialfic ways to write better python 
+
 (```)
