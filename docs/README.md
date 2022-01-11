@@ -31,3 +31,19 @@
 - 一些独立功能，比如svn版本获取，文件遍历功能，这些在navigation的工程下面是以函数形式存在，这些大部分是可以直接拿来用的
 
 - 隔一段时间再编程的话最好有时间可以再练练基础
+
+
+'''
+>> *- print hello world 不算，主要是以下这类的基础 *
+
+>> *- Sys.argv[] 系统级别的输入 *
+
+>> *- 函数MFA *
+
+>> *- 字符串Str   find  replace rfind *
+
+>> *- 正则表达式 *
+
+>> *- list set 的交集并集等， 59 specialfic ways to write better python *
+
+'''
