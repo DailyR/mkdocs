@@ -10,15 +10,13 @@
 **更多的是注释和使用**
 
 
-... 主要
+### 主要
 
 - 更多的是激发编程热情和思考的能力
 
 - 解决问题的能力
 
 - 无它，唯手熟尔
-
-
 
 
 练习了gitlab的pages，跟github的挺像的，不过最方便的感觉还是github pages
@@ -38,11 +36,11 @@
 
 > - Sys.argv[] 系统级别的输入 
 
-> - 函数MFA 
+>> - 函数MFA 
 
-> - 字符串Str   find  replace rfind 
+>> - 字符串Str   find  replace rfind 
 
-> - 正则表达式 
+>>> - 正则表达式 
 
-> - list set 的交集并集等， 59 specialfic ways to write better python 
+>>> - list set 的交集并集等， 59 specialfic ways to write better python 
 
