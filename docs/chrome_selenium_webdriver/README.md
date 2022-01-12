@@ -21,4 +21,12 @@
 '''
 
 
+### 启动命令：
 
+>> java -jar selenium-server-4.1.1.jar standalone --host 0.0.0.0 [--port 9999]    参数其实都可选
+
+>> 然后用webdrive.Remote 模式的话，  driver.implicitly_wait()  这个写法就不能用了
+
+>> server端的话，把驱动放到chrome.exe同路径下，然后把chrome路径加入环境变量
+
+>> linux的话最好用docker来装
