@@ -36,3 +36,25 @@ Hunter是一个游戏调试和测试的云平台，通过网络将设备与平�
 - Ui_regress.lua     UI自动化回归
 
 - 一些辅助的可以从 NoteSelfSample 或者各种get各种data来获取数据
+
+
+### 用python selenium 作为工具的衔接和组件拼装
+
+- 详见chrome_selenium_webdriver 目录下的 luamon_regress.py
+
+- 大致思路是把通过cygwin的 sed 删除 luam文件里注释所在行  sed -i '/xxx/d' filename(由于要为了避免一些编码问题，所以才去了cygwin 处理文本， $ LANG=C sed '/--/d' Chapter_gress_test.lua > temp.lua)
+
+- Chapter1_gress_test.lua 是带有中文注释的文件，直接读取会有编码问题，所以sed处理后就是把--所在行删除，放在一个temp.lua文件里，详见sed的运用（如果不放心，可以 LANG=C sed -i -e 's/[\81-\xFE][\x40-\xFE]+//g' Chapter1_regress_test.lua,这个是删除文件里的中文字符，一般上面的sed处理后就是--所在行删除就足够了，所以文件里的--注释一般做单独一行，就是为了不影响原有代码）
+
+- 然后用selenium调用web控件，将要执行的代码和temp.lua复制进去，点击运行
+
+- 检验运行结果就好了
+
+
+### Unity相关的基础知识
+
+- prefab
+
+- assetsbundle
+
+- 文件目录结构
