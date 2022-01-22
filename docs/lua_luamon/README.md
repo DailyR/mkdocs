@@ -58,3 +58,10 @@ Hunter是一个游戏调试和测试的云平台，通过网络将设备与平�
 - assetsbundle
 
 - 文件目录结构
+
+- SceneId,SLGMap, Guide
+
+- 详细见 Unity_Editor 里面的相关资源知识，luaMon做业务支撑是足够了
+
+
+
