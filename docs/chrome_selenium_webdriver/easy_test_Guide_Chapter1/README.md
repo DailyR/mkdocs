@@ -32,3 +32,9 @@
 >> linux的话最好用docker来装
 
 
+
+### easy_test_Guide_Chapter1  
+
+- selenium + luamon
+
+
