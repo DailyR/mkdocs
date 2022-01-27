@@ -3,7 +3,7 @@
 ## coding just for gamemirror
 
 
-###  
+###  Game_Aurora
 
 
 **更多的是注释和使用**
@@ -11,7 +11,7 @@
 
 ···
 
-### gamemirror主流程
+### gamemirror主流程  —— Game_Auto_regress_easytest
 
 '''
 - 将 win32窗体嵌入 pyqt5中
@@ -30,3 +30,6 @@
 - 一些独立功能，比如svn版本获取，文件遍历功能，这些在navigation的工程下面是以函数形式存在，这些大部分是可以直接拿来用的
 - 还有一些比如robot机器人和protobuff的使用，可以详见stress_robot项目
 - python-crontab 可以提供定时接口
+
+- 安装是pip install PyQt5,pywin32
+- 
