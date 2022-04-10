@@ -5,6 +5,118 @@
 
 
 
+
+
+
+
+
+
+ - 0.4.2 Alpha_6接入LuamonCLI版本 (2022.03.09)
+    - 功能：
+        - 试用django websocket
+        - 制定websocket 方案
+        - websocket传外网
+        - django websocket服务器笔记和example
+    - TODO:
+        - 测试例子同步sample，然后做好分类，准备新的大版本
+        - PyQT_Test(Pre)、Alpha、 Beta、Gamma、 Omega、build、release可以用来命名版本
+
+
+ - 0.4.1 Alpha_6接入LuamonCLI版本 (2022.03.08)
+    - 突破性新功能：
+        - 实时执行gm指令和捕获游戏客户端log —— hookLog彻底解决
+        - 实现了myThread的封装了subprocess的stdout,stderr，实时捕获了输出
+
+
+ - 阶段版本汇总
+
+    - 之前版本到目前为止的TODO汇总及去重:
+        - 每一个线程类，都可以抽象出一个单独的py文本模块文件（还未尝试）
+        - 命名规则重新规范（还未尝试）
+
+        - websocket连接slg服务器或者域名（连接中心服务器 11.141）（还未尝试）
+        - 后台管理和上传配置同步，GM文件上传同步（还未尝试）
+
+        - 自动化测试报告 （还未尝试）
+
+
+        - 将Luamon完成掌握，包括迁移到外网（还未尝试）
+
+        - Logging打必要的log，数据埋点，运行时间戳增加 Logging （还未尝试）
+        - 加判断和各种process ID获取及win32，log获取 （还未尝试）
+        - 集成自动化测试报告Allure （还未尝试）
+        - 按键精灵类似的自动化回归   （还未尝试）
+        - Lua Perfect debug研究，RPC方式获取数据和执行命令 （还未尝试）
+        - 系统传参构建，sysArg （还未尝试）
+        - 预装Luamon和客户端exe路径配置的简单化（还未尝试）
+        - 研发知识点罗列，例如终端变色转义符等（还未尝试）
+        - hook键盘鼠标的点击（还未尝试）
+        - remind单子关联（还未尝试）
+        - 账号登录（还未尝试）
+
+        - .setToolTip() 增加悬浮使用提示 （已完成部分）
+        - 考虑性能优化方案（已完成）
+            - 1.初始化loading进内存，特别是读写文件的load
+            - 2.减少print
+            - 3.持久化对象尝试 （还未尝试）
+            - 4.使用子线程
+        - GM命令封装（已完成）
+        - Output hook ，实时显示log（已完成）
+        - 配置config.ini化（已完成）
+        - 快捷键添加  （已完成部分）
+        - 使用说明，buttonTips添加 （已完成部分）
+        - 美观美化，添加图标  （已完成）
+        - 打包exe问题解决 （已完成）
+        - 启用Alpha_3版本，性能优化 （已完成）
+        - 切换本地配置（ComboBox） （已完成）
+        - Output（标准输入输出）进行hook，打印日志 （已完成）
+        - 完成必要的模块抽象框架设计（ui与功能分离之类的）这块要新建项目，目前用的是Alpha版本 （已完成）
+        - 关于进程的彻底关闭和进程pid之类的也得排期，然后自动化测试threading就放到子线程处理，防止进行自动化测试的时候出现主进程被卡住的情况。 （已完成部分）
+        - 进入个人使用阶段，结合游戏的实际exe，替换成日常使用（已完成）
+        - 完成必要的抽象框架设计 （已完成部分）
+        - 按钮新增游戏窗口(用于tab全部关闭后，没地方可选的新增tab窗口) （已完成）  
+        - AutoTest_打包luamon集成进来（已完成）
+        - Output 将标准输入输出hook （已完成）
+
+
+
+ - 0.4.0 Alpha_6接入LuamonCLI版本 (2022.03.07)
+    - 突破性新功能：
+        - Alpha_6接入LuamonCLI实时执行gm指令和捕获游戏客户端log
+        - 改装gm命令实现方式，完成luamon的集成嵌入
+        - luamon的嵌入执行完成，将threading_Luamon的启动放进初始化里
+        - 实现了closeEvent的重写，退出时先强制删除node.exe
+        - 后面再优化实现方式
+    - 性能对比：
+        - 之前用luamon-selenium的实现方式，阻塞情况下的执行是20秒左右
+        - 现在优化到了Luamon-CLI 1秒之内，提升了20倍效率，已经达到可以接受的使用性能（符合2-5-8原则）
+        - subprocess- stdout- stderr捕获子进程标准输出，打印到控件中
+        - 实时打印，非常不易
+
+
+ - 0.3.3 Alpha_5性能优化版本 (2022.03.05)
+    - 研发里程碑：
+        - 开始websockts例子测试
+        - 开始luamon CLI 例子测试
+        - websocket例子测试通过
+        - websocket和http和socket的区别和联系
+        - subprocess.call luamonCLI相关，指令执行与log捕获
+    - 自我鼓励：
+        - 吾等采石之人，当心怀大教堂之愿景
+    - 版本变化：
+        - 启用Alpha_6接入LuamonCLI实时执行gm指令和捕获游戏客户端log
+
+
+
+ - 0.3.2 Alpha_5性能优化版本 (2022.03.04)
+    - TODO：
+        - 搞清楚HOOK Log
+        - 搞清楚了，不是标准输入输出的hook error， 是打文件的log里面而实现的方法是在游戏客户端本地启动一个websocket的链接，当发生Log捕获的时候发向gamemirror
+        - 一开始想的直接hook输出流是南辕北辙了，好在经过今天一天的研究，发现了正确的方向
+        - 所以其实log获取和websoket链接，两个是一回事，不用分开写了
+        - 研究game-mirror和luamon的CLI ，起websocket端口
+
+
  - 0.3.1 Alpha_5性能优化版本 (2022.03.02)
     - 突破性新功能：
         - 启用了Qthread线程，将svn更新等耗时工作迁移到了线程执行，完成后通过线程信号进行通知
@@ -30,6 +142,7 @@
         - 重点优化game_start 和 run_exe 函数（game_start优化到了percall 在1秒以内，优化完成时间效率为原来的16%, 速度提升了6倍！）
         - sample测试
         - sample里增加了基础知识的温习和实践
+        - 完成必要的线程分离
     - 基础知识温习：
         - 先独立线程，线程独立完成，完成备忘笔记
         - 知识储备-实践校验-形成案例-完成

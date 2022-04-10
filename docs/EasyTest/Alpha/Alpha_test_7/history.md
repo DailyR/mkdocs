@@ -6,8 +6,94 @@
 
 
 
+ - 0.4.12 Alpha_8版本 (2022.03.24)
+    - 新功能：
+        - 深化pytest命令行传参的example理解
+        - exsample同步pytest_Allure路径
+    - TODO:
+        - 整理文件目录，工作目录和上传目录
+        - 项目启用Beta_1 版本
 
 
+ - 0.4.11 Alpha_8版本 (2022.03.23)
+    - 新功能：
+        - 上个版本想了几个方法，后来晚上回家的时候突然想通，这几个方法都有一定的复杂和中途易被打断的问题，而且传参可能存在困难，最后想通了一个非常巧妙的办法，在执行lua文件的是时候，return一个json的测试结果，当符合这个json测试结果的字符串出现，比如stdout里面result_str.find("EasyTest_Result")>0. 即可捕获到该段json输出
+
+        - stdout 监听一个json格式的返回结果，然后调用jsondump，pytest去处理和生成测试报告，asset，最后用allure渲染，其中在修改插入位置的选择时候，又有了新的理解
+
+        - 实现了pytest的传参和结果理解，详见内网的sample里的里程碑截图
+    - TODO:
+        - 找时间整理pytest的笔记，allure的，特别是pytest的，实在是非常好的用例组织方式
+
+
+ - 0.4.10 Alpha_8版本 (2022.03.22)
+    - 新功能：
+        - pytest-allure的example例子结合游戏exe的实际情况运行EasyTest自动化测试例子，获取luamonCLI端的自动化验证result，将验证result, 直接luamonCLI未支持
+        - luamonCLI-result方案设计
+            - 1.selenium捕获结果进行判断
+            - 2.服务端的数据，直接查对应的db协议数据
+            - 3.用websocket和luamon的端口进行交互，执行内容获取结果
+    - tips：
+        - 当出现python的空格和tab混用报错，怎么改都报错时，可以用PyCharm--> Code -->Reformat Code 格式化代码，实测有效
+
+
+ - 0.4.9 Alpha_8版本 (2022.03.21)
+    - 新功能：
+        - 独立模块文件Auto_Test.py, LuaMonCli_Thread.py,LogViewer_Control.py,Svn_Handle_Thread.py 独立文件使得目录结构更合理，单功能的文件不至于代码行数过长
+        - 现在临时采取的是暴力删除exe，taskkill的方式，虽然这种方式解决了bug，但是不够优美，还是需要进行进程管理的方式来修复
+        - 最后发现是 run_exe 没加self， 已修复这个bug
+
+
+
+
+ - 0.4.8 Alpha_7版本 (2022.03.19)
+    - 新功能：
+        - 完成了增加夸夸机器人的功能
+        - 试用人员：徐瑞霞，麦英杰，吴昊天，方瑞，王俊已升级继续试用
+        - 试用人员达到5人
+        - 增加了打包的icon，exe使用了icon，icon需要特定的软件转换png，直接改后缀名不行
+        - 夸夸机器人也增加了icon
+    - TODO：
+        - 修复bug，进程管理，子线程的完全关闭，[] global list 记录所有的子进程id， 主要是启动游戏exe那里
+        - 启用Alpha_8版本
+
+
+ - 0.4.7 Alpha_7版本 (2022.03.18)
+    - 新功能：
+        - 完成pytest-allure的example例子
+        - 增加了svn外链到ExcelTool.exe做tools里面的外部策划导表工具（需要适配相对路径和绝对路径的选择）
+    - TODO:
+        - 需要个夸夸机器人
+
+
+ - 0.4.6 Alpha_7版本 (2022.03.17)
+    - 新功能：
+        - 自动化测试功能改成luamonCLI，放到独立线程去执行，信号与主线程交互
+        - 解决部分试用同学遇到的兼容性问题
+        - EasyTest自动化开始启用
+        - 多线程执行增加线程分配
+        - 增加一些tips方便使用和理解
+
+
+ - 0.4.5 Alpha_7版本 (2022.03.14)
+    - 功能：
+        - ftp上传文件例子的写法
+    - 开始内测试用：
+        - 徐瑞霞，麦英杰试用，开始用户测试
+        - 解决兼容性问题，国际标码gbk和utf-8的兼容问题（英杰处）try-catch
+        - 解决安装问题cygwin-加路径，使用cygwin\bin加入环境变量
+
+
+ - 0.4.4 Alpha_7版本 (2022.03.14)
+    - 功能：
+        - ftp上传文件例子的写法（内网已完成，详见sample）
+
+
+
+ - 0.4.3 Alpha_7版本 (2022.03.11)
+    - 功能：
+        - 自动化测试关联EasyTest例子和规划.兼容QThread的写法
+        - 基础规划完成
 
 
 
@@ -17,6 +103,10 @@
         - 制定websocket 方案
         - websocket传外网
         - django websocket服务器笔记和example
+    - TODO:
+        - 测试例子同步sample，然后做好分类，准备新的大版本
+        - PyQT_Test(Pre)、Alpha、 Beta、Gamma、 Omega、build、release可以用来命名版本
+        - 启用Alpha_7版本
 
 
  - 0.4.1 Alpha_6接入LuamonCLI版本 (2022.03.08)
