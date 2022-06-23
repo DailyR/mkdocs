@@ -9,3 +9,5 @@
     - 新功能：
         - 设定目标：能完成一个go和kubernetes地初始用例
         - 完成k8s的一部分文档和概念整理
+        - go语言实践可以放在后面，优先k8s 
+        - https://kubernetes.io/docs/home/
