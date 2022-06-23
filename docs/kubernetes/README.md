@@ -81,3 +81,9 @@
 
 
 	- [If minikube fails to start, see the  drivers page一般没装docker环境那些都要在这里去安装的](https://minikube.sigs.k8s.io/docs/drivers/)
+
+	- [docker install]
+
+	- Windows
+		- Hyper-V - VM (preferred)
+		- Docker - VM + Container (preferred)
