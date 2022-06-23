@@ -35,3 +35,11 @@
 
 - [英语单词](minikube/dictionary.md)
 
+
+### kubernetes的环境部署
+
+- [kubectl]Kubernetes 命令行工具，kubectl，使得你可以对 Kubernetes 集群运行命令。 你可以使用 kubectl 来部署应用、监测和管理集群资源以及查看日志。
+
+- [在 Windows 上安装 kubectl](https://kubernetes.io/zh-cn/docs/tasks/tools/install-kubectl-windows/)
+
+- [choco](choco.md)
