@@ -43,3 +43,22 @@
 - [在 Windows 上安装 kubectl](https://kubernetes.io/zh-cn/docs/tasks/tools/install-kubectl-windows/)
 
 - [choco](choco.md)
+
+- 使用choco来进行安装命令行工具， 
+	- choco install kubernetes-cli
+
+	- 测试一下，确保安装的是最新版本：
+	- kubectl version --client
+	- 导航到你的 home 目录：
+	- # 当你用 cmd.exe 时，则运行： cd %USERPROFILE%
+	- cd ~
+	- 创建目录 .kube：
+	- mkdir .kube
+	- 切换到新创建的目录 .kube
+	- cd .kube
+	- 配置 kubectl，以接入远程的 Kubernetes 集群：
+	- New-Item config -type file
+
+		- WARNING: This version information is deprecated and will be replaced with the output from kubectl version --short.  Use --output=yaml|json to get the full version.
+		- Client Version: version.Info{Major:"1", Minor:"24", GitVersion:"v1.24.1", GitCommit:"3ddd0f45aa91e2f30c70734b175631bec5b5825a", GitTreeState:"clean", BuildDate:"2022-05-24T12:26:19Z", GoVersion:"go1.18.2", Compiler:"gc", Platform:"windows/amd64"}
+		- Kustomize Version: v4.5.4
