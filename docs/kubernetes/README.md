@@ -64,3 +64,9 @@
 		- Kustomize Version: v4.5.4
 
 	- [cmd shell test](shell_cmd.md)
+
+- [minikube](https://minikube.sigs.k8s.io/docs/start/)
+
+	- minikube is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.
+
+- [minikube_local](/minikube/minikube.md)
