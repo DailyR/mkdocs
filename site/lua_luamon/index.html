@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>关于LuaMon   （名称：luamon调试和自动化测试，类似于内挂） - Dailysword</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "\u5173\u4e8eLuaMon   \uff08\u540d\u79f0\uff1aluamon\u8c03\u8bd5\u548c\u81ea\u52a8\u5316\u6d4b\u8bd5\uff0c\u7c7b\u4f3c\u4e8e\u5185\u6302\uff09";
+        var mkdocs_page_input_path = "lua_luamon\\README.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Dailysword
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">DailysCodeDocs</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../history_sample/">History sample</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">ChangeTime</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../ChangeTime/">DailyCode</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">EasyTest</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../EasyTest/">EasyTest</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Alpha</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Alpha test 1</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../EasyTest/Alpha/Alpha_test_1/history/">History</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Alpha test 4</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../EasyTest/Alpha/Alpha_test_4/history/">History</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Alpha test 7</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../EasyTest/Alpha/Alpha_test_7/history/">History</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Beta</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Beta test 1</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../EasyTest/Beta/Beta_test_1/history/">History</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Beta test 2</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../EasyTest/Beta/Beta_test_2/history/">History</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Go</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Go/">DailysCodeDocs for Go & kubernetes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Go/history/">History</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Advanced lessons</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../advanced-lessons/">进阶python</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">FileConfig Get</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../advanced-lessons/FileConfig_Get/history_sample/">History sample</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Base the hard way</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../base_the_hard_way/">基础python</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Chrome selenium webdriver</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../chrome_selenium_webdriver/">selenium  web自动化</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">easy test Guide Chapter1</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../chrome_selenium_webdriver/easy_test_Guide_Chapter1/">selenium  web自动化</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">erlang Code</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../erlang_Code/">Erlang_Code</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Gamemirror</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../gamemirror/">DailysGamemirrorDocs</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Kubernetes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../kubernetes/">DailysCodeDocs for Go & kubernetes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../kubernetes/history/">History</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Minikube</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../kubernetes/minikube/minikube/">Minikube</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Lua luamon</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">关于LuaMon   （名称：luamon调试和自动化测试，类似于内挂）</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#luamon">luaMon 的适用场景</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_1">实现原理</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hunter">什么是Hunter？</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#annotation">annotation 注释</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_2">已完成的里程碑</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#python-selenium">用python selenium 作为工具的衔接和组件拼装</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#unity">Unity相关的基础知识</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_3">需要补充的调试脚本</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_4">隔一段时间后重新捡起来</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Robot feishu</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Robot quick start</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Python</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../robot_feishu/robot_quick_start/python/">Quickly develop a bot</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../robot_feishu/robot_quick_start/python/README.zh/">快速开发机器人</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Stress robot</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../stress_robot/">Robot压测机器人</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Svnhook</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../svnhook/">svnhook</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Websocket</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../websocket/">Index</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Dailysword</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Lua luamon &raquo;</li><li>关于LuaMon   （名称：luamon调试和自动化测试，类似于内挂）</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="luamon-luamon">关于LuaMon   （名称：luamon调试和自动化测试，类似于内挂）</h1>
+<p>LuaMon 是一个 unity for lua 的实时调试工具，有点像 hunter 系统，不同的是前者是连接客户端，后者是服务端连接，也接受客户端数据</p>
+<h2 id="luamon">luaMon 的适用场景</h2>
+<ul>
+<li>实时lua逻辑修改，数据打印，调试</li>
+<li>热重载开发(保存即生效的开发体验是不是想想就很美？)</li>
+<li>无线真机调试(有网络限制)</li>
+<li>真机日志输出</li>
+<li>多人联调</li>
+</ul>
+<h2 id="_1">实现原理</h2>
+<p>其原理非常简单，在游戏启动一个长连接服务。Cient端运行时自动与游戏服务连接，本地修改的<code>*.lua</code>文件或代码将实时提交到服务器lua虚拟中执行，并将结果返回本地</p>
+<h2 id="hunter">什么是Hunter？</h2>
+<p>Hunter是一个游戏调试和测试的云平台，通过网络将设备与平台连接在一起，实时进行数据传输。
+从游戏获取数据。 可以从游戏中实时获取log、文件与资源、脚本包结构、运行性能参数等。
+向游戏发送数据。 可以发送数据到游戏中，实现调用GM指令、文件动态更新、远程过程调用（RPC）等。
+简单易用的web操作界面。 开放RESTful API供自动化测试的接口调用。
+开放平台。允许第三方应用接入Hunter并获得用户授权，以代替用户的操作，用于自动化测试和流程。</p>
+<h2 id="annotation">annotation 注释</h2>
+<ul>
+<li>里面有一些代码行数和参考理解的例子，很多时候照搬就可以，但是结构和架构就得自己思考</li>
+</ul>
+<h2 id="_2">已完成的里程碑</h2>
+<ul>
+<li>
+<p>Chapter1_regress.lua   第一章的自动化回归</p>
+</li>
+<li>
+<p>Ui_regress.lua     UI自动化回归</p>
+</li>
+<li>
+<p>一些辅助的可以从 NoteSelfSample 或者各种get各种data来获取数据</p>
+</li>
+</ul>
+<h3 id="python-selenium">用python selenium 作为工具的衔接和组件拼装</h3>
+<ul>
+<li>
+<p>详见chrome_selenium_webdriver 目录下的 luamon_regress.py</p>
+</li>
+<li>
+<p>大致思路是把通过cygwin的 sed 删除 luam文件里注释所在行  sed -i '/xxx/d' filename(由于要为了避免一些编码问题，所以才去了cygwin 处理文本， $ LANG=C sed '/--/d' Chapter_gress_test.lua &gt; temp.lua)</p>
+</li>
+<li>
+<p>Chapter1_gress_test.lua 是带有中文注释的文件，直接读取会有编码问题，所以sed处理后就是把--所在行删除，放在一个temp.lua文件里，详见sed的运用（如果不放心，可以 LANG=C sed -i -e 's/[\81-\xFE][\x40-\xFE]+//g' Chapter1_regress_test.lua,这个是删除文件里的中文字符，一般上面的sed处理后就是--所在行删除就足够了，所以文件里的--注释一般做单独一行，就是为了不影响原有代码）</p>
+</li>
+<li>
+<p>然后用selenium调用web控件，将要执行的代码和temp.lua复制进去，点击运行</p>
+</li>
+<li>
+<p>检验运行结果就好了</p>
+</li>
+</ul>
+<h3 id="unity">Unity相关的基础知识</h3>
+<ul>
+<li>
+<p>prefab</p>
+</li>
+<li>
+<p>assetsbundle</p>
+</li>
+<li>
+<p>文件目录结构</p>
+</li>
+<li>
+<p>SceneId,SLGMap, Guide</p>
+</li>
+<li>
+<p>详细见 Unity_Editor 里面的相关资源知识，luaMon做业务支撑是足够了</p>
+</li>
+</ul>
+<h3 id="_3">需要补充的调试脚本</h3>
+<ul>
+<li>
+<p>Guide_chapter1_regerss.lua</p>
+</li>
+<li></li>
+</ul>
+<h3 id="_4">隔一段时间后重新捡起来</h3>
+<ul>
+<li>
+<p>调整目录和文件名</p>
+</li>
+<li>
+<p>从登录流程开始解释 - 登录界面</p>
+</li>
+<li>
+<p>通过各个环节的状态判断当前的正式初始状态，</p>
+<ul>
+<li>例如判断是否处于新手，是否处于SlgLogin登陆界面</li>
+<li>是否在播放剧情，是否在loading中，是否在塔防中</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../kubernetes/minikube/minikube/" class="btn btn-neutral float-left" title="Minikube"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../robot_feishu/robot_quick_start/python/" class="btn btn-neutral float-right" title="Quickly develop a bot">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../kubernetes/minikube/minikube/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../robot_feishu/robot_quick_start/python/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
