@@ -50,7 +50,7 @@
 	- 测试一下，确保安装的是最新版本：
 	- kubectl version --client
 	- 导航到你的 home 目录：
-	- # 当你用 cmd.exe 时，则运行： cd %USERPROFILE%
+	- 当你用 cmd.exe 时，则运行： cd %USERPROFILE% ，其实一般都是在默认路径
 	- cd ~
 	- 创建目录 .kube：
 	- mkdir .kube
@@ -82,8 +82,11 @@
 
 	- [If minikube fails to start, see the  drivers page一般没装docker环境那些都要在这里去安装的](https://minikube.sigs.k8s.io/docs/drivers/)
 
-	- [docker install]
+	- [docker install](https://minikube.sigs.k8s.io/docs/drivers/docker/)
 
 	- Windows
 		- Hyper-V - VM (preferred)
 		- Docker - VM + Container (preferred)
+
+	- [docker Hub](https://hub.docker.com/)
+	- [docker windows install](https://docs.docker.com/desktop/windows/install/)
