@@ -77,3 +77,46 @@ kube-system   kube-controller-manager-minikube   1/1     Running   2 (34s ago)  
 kube-system   kube-proxy-gshp4                   1/1     Running   2 (34s ago)   10m
 kube-system   kube-scheduler-minikube            1/1     Running   2 (24s ago)   10m
 kube-system   storage-provisioner                1/1     Running   1 (39s ago)   10m
+
+
+C:\Users\Administrator>minikube dashboard
+* 正在开启 dashboard ...
+  - Using image kubernetesui/dashboard:v2.6.0
+  - Using image kubernetesui/metrics-scraper:v1.0.8
+* 正在验证 dashboard 运行情况 ...
+* Launching proxy ...
+* 正在验证 proxy 运行状况 ...
+
+X Exiting due to SVC_URL_TIMEOUT: http://127.0.0.1:57977/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/ is not accessible: Temporary Error: unexpected response code: 503
+
+
+C:\Users\Administrator>kubectl get po -A
+NAMESPACE              NAME                                         READY   STATUS              RESTARTS      AGE
+default                hello-minikube-5c5f5cddb9-ct7lc              1/1     Running             1 (52s ago)   26m
+kube-system            coredns-6d4b75cb6d-f8dn9                     1/1     Running             4 (52s ago)   48m
+kube-system            etcd-minikube                                1/1     Running             5 (52s ago)   48m
+kube-system            kube-apiserver-minikube                      1/1     Running             5 (52s ago)   48m
+kube-system            kube-controller-manager-minikube             1/1     Running             5 (52s ago)   48m
+kube-system            kube-proxy-gshp4                             1/1     Running             6 (52s ago)   48m
+kube-system            kube-scheduler-minikube                      1/1     Running             6 (52s ago)   48m
+kube-system            storage-provisioner                          1/1     Running             4 (52s ago)   48m
+kubernetes-dashboard   dashboard-metrics-scraper-78dbd9dbf5-sbpb2   1/1     Running             2 (52s ago)   37m
+kubernetes-dashboard   kubernetes-dashboard-5fd5574d9f-fls2d        0/1     ContainerCreating   0             37m
+
+C:\Users\Administrator>minikube kubectl -- get po -A
+NAMESPACE              NAME                                         READY   STATUS              RESTARTS      AGE
+default                hello-minikube-5c5f5cddb9-ct7lc              1/1     Running             1 (87s ago)   27m
+kube-system            coredns-6d4b75cb6d-f8dn9                     1/1     Running             4 (87s ago)   49m
+kube-system            etcd-minikube                                1/1     Running             5 (87s ago)   49m
+kube-system            kube-apiserver-minikube                      1/1     Running             5 (87s ago)   49m
+kube-system            kube-controller-manager-minikube             1/1     Running             5 (87s ago)   49m
+kube-system            kube-proxy-gshp4                             1/1     Running             6 (87s ago)   49m
+kube-system            kube-scheduler-minikube                      1/1     Running             6 (87s ago)   49m
+kube-system            storage-provisioner                          1/1     Running             4 (87s ago)   49m
+kubernetes-dashboard   dashboard-metrics-scraper-78dbd9dbf5-sbpb2   1/1     Running             2 (87s ago)   37m
+kubernetes-dashboard   kubernetes-dashboard-5fd5574d9f-fls2d        0/1     ContainerCreating   0             37m
+
+C:\Users\Administrator>minikube dashboard
+* 正在验证 dashboard 运行情况 ...
+* Launching proxy ...
+* 正在验证 proxy 运行状况 ...

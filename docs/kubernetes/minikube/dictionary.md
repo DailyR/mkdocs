@@ -14,3 +14,5 @@
 - [dashboard] 仪表盘
 
 - [alternatively] [ɔlˈtɜrnətɪvli] adv.	或者 , 另外
+
+- [alias](https://minikube.sigs.k8s.io/docs/start/) n.	别名；假名   adv.	别名  
