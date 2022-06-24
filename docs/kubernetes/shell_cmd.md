@@ -31,3 +31,49 @@ C:\Users\Administrator>minikube start
 * Pulling base image ...
 * Downloading Kubernetes v1.24.1 preload ...
     > preloaded-images-k8s-v18-v1...: 205.25 MiB / 405.83 MiB  50.58% 237.55 Ki
+
+
+C:\Users\Administrator>minikube start
+* Microsoft Windows 10 Enterprise Ltsc 2019 10.0.17763 Build 17763 上的 minikube v1.26.0
+* 自动选择 docker 驱动。其他选项：hyperv, ssh
+* Using Docker Desktop driver with root privileges
+* Starting control plane node minikube in cluster minikube
+* Pulling base image ...
+* Downloading Kubernetes v1.24.1 preload ...
+    > gcr.io/k8s-minikube/kicbase: 386.00 MiB / 386.00 MiB  100.00% 238.47 KiB
+    > preloaded-images-k8s-v18-v1...: 405.83 MiB / 405.83 MiB  100.00% 245.59 K
+    > gcr.io/k8s-minikube/kicbase: 0 B [______________________] ?% ? p/s 14m19s
+* Creating docker container (CPUs=2, Memory=1952MB) ...
+* 正在 Docker 20.10.17 中准备 Kubernetes v1.24.1…
+  - Generating certificates and keys ...
+  - Booting up control plane ...
+  - Configuring RBAC rules ...
+* Verifying Kubernetes components...
+  - Using image gcr.io/k8s-minikube/storage-provisioner:v5
+* Enabled addons: storage-provisioner, default-storageclass
+* Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+
+
+C:\Users\Administrator>minikube start
+* Microsoft Windows 10 Enterprise Ltsc 2019 10.0.17763 Build 17763 上的 minikube v1.26.0
+* 根据现有的配置文件使用 docker 驱动程序
+* Starting control plane node minikube in cluster minikube
+* Pulling base image ...
+* Updating the running docker "minikube" container ...
+* 正在 Docker 20.10.17 中准备 Kubernetes v1.24.1…
+* Verifying Kubernetes components...
+  - Using image gcr.io/k8s-minikube/storage-provisioner:v5
+* Enabled addons: storage-provisioner, default-storageclass
+* Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+
+
+
+C:\Users\Administrator>kubectl get po -A
+NAMESPACE     NAME                               READY   STATUS    RESTARTS      AGE
+kube-system   coredns-6d4b75cb6d-f8dn9           1/1     Running   1 (34s ago)   10m
+kube-system   etcd-minikube                      1/1     Running   2 (34s ago)   10m
+kube-system   kube-apiserver-minikube            1/1     Running   2 (24s ago)   10m
+kube-system   kube-controller-manager-minikube   1/1     Running   2 (34s ago)   10m
+kube-system   kube-proxy-gshp4                   1/1     Running   2 (34s ago)   10m
+kube-system   kube-scheduler-minikube            1/1     Running   2 (24s ago)   10m
+kube-system   storage-provisioner                1/1     Running   1 (39s ago)   10m

@@ -91,3 +91,6 @@
 	- [docker Hub](https://hub.docker.com/)
 	- [docker windows install](https://docs.docker.com/desktop/windows/install/)
 	- [docker windows example](docker.md)
+
+- [完成docker安装后运行minikube start](shell_cmd.md)
+	- 这里开始有集群和管理集群了

@@ -10,3 +10,7 @@
 - [Hub]中心，枢纽，互联网集线器，类似的有unityHUb，github
 
 - [CLI - command-line interface] 命令行界面
+
+- [dashboard] 仪表盘
+
+- [alternatively] [ɔlˈtɜrnətɪvli] adv.	或者 , 另外
