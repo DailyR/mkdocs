@@ -42,7 +42,7 @@
 
 - [在 Windows 上安装 kubectl](https://kubernetes.io/zh-cn/docs/tasks/tools/install-kubectl-windows/)
 
-- [choco](choco.md)
+- [choco](choco.md)  Chocolatey Package Manager 
 
 - 使用choco来进行安装命令行工具， 
 	- choco install kubernetes-cli
@@ -63,7 +63,7 @@
 		- Client Version: version.Info{Major:"1", Minor:"24", GitVersion:"v1.24.1", GitCommit:"3ddd0f45aa91e2f30c70734b175631bec5b5825a", GitTreeState:"clean", BuildDate:"2022-05-24T12:26:19Z", GoVersion:"go1.18.2", Compiler:"gc", Platform:"windows/amd64"}
 		- Kustomize Version: v4.5.4
 
-	- [cmd shell test](shell_cmd.md)
+	- [cmd shell test,minikube](shell_cmd.md)
 
 - [minikube](https://minikube.sigs.k8s.io/docs/start/)
 
