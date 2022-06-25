@@ -95,4 +95,5 @@
 - [完成docker安装后运行minikube start](shell_cmd.md)
 	- 这里开始有集群和管理集群了
 	- [字典](minikube/dictionary.md)
-	- 
+	- 使用阿里云的镜像，速度会快很多 minikube start --image-mirror-country=cn
+	- [使用minikube（阿里云镜像）快速在本地搭建Kubernetes单节点集群](https://blog.csdn.net/qq_27818541/article/details/121592109)

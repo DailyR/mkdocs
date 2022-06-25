@@ -120,3 +120,43 @@ C:\Users\Administrator>minikube dashboard
 * 正在验证 dashboard 运行情况 ...
 * Launching proxy ...
 * 正在验证 proxy 运行状况 ...
+
+
+
+
+Clean up
+Now you can clean up the resources you created in your cluster:
+
+kubectl delete service hello-node
+kubectl delete deployment hello-node
+Optionally, stop the Minikube virtual machine (VM):
+
+minikube stop
+Optionally, delete the Minikube VM:
+
+minikube delete
+
+
+
+
+C:\Users\Administrator>minikube start --image-mirror-country=cn
+* Microsoft Windows 10 Enterprise Ltsc 2019 10.0.17763 Build 17763 上的 minikube v1.26.0
+* 自动选择 docker 驱动。其他选项：hyperv, ssh
+* 正在使用镜像存储库 registry.cn-hangzhou.aliyuncs.com/google_containers
+* Using Docker Desktop driver with root privileges
+* Starting control plane node minikube in cluster minikube
+* Pulling base image ...
+    > registry.cn-hangzhou.aliyun...: 0 B [_____________________] ?% ? p/s 3m6s
+* Creating docker container (CPUs=2, Memory=1952MB) ...
+* 正在 Docker 20.10.17 中准备 Kubernetes v1.24.1…
+  - Generating certificates and keys ...
+  - Booting up control plane ...
+  - Configuring RBAC rules ...
+* Verifying Kubernetes components...
+  - Using image registry.cn-hangzhou.aliyuncs.com/google_containers/storage-provisioner:v5
+* Enabled addons: storage-provisioner, default-storageclass
+* Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+
+- 使用阿里云的镜像，速度会快很多
+
+- 关注Ready状态

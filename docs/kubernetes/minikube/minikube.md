@@ -117,3 +117,27 @@ upgrade-insecure-requests=1
 user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
 BODY:
 -no body in request-
+
+
+
+C:\Users\Administrator>kubectl port-forward service/hello-minikube 7080:8080
+Forwarding from 127.0.0.1:7080 -> 8080
+Forwarding from [::1]:7080 -> 8080
+Handling connection for 7080
+Handling connection for 7080
+
+
+直接运行转发端口也可以结果跟上面一样
+
+
+C:\Users\Administrator>minikube dashboard
+* 正在开启 dashboard ...
+  - Using image registry.cn-hangzhou.aliyuncs.com/google_containers/dashboard:v2.6.0
+  - Using image registry.cn-hangzhou.aliyuncs.com/google_containers/metrics-scraper:v1.0.8
+* 正在验证 dashboard 运行情况 ...
+* Launching proxy ...
+* 正在验证 proxy 运行状况 ...
+* Opening http://127.0.0.1:52939/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/ in your default browser...
+
+
+- ![](imges/MinkubeDashboard1.png)

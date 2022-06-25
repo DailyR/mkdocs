@@ -23,3 +23,12 @@ we can see like this
 - ![](imges/docker1.png)
 - ![](imges/docker2.png)
 - ![](imges/docker3.png)
+
+- 1、安装docker
+- 2、安装kubectl
+- 3、安装minikube
+- 4、启动minikube
+- 5、 验证
+- 查看minikube 运行状态
+- 使用kubectl获取namesapce资源
+- 6、 dashboard
