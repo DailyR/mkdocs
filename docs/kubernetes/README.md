@@ -102,3 +102,8 @@
 - ![实践与概念理解](imges/MinkubeDashboard1.png)
 
 - [kubernetest minikube](minikube/minikube.md)
+
+- [几个常用的查询命令]()
+	- kubectl get svc
+	- minikube service list
+	- 可以直接在dashboard里面进行deployment的操作，删除什么的，比较方便
