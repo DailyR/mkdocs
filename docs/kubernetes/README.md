@@ -100,3 +100,5 @@
 	- [AliyunContainerService/minikube/wiki](https://github.com/AliyunContainerService/minikube/wiki)
 
 - ![实践与概念理解](imges/MinkubeDashboard1.png)
+
+- [kubernetest minikube](/minikube/minikube.md)
