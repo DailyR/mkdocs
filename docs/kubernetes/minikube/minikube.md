@@ -195,3 +195,103 @@ If you don’t want to open a web browser, the dashboard command can also simply
 minikube dashboard --url
 
 minikube dashboard  可以做很多方便的操作，直接在网页上进行操作
+
+
+
+
+LoadBalancer deployments 
+To access a LoadBalancer deployment, use the “minikube tunnel” command. Here is an example deployment:
+
+kubectl create deployment balanced --image=k8s.gcr.io/echoserver:1.4  
+kubectl expose deployment balanced --type=LoadBalancer --port=8080
+In another window, start the tunnel to create a routable IP for the ‘balanced’ deployment:
+
+minikube tunnel
+To find the routable IP, run this command and examine the EXTERNAL-IP column:
+
+kubectl get services balanced
+Your deployment is now available at <EXTERNAL-IP>:8080
+
+
+   LoadBalancer  模式一直没成功，不知道为什么，等真正需要用的时候再仔细查把，不然回报比比较低
+
+
+
+
+来来去去就用了一下午去调试这些命令，就是对这些对象进行命令行操作
+
+
+kubectl describe services example-service
+
+kubectl get po -o wide
+
+kubectl delete deployment hello-minikube7
+
+kubectl delete service hello-minikube7
+
+kubectl get po -A
+
+kubectl create deployment balanced --image=k8s.gcr.io/echoserver:1.4
+
+kubectl expose deployment balanced 
+
+kubectl get services balanced
+
+kubectl expose deployment balanced 
+
+kubectl create deployment balanced1 
+
+kubectl expose deployment balanced1 
+
+kubectl get services balanced
+
+C:\Users\Administrator>kubectl get services balanced1
+
+C:\Users\Administrator>kubectl describe services balanced1
+
+C:\Users\Administrator>minikube service balanced1 --url
+
+C:\Users\Administrator>kubectl describe service balanced1
+
+C:\Users\Administrator>kubectl describe services balanced1
+
+C:\Users\Administrator>minikube service list
+
+C:\Users\Administrator>kubectl describe services balanced1
+
+C:\Users\Administrator>kubectl get svc
+
+C:\Users\Administrator>kubectl delete service balanced1
+
+C:\Users\Administrator>kubectl get svc
+
+C:\Users\Administrator>kubectl expose deployment balanced1 
+C:\Users\Administrator>kubectl get svc
+
+C:\Users\Administrator>kubectl delete service nginxpublic
+
+C:\Users\Administrator>kubectl get svc
+
+C:\Users\Administrator>kubectl expose deployment balanced1 
+C:\Users\Administrator>minikube service list
+
+C:\Users\Administrator>kubectl delete service dailytest1
+
+C:\Users\Administrator>kubectl get deployments -A
+
+C:\Users\Administrator>kubectl expose deployment dailytest2 --type=LoadBalancer --port=7777 --target-port=7777 --name=dailytest3
+service/dailytest3 exposed
+
+C:\Users\Administrator>minikube service list
+
+C:\Users\Administrator>kubectl create deployment dailytest3 --image=k8s.gcr.io/echoserver:1.4
+
+C:\Users\Administrator>kubectl expose deployment dailytest2 --type=LoadBalancer --port=80 --target-port=8888 --name=dailytest2
+service/dailytest2 exposed
+
+C:\Users\Administrator>minikube service dailytest2
+
+C:\Users\Administrator>kubectl get services dailytest2
+
+C:\Users\Administrator>kubectl delete deployment dailytest2
+ 

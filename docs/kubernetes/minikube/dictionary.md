@@ -38,4 +38,6 @@
 
 - [load balance ]负载平衡
 
+- [cluster node pod deployment service]
+
 
