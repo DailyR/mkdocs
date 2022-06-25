@@ -144,3 +144,6 @@ Handling connection for 7080
 - ![](../imges/MinkubeDashboard1.png)
 - ![](../imges/MinkubeDashboard2.png)
 - ![](../imges/Minkube-pCluseter2.png)
+
+- 从中可以看到，minikube 的启动会在docker里面启动一个镜像和服务，如上图所示
+
