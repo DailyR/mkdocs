@@ -141,3 +141,5 @@ C:\Users\Administrator>minikube dashboard
 
 
 - ![](imges/MinkubeDashboard1.png)
+- ![](imges/MinkubeDashboard2.png)
+- ![](imges/Minkube-pCluseter2.png)
