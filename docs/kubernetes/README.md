@@ -101,4 +101,4 @@
 
 - ![实践与概念理解](imges/MinkubeDashboard1.png)
 
-- [kubernetest minikube](minikube/dictionary.md)
+- [kubernetest minikube](minikube/minikube.md)
