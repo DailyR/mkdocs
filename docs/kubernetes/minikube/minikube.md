@@ -178,3 +178,20 @@ hello-minikube   NodePort   10.111.156.222   <none>        8080:32103/TCP   20h
 
    -  大部分时候 minikube kubectl -- get service hello-minikube 和 kubectl get service hello-minikube 是等效的
 
+
+Basic usage
+To access the dashboard:
+
+minikube dashboard
+This will enable the dashboard add-on, and open the proxy in the default web browser.
+
+It’s worth noting that web browsers generally do not run properly as the root user, so if you are in an environment where you are running as root, see the URL-only option.
+
+To stop the proxy (leaves the dashboard running), abort the started process (Ctrl+C).
+
+Getting just the dashboard URL
+If you don’t want to open a web browser, the dashboard command can also simply emit a URL:
+
+minikube dashboard --url
+
+minikube dashboard  可以做很多方便的操作，直接在网页上进行操作
