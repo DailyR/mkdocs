@@ -172,3 +172,9 @@ Handling connection for 7080
    - 只有运行特定的命令，minikube才会把应用的访问链接暴露出来
    - 重新运行就会发现每次暴露的端口其实不太一样
 
+- C:\Users\Administrator>minikube kubectl -- get service hello-minikube
+NAME             TYPE       CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+hello-minikube   NodePort   10.111.156.222   <none>        8080:32103/TCP   20h
+
+   -  大部分时候 minikube kubectl -- get service hello-minikube 和 kubectl get service hello-minikube 是等效的
+
