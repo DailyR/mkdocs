@@ -33,4 +33,8 @@
 
 - [Basic usage] 网络	基本用法
 
+- [NodePort] 网络 - 节点端口
+
+- [load balance ]负载平衡
+
 

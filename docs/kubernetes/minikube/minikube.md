@@ -147,3 +147,20 @@ Handling connection for 7080
 
 - 从中可以看到，minikube 的启动会在docker里面启动一个镜像和服务，如上图所示
 
+
+
+- [Accessing apps](https://minikube.sigs.k8s.io/docs/handbook/accessing/)
+   - How to access applications running within minikube
+      There are two major categories of services in Kubernetes:
+
+      NodePort
+      LoadBalancer
+      minikube supports either. Read on!
+
+      NodePort access
+   - Getting the NodePort using the service command
+      We also have a shortcut for fetching the minikube IP and a service’s NodePort:
+
+      minikube service <service-name> --url
+
+   -  这里上面的操作的是成功的
