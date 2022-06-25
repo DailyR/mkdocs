@@ -164,3 +164,11 @@ Handling connection for 7080
       minikube service <service-name> --url
 
    -  这里上面的操作的是成功的
+
+   - C:\Users\Administrator>minikube service hello-minikube --url
+   http://127.0.0.1:65070
+   ! Because you are using a Docker driver on windows, the terminal needs to be open to run it.
+
+   - 只有运行特定的命令，minikube才会把应用的访问链接暴露出来
+   - 重新运行就会发现每次暴露的端口其实不太一样
+

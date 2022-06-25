@@ -30,6 +30,7 @@
 - [Addons]  网络	插件；插件存放文件夹
 
 - [tunnel] 美: [ˈtʌn(ə)l] 英: ['tʌn(ə)l] n.	地下通道；地道；隧道；（动物的）洞穴通道 v.	开凿隧道；挖地道
+- [Using minikube service with tunnel](https://minikube.sigs.k8s.io/docs/handbook/accessing/)
 
 - [Basic usage] 网络	基本用法
 
