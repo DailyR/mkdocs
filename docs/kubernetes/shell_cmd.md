@@ -2,12 +2,14 @@
 
 C:\Users\Administrator\.kube>kubectl cluster-info
 
+
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 Unable to connect to the server: dial tcp [::1]:8080: connectex: No connection could be made because the target machine actively refused it.
 
 
 
 C:\Users\Administrator>minikube start
+
 * Microsoft Windows 10 Enterprise Ltsc 2019 10.0.17763 Build 17763 上的 minikube v1.26.0
 * Unable to pick a default driver. Here is what was considered, in preference order:
 * Alternatively you could install one of these drivers:
@@ -22,6 +24,7 @@ X Exiting due to DRV_NOT_DETECTED: No possible driver was detected. Try specifyi
 
 
 安装完成docker之后，再运行minikube start：
+
 - [minikube](https://minikube.sigs.k8s.io/docs/start/)
 C:\Users\Administrator>minikube start
 * Microsoft Windows 10 Enterprise Ltsc 2019 10.0.17763 Build 17763 上的 minikube v1.26.0
@@ -34,6 +37,7 @@ C:\Users\Administrator>minikube start
 
 
 C:\Users\Administrator>minikube start
+
 * Microsoft Windows 10 Enterprise Ltsc 2019 10.0.17763 Build 17763 上的 minikube v1.26.0
 * 自动选择 docker 驱动。其他选项：hyperv, ssh
 * Using Docker Desktop driver with root privileges
@@ -55,6 +59,7 @@ C:\Users\Administrator>minikube start
 
 
 C:\Users\Administrator>minikube start
+
 * Microsoft Windows 10 Enterprise Ltsc 2019 10.0.17763 Build 17763 上的 minikube v1.26.0
 * 根据现有的配置文件使用 docker 驱动程序
 * Starting control plane node minikube in cluster minikube
@@ -68,7 +73,9 @@ C:\Users\Administrator>minikube start
 
 
 
+
 C:\Users\Administrator>kubectl get po -A
+
 NAMESPACE     NAME                               READY   STATUS    RESTARTS      AGE
 kube-system   coredns-6d4b75cb6d-f8dn9           1/1     Running   1 (34s ago)   10m
 kube-system   etcd-minikube                      1/1     Running   2 (34s ago)   10m
@@ -80,6 +87,7 @@ kube-system   storage-provisioner                1/1     Running   1 (39s ago)  
 
 
 C:\Users\Administrator>minikube dashboard
+
 * 正在开启 dashboard ...
   - Using image kubernetesui/dashboard:v2.6.0
   - Using image kubernetesui/metrics-scraper:v1.0.8
@@ -91,6 +99,7 @@ X Exiting due to SVC_URL_TIMEOUT: http://127.0.0.1:57977/api/v1/namespaces/kuber
 
 
 C:\Users\Administrator>kubectl get po -A
+
 NAMESPACE              NAME                                         READY   STATUS              RESTARTS      AGE
 default                hello-minikube-5c5f5cddb9-ct7lc              1/1     Running             1 (52s ago)   26m
 kube-system            coredns-6d4b75cb6d-f8dn9                     1/1     Running             4 (52s ago)   48m
@@ -104,6 +113,7 @@ kubernetes-dashboard   dashboard-metrics-scraper-78dbd9dbf5-sbpb2   1/1     Runn
 kubernetes-dashboard   kubernetes-dashboard-5fd5574d9f-fls2d        0/1     ContainerCreating   0             37m
 
 C:\Users\Administrator>minikube kubectl -- get po -A
+
 NAMESPACE              NAME                                         READY   STATUS              RESTARTS      AGE
 default                hello-minikube-5c5f5cddb9-ct7lc              1/1     Running             1 (87s ago)   27m
 kube-system            coredns-6d4b75cb6d-f8dn9                     1/1     Running             4 (87s ago)   49m
@@ -117,6 +127,7 @@ kubernetes-dashboard   dashboard-metrics-scraper-78dbd9dbf5-sbpb2   1/1     Runn
 kubernetes-dashboard   kubernetes-dashboard-5fd5574d9f-fls2d        0/1     ContainerCreating   0             37m
 
 C:\Users\Administrator>minikube dashboard
+
 * 正在验证 dashboard 运行情况 ...
 * Launching proxy ...
 * 正在验证 proxy 运行状况 ...
@@ -140,6 +151,7 @@ minikube delete
 
 
 C:\Users\Administrator>minikube start --image-mirror-country=cn
+
 * Microsoft Windows 10 Enterprise Ltsc 2019 10.0.17763 Build 17763 上的 minikube v1.26.0
 * 自动选择 docker 驱动。其他选项：hyperv, ssh
 * 正在使用镜像存储库 registry.cn-hangzhou.aliyuncs.com/google_containers
