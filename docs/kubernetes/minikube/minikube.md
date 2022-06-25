@@ -1,11 +1,11 @@
 
 
-# [minikube](https://minikube.sigs.k8s.io/docs/start/)
+## [minikube](https://minikube.sigs.k8s.io/docs/start/)
 
 
 - minikube is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.
 
-All you need is Docker (or similarly compatible) container or a Virtual Machine environment, and Kubernetes is a single command away: minikube start
+- All you need is Docker (or similarly compatible) container or a Virtual Machine environment, and Kubernetes is a single command away: minikube start
 
 - 1. Installation
 
@@ -53,7 +53,8 @@ All you need is Docker (or similarly compatible) container or a Virtual Machine 
 
 
 
-C:\Users\Administrator>minikube service hello-minikube
+- C:\Users\Administrator>minikube service hello-minikube
+
 |-----------|----------------|-------------|---------------------------|
 | NAMESPACE |      NAME      | TARGET PORT |            URL            |
 |-----------|----------------|-------------|---------------------------|
@@ -70,7 +71,7 @@ C:\Users\Administrator>minikube service hello-minikube
 
 
 
-C:\Users\Administrator>minikube kubectl -- get po -A
+- C:\Users\Administrator>minikube kubectl -- get po -A
 NAMESPACE              NAME                                         READY   STATUS             RESTARTS        AGE
 default                hello-minikube-5c5f5cddb9-ct7lc              1/1     Running            1 (6m42s ago)   32m
 kube-system            coredns-6d4b75cb6d-f8dn9                     1/1     Running            4 (6m42s ago)   54m
@@ -84,7 +85,7 @@ kubernetes-dashboard   dashboard-metrics-scraper-78dbd9dbf5-sbpb2   1/1     Runn
 kubernetes-dashboard   kubernetes-dashboard-5fd5574d9f-fls2d        0/1     ImagePullBackOff   0               43m
 
 
-minikube service hello-minikube  上面可以看到自动打开浏览器
+- minikube service hello-minikube  上面可以看到自动打开浏览器
 链接如下，然后就可以看到对应的参数，就是初始化有点久，耐心等待即可
 
 http://127.0.0.1:63124/
@@ -120,7 +121,7 @@ BODY:
 
 
 
-C:\Users\Administrator>kubectl port-forward service/hello-minikube 7080:8080
+- C:\Users\Administrator>kubectl port-forward service/hello-minikube 7080:8080
 Forwarding from 127.0.0.1:7080 -> 8080
 Forwarding from [::1]:7080 -> 8080
 Handling connection for 7080
@@ -130,7 +131,7 @@ Handling connection for 7080
 直接运行转发端口也可以结果跟上面一样
 
 
-C:\Users\Administrator>minikube dashboard
+- C:\Users\Administrator>minikube dashboard
 * 正在开启 dashboard ...
   - Using image registry.cn-hangzhou.aliyuncs.com/google_containers/dashboard:v2.6.0
   - Using image registry.cn-hangzhou.aliyuncs.com/google_containers/metrics-scraper:v1.0.8
@@ -140,6 +141,6 @@ C:\Users\Administrator>minikube dashboard
 * Opening http://127.0.0.1:52939/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/ in your default browser...
 
 
-- ![](imges/MinkubeDashboard1.png)
-- ![](imges/MinkubeDashboard2.png)
-- ![](imges/Minkube-pCluseter2.png)
+- ![](../imges/MinkubeDashboard1.png)
+- ![](../imges/MinkubeDashboard2.png)
+- ![](../imges/Minkube-pCluseter2.png)
