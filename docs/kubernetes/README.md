@@ -71,7 +71,7 @@
 	- 与 kind 类似，minikube 是一个工具， 能让你在本地运行 Kubernetes。 minikube 在你本地的个人计算机（包括 Windows、macOS 和 Linux PC）运行一个单节点的 Kubernetes 集群，以便你来尝试 Kubernetes 或者开展每天的开发工作。
 
 	- 如果你关注如何安装此工具，可以按官方的 Get Started!指南操作。
-- [minikube_local](/minikube/minikube.md)
+- [minikube_local](minikube/minikube.md)
 
 	- choco install minikube
 	- minikube start
@@ -101,4 +101,4 @@
 
 - ![实践与概念理解](imges/MinkubeDashboard1.png)
 
-- [kubernetest minikube](/minikube/dictionary.md)
+- [kubernetest minikube](minikube/dictionary.md)
