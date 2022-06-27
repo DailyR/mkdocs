@@ -53,7 +53,7 @@
 
 
 
-- C:\Users\Administrator>minikube service hello-minikube
+- minikube service hello-minikube
 
 |-----------|----------------|-------------|---------------------------|
 | NAMESPACE |      NAME      | TARGET PORT |            URL            |
@@ -71,7 +71,7 @@
 
 
 
-- C:\Users\Administrator>minikube kubectl -- get po -A
+- minikube kubectl -- get po -A
 NAMESPACE              NAME                                         READY   STATUS             RESTARTS        AGE
 default                hello-minikube-5c5f5cddb9-ct7lc              1/1     Running            1 (6m42s ago)   32m
 kube-system            coredns-6d4b75cb6d-f8dn9                     1/1     Running            4 (6m42s ago)   54m
@@ -121,7 +121,7 @@ BODY:
 
 
 
-- C:\Users\Administrator>kubectl port-forward service/hello-minikube 7080:8080
+- kubectl port-forward service/hello-minikube 7080:8080
 Forwarding from 127.0.0.1:7080 -> 8080
 Forwarding from [::1]:7080 -> 8080
 Handling connection for 7080
@@ -131,7 +131,7 @@ Handling connection for 7080
 直接运行转发端口也可以结果跟上面一样
 
 
-- C:\Users\Administrator>minikube dashboard
+- minikube dashboard
 * 正在开启 dashboard ...
   - Using image registry.cn-hangzhou.aliyuncs.com/google_containers/dashboard:v2.6.0
   - Using image registry.cn-hangzhou.aliyuncs.com/google_containers/metrics-scraper:v1.0.8
@@ -165,14 +165,14 @@ Handling connection for 7080
 
    -  这里上面的操作的是成功的
 
-   - C:\Users\Administrator>minikube service hello-minikube --url
+   - minikube service hello-minikube --url
    http://127.0.0.1:65070
    ! Because you are using a Docker driver on windows, the terminal needs to be open to run it.
 
    - 只有运行特定的命令，minikube才会把应用的访问链接暴露出来
    - 重新运行就会发现每次暴露的端口其实不太一样
 
-- C:\Users\Administrator>minikube kubectl -- get service hello-minikube
+- minikube kubectl -- get service hello-minikube
 NAME             TYPE       CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
 hello-minikube   NodePort   10.111.156.222   <none>        8080:32103/TCP   20h
 
@@ -245,53 +245,53 @@ kubectl expose deployment balanced1
 
 kubectl get services balanced
 
-C:\Users\Administrator>kubectl get services balanced1
+get services balanced1
 
-C:\Users\Administrator>kubectl describe services balanced1
+kubectl describe services balanced1
 
-C:\Users\Administrator>minikube service balanced1 --url
+minikube service balanced1 --url
 
-C:\Users\Administrator>kubectl describe service balanced1
+kubectl describe service balanced1
 
-C:\Users\Administrator>kubectl describe services balanced1
+kubectl describe services balanced1
 
-C:\Users\Administrator>minikube service list
+minikube service list
 
-C:\Users\Administrator>kubectl describe services balanced1
+kubectl describe services balanced1
 
-C:\Users\Administrator>kubectl get svc
+kubectl get svc
 
-C:\Users\Administrator>kubectl delete service balanced1
+kubectl delete service balanced1
 
-C:\Users\Administrator>kubectl get svc
+kubectl get svc
 
-C:\Users\Administrator>kubectl expose deployment balanced1 
-C:\Users\Administrator>kubectl get svc
+kubectl expose deployment balanced1 
+kubectl get svc
 
-C:\Users\Administrator>kubectl delete service nginxpublic
+kubectl delete service nginxpublic
 
-C:\Users\Administrator>kubectl get svc
+kubectl get svc
 
-C:\Users\Administrator>kubectl expose deployment balanced1 
-C:\Users\Administrator>minikube service list
+kubectl expose deployment balanced1 
+minikube service list
 
-C:\Users\Administrator>kubectl delete service dailytest1
+kubectl delete service dailytest1
 
-C:\Users\Administrator>kubectl get deployments -A
+kubectl get deployments -A
 
-C:\Users\Administrator>kubectl expose deployment dailytest2 --type=LoadBalancer --port=7777 --target-port=7777 --name=dailytest3
+kubectl expose deployment dailytest2 --type=LoadBalancer --port=7777 --target-port=7777 --name=dailytest3
 service/dailytest3 exposed
 
-C:\Users\Administrator>minikube service list
+minikube service list
 
-C:\Users\Administrator>kubectl create deployment dailytest3 --image=k8s.gcr.io/echoserver:1.4
+kubectl create deployment dailytest3 --image=k8s.gcr.io/echoserver:1.4
 
-C:\Users\Administrator>kubectl expose deployment dailytest2 --type=LoadBalancer --port=80 --target-port=8888 --name=dailytest2
+kubectl expose deployment dailytest2 --type=LoadBalancer --port=80 --target-port=8888 --name=dailytest2
 service/dailytest2 exposed
 
-C:\Users\Administrator>minikube service dailytest2
+minikube service dailytest2
 
-C:\Users\Administrator>kubectl get services dailytest2
+kubectl get services dailytest2
 
-C:\Users\Administrator>kubectl delete deployment dailytest2
+kubectl delete deployment dailytest2
  
