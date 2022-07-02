@@ -38,6 +38,24 @@
 
 	- 第三步:打开exe和luamon，调用里面的参数进行调试， 从文件里获取的 CgCartoonController对象和播放模块控制器，很明显local	test = function	endIlocal main =function()CgCartoonController=CgCartoonController or Maker() Play_state =CgCartoonController.IsPlaying return "Hello",Play state endreturn main()然后再在luamon里面运行这个，和exe不同阶段对应，从中运行可知道[LuaRun] 成功 2022-01-1714:25:13
 
-		- 运行有False有True，那就是开始是False就是一开始的视频不属于动画播放控制范畴，仔细一看，确实是一个mp4格式的cg文件，开场动画视频，地址是/trunk/client/lowpoly-dev-2019/x/Assets/Resources/FMOD/DemoMapOceanmp4是个mp4视频。
+		- 运行有False有True，那就是开始是False就是一开始的视频不属于动画播放控制范畴，仔细一看，确实是一个mp4格式的cg文件，开场动画视频，地址是/trunk/client/lowpoly-dev-2019/x/Assets/Resources/FMOD/DemoMapOceanmp4是个mp4视频。找到之后全局搜索调用，发现是登录流程后自动UIMgr.OperView(“VideoPlayView”)来播放的，Mp4播放完才是 剧情 plot 相关的东西。
 
+	- 第四步:UIMgr.ViewlsOpen(view_name)这个之前就知道了(不知道可以再看下UIMgr)从调试结果看，符合预期，开场视频动画和打开的view 视图的状态相一致，对应代码如上所述。
+
+	- 第五步:上述的播放视频和开场cgCartoon的状态都已经获取成功，就剩下剧情的解析， BaseData Plot opera 从代码里，知道这个plot剧情的播放时机，(有spine的)
+	```lua
+	local main =function()
+		-- log({1,2,3})
+		GuideDialogController = GuideDialogController or Maker() 
+		if UIMgr.ViewIsOpen("PlotView") then
+			return "view is opend" 
+		else
+			return "view is not opened" 
+		end
+		return "Hello" 
+	end
+	return main()
+	```
+
+	经过多次摸索，其实最好用的判断是PlotView对话窗口是否打开，有的话就跳过
 
