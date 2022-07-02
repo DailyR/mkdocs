@@ -1,7 +1,7 @@
 
 
 
-## Easy_Test_IDE_Beta_Test_V1 lua&Luamon practices & study notes
+## Easy_Test lua&Luamon practices & study notes
 
 
 
@@ -183,7 +183,8 @@
 
 	- D:\slg\server\game_twd\proto\protocol.xml
 
-- 客户端战斗基础流程
+### 客户端战斗基础流程
+- 
 	- 1.选择行军部队
 	- 2.部队在地图创建播放待机动作
 	- 3.播放移动动作，根据服务端给过来的位置列表和行军速度移动到指定点
