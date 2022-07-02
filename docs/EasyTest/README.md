@@ -64,3 +64,6 @@ Tutorial使用方法：
 	- 和history这些记录来相辅相成，这样才能完成完整的沉淀
 
 	- 增加impact的方法，造轮子和写PPT
+
+
+### [Thinking Lua 自动化测试用例构建的思路](Docs/thinking.md)
