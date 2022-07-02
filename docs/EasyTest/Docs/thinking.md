@@ -108,3 +108,18 @@
 
 		- 有时候很unity运行慢就用exe，需要再打开就好
 		- 然后svnlog是帮助理解代码的辅助工具，详见一、代码路径
+
+- 五.UI框架重构里面说了对应代码模块分类
+	- 新加卷(D:)>sig>lowpoly>x>Assets>ulua> Lua > GameScriptModule >ModuleName 
+	- 共享·	新建文件夹 修改日期	类型	大小	
+		- View-界面类集合	2021/3/16 17:23	文件夹	
+		- TestContro-控制器Lua	2021/3/16 17:23	LUA文件	0 KB	
+		- TestDefine-常量枚举.ua	2021/3/1617:23	LUA 文件	OKB	
+		- TestEvent-事件类iua	2021/3/16 17:23	LUA文件	O KB	
+		- TestModel-数据处理,lua	2021/3/16 17:23	LWA 文件	O KB	
+	- 方便后期维护，提高可读性，规范目录结构，如图所示
+
+	- 所有View对应的lua文件路径都需要手动添加到ModuleInclude.lua中，必须用ViewName作为key
+	- 通过UIMgr创建的时候才会去require对应的lua文件
+
+
