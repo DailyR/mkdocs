@@ -1,11 +1,7 @@
 
 
 
-# EasyTest
-
-# Easy_Test_IDE_Beta_Test_V1
-
-## TODO
+## Easy_Test_IDE_Beta_Test_V1 lua&Luamon practices & study notes
 
 
 
@@ -20,7 +16,6 @@
 	- 战斗出城分解，先出城一只队伍
 
 
-- 使用问题随时联系 Daily李岱
 
 ### [EasyTest 总纲ReadMe](../README.md)
 
@@ -58,4 +53,48 @@
 	```
 
 	经过多次摸索，其实最好用的判断是PlotView对话窗口是否打开，有的话就跳过
+
+	- 第六步:上述的过程里还存在一个GameLoading界面的问题，这个是用C#写的 gameLoadingview(有些基础概念放在第七点[不是第七步])
+	经过多次摸索，
+	```lua
+	local main =function()
+		if	GameLoadingView.Instance.isActive==true	then	
+			return "Game Loading " 
+		else
+			return "Game is not Loading " 
+		end
+		return "Hello" 
+	end
+	return main()
+	```
+	完成
+
+	- 第七步:上述的经过多次摸索,Ps:一些有用的代码片段看到也可以截取，比如说下面这段，就可以用来判断是否在塔防中或者是否在剧情中
+	```lua
+	function ApiGuide.ShowGuideMask(show)
+	show =show or false if show == false then
+	UICameraMgr.guideMask:SetActive(false) else
+	--判断是否在塔防中
+	local flag=SLGMapMgrGetARPGMapFlag() if flag then
+	return end
+	--判断一下是否在剧情中
+	if not UlMgr.ViewlsOpen("PlotView")then
+	UICameraMgr.guideMaskSetActive(show) 
+	end
+	end
+	```
+	直接 copy 拿来用，真香!
+	ss:如果凭借经验需要找到某个View，又不太确定这个View 的名字，那么打开unity，在 scene模式下面的，选中对应的资源，比如如下图所示的 view 对话框，右边的 Inspector 窗口就会显示出具体的 View 名字，这样就可以很方便地进行 viewname 相关的操作了， open,close，isOpened 这些函数.
+
+	- Psss:
+	D:\slg\client\lowpoly-online-2019\x\Assets\ulua\Lua\GameScript\Module\Player\View\PlayerSe ttingView.Lua调用的帐号切换 self:AddClick(selfbtnSwitchfunction()SDKEventHandle.Switch() end)
+
+- 二.有些基本概念可以从客户端程序文档处获取
+	- 如代码存放路径，UI架构重构的函数理解这些，还有活动框架的分解这些
+
+- 三.有些基本的 unity概念
+	- Assetsbundle可以包含prefab，详细的美术概念笔记可以看《UnitySLG一些疑问笔记》
+
+
+
 
