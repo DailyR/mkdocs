@@ -97,3 +97,8 @@ Hunter是一个游戏调试和测试的云平台，通过网络将设备与平�
 - 无干扰的知识共享和协作. 至今仍然非常喜欢Stack Overflow的这句solgon,比起百度上面的很多浪费时间精力的搜索和结果，https://stackoverflow.co/teams/上面的话真的深入我心。
 
 - Auto Generate 自动生成， gen 生成
+
+#### [EasyTest里面的lua的想法](../EasyTest/README.md)
+
+
+#### [EasyTest里面的lua的想法,thinking lua & luamon 一些关于](../EasyTest/README.md)  其实上面这几个文档是相互链接的
