@@ -1,6 +1,8 @@
 
 
-# 关于LuaMon   （名称：luamon调试和自动化测试，类似于内挂）
+# lua&Luamon practices & study notes
+
+## 关于LuaMon   （名称：luamon调试和自动化测试，类似于内挂）
 
 LuaMon 是一个 unity for lua 的实时调试工具，有点像 hunter 系统，不同的是前者是连接客户端，后者是服务端连接，也接受客户端数据
 
