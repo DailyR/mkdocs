@@ -81,3 +81,17 @@ Hunter是一个游戏调试和测试的云平台，通过网络将设备与平�
 
 	- 例如判断是否处于新手，是否处于SlgLogin登陆界面
 	- 是否在播放剧情，是否在loading中，是否在塔防中
+
+- 战斗，派出部队，出征队列
+
+### 思考
+
+- 重要的是思考思路，而不是记忆某一个函数名字
+
+- 学习很重要，但是学习如何去学习更重要（方法）
+
+- Has a lot of great study notes.(翻译：大量的学习笔记)
+- [Knowledge sharing and collaboration without distractions](https://stackoverflow.co/teams/)
+- 无干扰的知识共享和协作. 至今仍然非常喜欢Stack Overflow的这句solgon,比起百度上面的很多浪费时间精力的搜索和结果，https://stackoverflow.co/teams/上面的话真的深入我心。
+
+- Auto Generate 自动生成， gen 生成

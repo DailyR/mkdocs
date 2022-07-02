@@ -40,4 +40,13 @@
 
 - [cluster node pod deployment service]
 
+- Has a lot of great study notes.(翻译：大量的学习笔记)
+- [Knowledge sharing and collaboration without distractions](https://stackoverflow.co/teams/)
+- 无干扰的知识共享和协作. 至今仍然非常喜欢Stack Overflow的这句solgon,比起百度上面的很多浪费时间精力的搜索和结果，https://stackoverflow.co/teams/上面的话真的深入我心。
+
+- [Auto Generate] 自动生成， gen 生成
+
+- [sample,example] example是例子，比如举例子
+sample是样品，sample 所表示的“样品”指的是其它的都与这个“样品”在质量、性质和设计上相同.例如推销员持本厂的产品的“样品”去推销,或出版社要求你把自己的书... 
+
 
