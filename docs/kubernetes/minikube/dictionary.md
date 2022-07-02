@@ -49,4 +49,8 @@
 - [sample,example] example是例子，比如举例子
 sample是样品，sample 所表示的“样品”指的是其它的都与这个“样品”在质量、性质和设计上相同.例如推销员持本厂的产品的“样品”去推销,或出版社要求你把自己的书... 
 
+- [practice] 练习实践 。 practise是“practice”的变体。
+
+practise一般只作动词，practice可作动词、名词。但在实际应用中，有时候practise和practice会通用。
+
 
