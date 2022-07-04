@@ -125,6 +125,7 @@ Hunter是一个游戏调试和测试的云平台，通过网络将设备与平�
 			- task_group是对应的任务id，任务组关系，然后解析这个任务组对应的任务id，里面的task_act 代表不同的引导行为
 			- chaptertask里面的任务id，对应的是1001这种，然后view字段表示要跳转的功能组，{"taskGroup":1001} 这种获取里面的taskgroup_id, 在 Guide_chapter1_regress.lua里的301行 DataBase.GetSysBaseData_ChaptertaskByKey(id).view[2]，意思就是获取对应的group_id了，然后condition这个其实没用到，这个是主线任务的任务条件，这个对着代码看，思考下就知道上面意思了。
 			- 然后chpatertask里面的id顺序是正常的任务，主界面左下角显示的就是取的配置id最小的未完成任务。
+			- chapter_task里面各个任务id对应的task_act ，可以查看说明表，这样对每个类型能知道对应什么处理。
 
 
 
