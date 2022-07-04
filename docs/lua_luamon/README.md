@@ -102,3 +102,30 @@ Hunter是一个游戏调试和测试的云平台，通过网络将设备与平�
 
 
 #### [EasyTest里面的lua的想法,thinking lua & luamon 一些关于](../EasyTest/README.md)  其实上面这几个文档是相互链接的
+
+#### [基于战斗测试用例的一些思考]
+
+- 像之前比较稳定的从新手登录界面，创建账号，完成引导，第一章节任务，升级到主堡2级的这个 Guide_chapter1_regress.lua（稳定超过半年以上），其中提取的思路最重要的是区分各个界面是否处于打开状态，来判断游戏所处的状态，来采取不同的行为action措施来获取对应的result，assert对应的测试结果是否通过。
+
+- 像升级到主堡等级2级后的，这个任务，关卡，战斗，所处状态的判断，是衔接后续出内城进行战斗的很重要的逻辑关键点。（key points）
+	- 拆解步骤：
+		- 1. 打开对应的策划表，相关表，如新手关卡相关就行 \Z 主城玩法\J 具体关卡配置（guanka）.xlsx 
+		- 2. 测试获取配置的代码，从Guide_chapter1_regress.lua里面提炼
+		- 3. 放到一个个小sample去测试当前的condtion.
+		- 4. 打开perfect lua项目工程去看相关的例子，查找相关的函数
+		- 5. 同步内外网，study notes书写。
+
+	- 具体实例：
+		- 1. 类似关卡，新手，任务系统（这几个其实是关联的，就是玩家开始真正游戏的前面10分钟接触的主要系统和后面的核心），这几个系统相互直接的关联，那么要打开的表就包括：
+			- \Z 主城玩法\J 具体关卡配置表（guanka）.xlsx
+			- \R 任务\Z 主线任务chaptertask.xls
+			- \R 任务\Z 章节任务指引表 task_group.xlsx
+
+			- 主要就是上面这3个文件，理解并且构建它们之间的关系，即可完成任务自动化测试的思路主框架
+			- task_group是对应的任务id，任务组关系，然后解析这个任务组对应的任务id，里面的task_act 代表不同的引导行为
+			- chaptertask里面的任务id，对应的是1001这种，然后view字段表示要跳转的功能组，{"taskGroup":1001} 这种获取里面的taskgroup_id, 在 Guide_chapter1_regress.lua里的301行 DataBase.GetSysBaseData_ChaptertaskByKey(id).view[2]，意思就是获取对应的group_id了，然后condition这个其实没用到，这个是主线任务的任务条件，这个对着代码看，思考下就知道上面意思了。
+			- 然后chpatertask里面的id顺序是正常的任务，主界面左下角显示的就是取的配置id最小的未完成任务。
+
+
+
+
