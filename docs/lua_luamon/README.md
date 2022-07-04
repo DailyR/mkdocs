@@ -109,23 +109,23 @@ Hunter是一个游戏调试和测试的云平台，通过网络将设备与平�
 
 - 像升级到主堡等级2级后的，这个任务，关卡，战斗，所处状态的判断，是衔接后续出内城进行战斗的很重要的逻辑关键点。（key points）
 	- 拆解步骤：
-		- 1. 打开对应的策划表，相关表，如新手关卡相关就行 \Z 主城玩法\J 具体关卡配置（guanka）.xlsx 
-		- 2. 测试获取配置的代码，从Guide_chapter1_regress.lua里面提炼
-		- 3. 放到一个个小sample去测试当前的condtion.
-		- 4. 打开perfect lua项目工程去看相关的例子，查找相关的函数
-		- 5. 同步内外网，study notes书写。
+		1. 打开对应的策划表，相关表，如新手关卡相关就行 \Z 主城玩法\J 具体关卡配置（guanka）.xlsx 
+		2. 测试获取配置的代码，从Guide_chapter1_regress.lua里面提炼
+		3. 放到一个个小sample去测试当前的condtion.
+		4. 打开perfect lua项目工程去看相关的例子，查找相关的函数
+		5 同步内外网，study notes书写。
 
 	- 具体实例：
 		- 1. 类似关卡，新手，任务系统（这几个其实是关联的，就是玩家开始真正游戏的前面10分钟接触的主要系统和后面的核心），这几个系统相互直接的关联，那么要打开的表就包括：
-			- \Z 主城玩法\J 具体关卡配置表（guanka）.xlsx
-			- \R 任务\Z 主线任务chaptertask.xls
-			- \R 任务\Z 章节任务指引表 task_group.xlsx
+			a. \Z 主城玩法\J 具体关卡配置表（guanka）.xlsx
+			b. \R 任务\Z 主线任务chaptertask.xls
+			c. \R 任务\Z 章节任务指引表 task_group.xlsx
 
-			- 主要就是上面这3个文件，理解并且构建它们之间的关系，即可完成任务自动化测试的思路主框架
-			- task_group是对应的任务id，任务组关系，然后解析这个任务组对应的任务id，里面的task_act 代表不同的引导行为
-			- chaptertask里面的任务id，对应的是1001这种，然后view字段表示要跳转的功能组，{"taskGroup":1001} 这种获取里面的taskgroup_id, 在 Guide_chapter1_regress.lua里的301行 DataBase.GetSysBaseData_ChaptertaskByKey(id).view[2]，意思就是获取对应的group_id了，然后condition这个其实没用到，这个是主线任务的任务条件，这个对着代码看，思考下就知道上面意思了。
+			- 1.1 主要就是上面这3个文件，理解并且构建它们之间的关系，即可完成任务自动化测试的思路主框架
+			- 1.2 task_group是对应的任务id，任务组关系，然后解析这个任务组对应的任务id，里面的task_act 代表不同的引导行为
+			- 1.3 chaptertask里面的任务id，对应的是1001这种，然后view字段表示要跳转的功能组，{"taskGroup":1001} 这种获取里面的taskgroup_id, 在 Guide_chapter1_regress.lua里的301行 DataBase.GetSysBaseData_ChaptertaskByKey(id).view[2]，意思就是获取对应的group_id了，然后condition这个其实没用到，这个是主线任务的任务条件，这个对着代码看，思考下就知道上面意思了。
 			- 然后chpatertask里面的id顺序是正常的任务，主界面左下角显示的就是取的配置id最小的未完成任务。
-			- chapter_task里面各个任务id对应的task_act ，可以查看说明表，这样对每个类型能知道对应什么处理。
+			- 1.4 chapter_task里面各个任务id对应的task_act ，可以查看说明表，这样对每个类型能知道对应什么处理。
 
 
 
