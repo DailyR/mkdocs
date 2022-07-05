@@ -31,7 +31,7 @@
 
 	- 第二步:打开 perfect lua ide里对应的module，大概查看一下相关的代码接口找到对应路径下的有个Player  PlayerTalent Plot view GuideDialogView.lua PlotView.lua GuideDialogController.lua PlotDefine.lua PlotEvent.lua PlotModel.Jua ScenePlot文件夹，在五.Ul框架重构 里说了大概这些文件的作用，现在开始详细去看各自实现的功能和作用。一开始可能也有找错的，再细看其实应该是CgCartoon的相关文件夹，CampCgCartoon，CgCartoonController.lua CgTouchBlockView.lua CityBuild，好，定位到这个文件夹和里面的文件。
 
-	- 第三步:打开exe和luamon，调用里面的参数进行调试， 从文件里获取的 CgCartoonController对象和播放模块控制器，很明显local	test = function	endIlocal main =function()CgCartoonController=CgCartoonController or Maker() Play_state =CgCartoonController.IsPlaying return "Hello",Play state endreturn main()然后再在luamon里面运行这个，和exe不同阶段对应，从中运行可知道[LuaRun] 成功 2022-01-1714:25:13
+	- 第三步:打开exe和luamon，调用里面的参数进行调试， 从文件里获取的 CgCartoonController对象和播放模块控制器，很明显local	test = function	endIlocal main =function()CgCartoonController=CgCartoonController or Maker() Play_state =CgCartoonController.IsPlaying return "Hello",Play state end return main()然后再在luamon里面运行这个，和exe不同阶段对应，从中运行可知道[LuaRun] 成功 2022-01-1714:25:13
 
 		- 运行有False有True，那就是开始是False就是一开始的视频不属于动画播放控制范畴，仔细一看，确实是一个mp4格式的cg文件，开场动画视频，地址是/trunk/client/lowpoly-dev-2019/x/Assets/Resources/FMOD/DemoMapOceanmp4是个mp4视频。找到之后全局搜索调用，发现是登录流程后自动UIMgr.OperView(“VideoPlayView”)来播放的，Mp4播放完才是 剧情 plot 相关的东西。
 
@@ -72,15 +72,15 @@
 	- 第七步:上述的经过多次摸索,Ps:一些有用的代码片段看到也可以截取，比如说下面这段，就可以用来判断是否在塔防中或者是否在剧情中
 	```lua
 	function ApiGuide.ShowGuideMask(show)
-	show =show or false if show == false then
-	UICameraMgr.guideMask:SetActive(false) else
-	--判断是否在塔防中
-	local flag=SLGMapMgrGetARPGMapFlag() if flag then
-	return end
-	--判断一下是否在剧情中
-	if not UlMgr.ViewlsOpen("PlotView")then
-	UICameraMgr.guideMaskSetActive(show) 
-	end
+		show =show or false if show == false then
+		UICameraMgr.guideMask:SetActive(false) else
+		--判断是否在塔防中
+		local flag=SLGMapMgrGetARPGMapFlag() if flag then
+		return end
+		--判断一下是否在剧情中
+		if not UlMgr.ViewlsOpen("PlotView")then
+		UICameraMgr.guideMaskSetActive(show) 
+		end
 	end
 	```
 	直接 copy 拿来用，真香!
