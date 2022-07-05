@@ -128,7 +128,36 @@ Hunter是一个游戏调试和测试的云平台，通过网络将设备与平�
 		- chapter_task里面各个任务id对应的task_act ，可以查看说明表，这样对每个类型能知道对应什么处理。
 
 	- 理解了对应的逻辑关系和配置表关系，就可以开始在luamon web端调测了，这个需要大量的练习practices:
-		- 
+```lua
+local main = function 
+	local taskSub = UIMgr.GetView("MainView").MainView_LeftBottomPanel_Sub
+	local state   = taskSub.TaskSV.GetDataByIndex(1).state  --1:未完成， 2：已完成
+	--获取当前任务id
+	local id  = taskSub.TaskSV.GetDataByIndex(1).task_id
+	local sort =  taskSub.TaskSV.GetDataByIndex(1).sort	
+	-- 跟进id去获取out_chaptertask表里
+
+	local config_task_group = DataBase.GetSysBaseData_ChaptertaskByKey(id).view[2]
+    --获取任务的任务组映射值
+    local config = DataBase.GetSysBaseData_Task_groupByTitle("guide_group",config_task_group)  
+
+    feiPrint(config[1].id)
+
+    local conifg_act = Data.GetSysBaseData_Task_groupByKey(18)
+
+    feiPrint(config_act)
+    -- return config_act.task_act[3][2]
+
+    return TableCount(config_act.task_act[3])
+
+end
+return main()
+
+```
+	- 上面就是任务配置表读到配置的关键代码
+	- 通过排列组合各个状态，和各个条件，像搭建乐高积木一样搭建自己的测试用例，CRUD信手拈来。
+
+	- 想要完成的3个主要用例 ， 1.新手和关卡， 2，内城关卡战斗，3.外城出征及战斗。（第一个已完成，第二个做到一半，第三个还没开始做。）
 
 
 
