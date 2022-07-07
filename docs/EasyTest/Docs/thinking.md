@@ -228,7 +228,7 @@
 
 	- 要判断当前的城池数据中包不包含某一个类型type的建筑
 	- 先获取当前的数据
-		```lua
+```lua
 		local main = function()
 		  -- log({1,2,3})
 		  local cityId = cityId or AvatarDataCache.getInstance().role_id
@@ -259,6 +259,6 @@
 		  return #building_list
 		end
 		return main()
-		```
+```
 
 	- 部分的类型不明确的部分可以用type()查看对应变量的类型来进行程序调试

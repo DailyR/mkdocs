@@ -202,39 +202,39 @@ return main()
 
 - 然后在上面的任务数据获取上做了些修改
 
-	```lua
-local main = function 
-	local taskSub = UIMgr.GetView("MainView").MainView_LeftBottomPanel_Sub
-	local state   = taskSub.TaskSV.GetDataByIndex(1).state  --1:未完成， 2：已完成
+```lua
+	local main = function 
+		local taskSub = UIMgr.GetView("MainView").MainView_LeftBottomPanel_Sub
+		local state   = taskSub.TaskSV.GetDataByIndex(1).state  --1:未完成， 2：已完成
 
-	--获取当前任务id
-	local id  = taskSub.TaskSV.GetDataByIndex(1).task_id
-	local sort =  taskSub.TaskSV.GetDataByIndex(1).sort	
-	-- 跟进id去获取out_chaptertask表里
+		--获取当前任务id
+		local id  = taskSub.TaskSV.GetDataByIndex(1).task_id
+		local sort =  taskSub.TaskSV.GetDataByIndex(1).sort	
+		-- 跟进id去获取out_chaptertask表里
 
-	local config_task_group = DataBase.GetSysBaseData_ChaptertaskByKey(id).view[2]
-    --获取任务的任务组映射值
+		local config_task_group = DataBase.GetSysBaseData_ChaptertaskByKey(id).view[2]
+	    --获取任务的任务组映射值
 
-    -- 任务id的组映射
-    local config = DataBase.GetSysBaseData_Task_groupByTitle("guide_group",config_task_group)  
+	    -- 任务id的组映射
+	    local config = DataBase.GetSysBaseData_Task_groupByTitle("guide_group",config_task_group)  
 
-    --feiPrint(config[1].id)
+	    --feiPrint(config[1].id)
 
-    -- 这里通过DataBase.GetSysBaseData_Task_groupByTitle 获取了3个长度的数组
+	    -- 这里通过DataBase.GetSysBaseData_Task_groupByTitle 获取了3个长度的数组
 
-	for i =1,#config do 
-	    local conifg_act = config[i].task_act
+		for i =1,#config do 
+		    local conifg_act = config[i].task_act
 
-	    feiPrint(config_act)
+		    feiPrint(config_act)
+
+		end
+
+	    -- return config_act.task_act[3][2]
+
+	    return TableCount(config_act.task_act[3])
 
 	end
-
-    -- return config_act.task_act[3][2]
-
-    return TableCount(config_act.task_act[3])
-
-end
-return main()
+	return main()
 
 ```
 
