@@ -206,3 +206,59 @@
 	- 战斗结束，判断是否待命，否则移动回城
 
 	- 虽然说明比较精简，但是已经把战斗流程都说清楚了，客户端承担的战斗相关的部分，然后on_synsc_report_s2c 处理后端推送的协议，dispatch分发一些动作给对应的队列进行处理。
+
+
+#### 对于城池相关的建筑数据
+	- 这段都在相关的CityDataCache里面，这里大部分的接口都已经稳定了一年多了，可以查看代码的genereated 时间 ， github.com/EmmyLua, 比这个更老的是GameScript\DataCache 里面的各个模块的数据存储单元
+	- 获取城池数据
+		```lua
+		local main = function()
+			local data = CityMgr.GetInstance()._buildingList
+			feiPrint(data)
+
+			feiPrint(building_list)
+			return "hello"
+		end
+		return main()
+		```
+	- 从AvatarDataCache.getInstance()里面也可以
+	- CityMgr.GetInstance():GetBuildingList(cityId)
+
+
+
+	- 要判断当前的城池数据中包不包含某一个类型type的建筑
+	- 先获取当前的数据
+		```lua
+		local main = function()
+		  -- log({1,2,3})
+		  local cityId = cityId or AvatarDataCache.getInstance().role_id
+		  local building_list = CityMgr.GetInstance():GetBuildingList(cityId)
+
+		  -- feiPrint(building_list)
+		  -- local data = CityMgr.GetInstance()._buildingList
+		  -- feiPrint(data)
+		  -- feiPrint(building_list)
+		  for i = 1, #building_list do
+
+		    -- 可以直接if 某个值存不存在来判断，例如下面这个
+		    if building_list[i].cfg then
+		      -- 这里的type可以去对应的表里去找building的结构
+		      -- 大概类似这种 ，BaseData_Building.lua 然后 .id 或者 .table 来获取对应 数据
+		      -- ，BaseData_Building
+		      -- @class ，BaseData_Building
+		      -- @field id
+		      -- @field type 
+
+		      feiPrint(building_list[i].cfg.type)
+		      
+		    end
+		    
+		  end
+
+
+		  return #building_list
+		end
+		return main()
+		```
+
+	- 部分的类型不明确的部分可以用type()查看对应变量的类型来进行程序调试

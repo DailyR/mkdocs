@@ -179,6 +179,7 @@ return main()
 
 #### [EasyTest里面的lua的想法](../EasyTest/README.md)
 
+- 这里与上面相同，这两个links
 
 #### [EasyTest里面的lua的想法,thinking lua & luamon 一些关于](../EasyTest/README.md)  其实上面这几个文档是相互链接的
 
@@ -187,5 +188,58 @@ return main()
 
 	- 由于新手现在不稳定，所以做两个操作，增加gm的资源，然后执行对应的action
 
+	- python端相当于control端，对观察者模式的lua进行判定
+
+- 接下来先拼装单帧的状态和行为逻辑代码
+
+	- 1. 先执行一下之前比较稳定的从新手登录界面，创建账号，完成引导，第一章节任务，升级到主堡2级的这个 Guide_chapter1_regress.lua。
+
+	- 2. 完成了执行后，得到一个升级到2级的目标账号，其实也可以用新账号，但是用新账号会走一遍之前的流程，如果是已经达到对应的等级账号了，那么可以直接去完成对应的接下来的任务。（新账号与旧账号的使用，初始化的区别思考还待梳理）
+
+	- 3. 当前先继续用这个账号进行调试
+
+	- 4. 任务数据和关卡的数据获取，然后执行出城等操作
+
+- 然后在上面的任务数据获取上做了些修改
+
+	```lua
+local main = function 
+	local taskSub = UIMgr.GetView("MainView").MainView_LeftBottomPanel_Sub
+	local state   = taskSub.TaskSV.GetDataByIndex(1).state  --1:未完成， 2：已完成
+
+	--获取当前任务id
+	local id  = taskSub.TaskSV.GetDataByIndex(1).task_id
+	local sort =  taskSub.TaskSV.GetDataByIndex(1).sort	
+	-- 跟进id去获取out_chaptertask表里
+
+	local config_task_group = DataBase.GetSysBaseData_ChaptertaskByKey(id).view[2]
+    --获取任务的任务组映射值
+
+    -- 任务id的组映射
+    local config = DataBase.GetSysBaseData_Task_groupByTitle("guide_group",config_task_group)  
+
+    --feiPrint(config[1].id)
+
+    -- 这里通过DataBase.GetSysBaseData_Task_groupByTitle 获取了3个长度的数组
+
+	for i =1,#config do 
+	    local conifg_act = config[i].task_act
+
+	    feiPrint(config_act)
+
+	end
+
+    -- return config_act.task_act[3][2]
+
+    return TableCount(config_act.task_act[3])
+
+end
+return main()
+
+```
+
+#### 继续在当前的条件下进行调试获取数据，执行对应的行为
+
+- 
 
 
