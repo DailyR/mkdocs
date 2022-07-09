@@ -243,12 +243,12 @@ return main()
 - Unity里面查看对应的控件名字
 
 	1. 切换成#scene场景(注意game和scene的目标对应性，要先在游戏里到对应的地
-	2. 2点击2D
-	3. 3选择UIRoot-Canvas到达UI层，这样就能看到下图的这图片了
-	4. 4然后点选对应#scene场景里面看到的这个UI层，选中对应的控件
-	5. 5就可以从右边的Inspector获取对应的信息了
+	2. 点击2D
+	3. 选择UIRoot-Canvas到达UI层，这样就能看到下图的这图片了
+	4. 然后点选对应#scene场景里面看到的这个UI层，选中对应的控件
+	5. 就可以从右边的Inspector获取对应的信息了
 
-	* ![](imges/unity_tutorial.jpg)
+	- ![](imges/unity_tutorial.jpg)
 
 
 
