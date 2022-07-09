@@ -248,7 +248,7 @@ return main()
 	4. 然后点选对应#scene场景里面看到的这个UI层，选中对应的控件
 	5. 就可以从右边的Inspector获取对应的信息了
 
-	- ![](imges/unity_tutorial.jpg)
+![](imges/unity_tutorial.jpg)
 
 
 
