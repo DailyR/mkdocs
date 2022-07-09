@@ -202,7 +202,7 @@ return main()
 
 - 然后在上面的任务数据获取上做了些修改
 
-	```lua
+```lua
 local main = function 
 	local taskSub = UIMgr.GetView("MainView").MainView_LeftBottomPanel_Sub
 	local state   = taskSub.TaskSV.GetDataByIndex(1).state  --1:未完成， 2：已完成
