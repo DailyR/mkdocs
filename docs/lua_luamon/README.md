@@ -250,7 +250,62 @@ return main()
 
 ![](imges/unity_tutorial.jpg)
 
+```lua
+--View_And_Button_Click.lua
 
+
+
+---
+---   Aim: LuaMon 里面调用 data.GetView 的调试方法，data先获取view句柄，然后:FindChild("按钮路径"，"按钮名称")
+---   Created by : Daily
+---   DataTime : 2022/17/09 16:36
+---
+
+-- 正文
+local view_data = function (view_nme)
+  if not UIMgr.ViewIsOpen(view_nme) then
+    UIMgr.OpenView(view_nme)
+  end
+  data = UIMgr.GetView(view_nme)
+  --data = UIMgr.GetView("DungeonMiniMapView")
+  return data
+end
+
+-- 建造界面点击确认建造
+local building_click = function()
+  
+--读表配置，DataBase.GetSysBaseData_Task_group(),获取对应的配置
+--TaskGuideView.lua  第14行，   第87行 DoStep()  ,执行对应逻辑
+--建造界面点击确认建造
+
+
+--十.Unity里面查看对应的控件名字
+
+--1.切换成#scene场景(注意game和scene的目标对应性，要先在游戏里到对应的地
+--2.点击2D
+--3.选择UIRoot-Canvas到达UI层，这样就能看到下图的这图片了
+--4.然后点选对应#scene场景里面看到的这个UI层，选中对应的控件
+--5.就可以从右边的Inspector获取对应的信息了
+
+  local data = view_data("CityBuildingClickView")                   -- data先获取view句柄，然后用data:FindChild("按钮路径"，"按钮名称")来获取到对应的btn对象
+  local tile_info = data:FindChild("CityClickPanel/Contain/botton/BtnContain/taskBtn","Button")   -- task_act的 第三位，第二个参数，传进的是
+  if tile_info then 
+  	-- UI层级都可以用onClick
+  	tile_info.onClick:Invoke()   --按钮点击   -- 按钮的点击方法   btn对象获取到就用.onClick:Invoke()来执行点击
+  end
+  UIMgr.CloseView("CityBuildingClickView")
+end
+  
+
+local main = function()
+  	building_click()
+  	return "Hello"
+end
+return main()
+
+```
+
+	- 对应的处理脚本，最常用的base Script
 
 
 
