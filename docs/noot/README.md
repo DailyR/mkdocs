@@ -39,11 +39,11 @@
 
 	- 拆解功能
 
-	- 可复用功能和思考模式
+	- 可复用功能和思考模式 - 见下面的
 
 	- 调试可以使用autoreload的模式进行运行，对应目录文件在/auto_relaod/test_reload.py 可以查看
 
-	- noot/nootMain.py 用于项目的主路径进入，涉及的知识点是接收解析系统的传参 sys.argv ,通过接收不同的参数从而启动不同的服务类型进行服务
+	- noot/nootMain.py 用于项目的主路径进入，涉及的知识点是接收解析系统的传参 sys.argv ,通过接收不同的参数从而启动不同的服务类型进行服务（一般思考可以从这个思路作为切入点，因为之前airtest的testcase似乎也是这样组织的，然后CLI可以很灵活适配各种方式）
 
-	- 
+	- [base_expert_note](../base_advanced_expert_note/README.md)
 
