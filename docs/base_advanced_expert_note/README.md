@@ -10,5 +10,5 @@
 
 	- [playground是个练习场的意思](https://github.com/trekhleb/learn-python)
 
-	- [base_expert_note](../base_advanced_expert_note/README.md)
+	- [编程总思路-noot打包机拆解笔记](/noot/README.md)
 
