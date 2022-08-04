@@ -7,3 +7,5 @@
 ### base_advanced_expert_note
 
 - base_advanced_expert_note 是继 advanced-lessons ， base_the_hard_way之后的统合思考的笔记，初衷是把十来年的编程实践重新做统合增效的思考，有些东西就是看起来很难，但是只要做了，并且持之以恒的进行，就会做到自己的进步的效果，但是学而时习之还是很有必要的。也是为了自己之后的生活工作发展提供沉淀和系统化梳理的重要环节。
+
+	- 
