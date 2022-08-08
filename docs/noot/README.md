@@ -16,7 +16,7 @@
 - 抓住类继承框架的思路
 
 	- 任何工程都是思想思路的逻辑表达
-	- 一场自圆其说的工程拆解，print ,type ，dir 少不了
+	- 都是一场自圆其说的工程拆解，print ,type ，dir 少不了
 
 - 需要有一个最小拆解环境，demo,workspaces
 
@@ -48,10 +48,12 @@
 
 	- 可复用功能和思考模式 - 见下面的
 
-	- 调试可以使用autoreload的模式进行运行，对应目录文件在/auto_relaod/test_reload.py 可以查看
+	- 调试可以使用autoreload的模式进行运行，对应目录文件在/auto_relaod/test_reload.py 可以查看(可以在sublime的左侧文件夹栏进行右键点击对应的文件，进行复制为选择文件路径操作)
 
 	- noot/nootMain.py 用于项目的主路径进入，涉及的知识点是接收解析系统的传参 sys.argv ,通过接收不同的参数从而启动不同的服务类型进行服务（一般思考可以从这个思路作为切入点，因为之前airtest的testcase似乎也是这样组织的，然后CLI可以很灵活适配各种方式）
 
 	- [base_expert_note](../base_advanced_expert_note/README.md)
+
+	
 
 
