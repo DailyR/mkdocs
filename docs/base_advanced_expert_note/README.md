@@ -22,7 +22,7 @@
 
 		- 入门
 
-			- [What is Python](What_is_Python.md)
+			- [What is Python](What is Python.md)
 
 			- [python语法]()
 
