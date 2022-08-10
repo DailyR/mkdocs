@@ -1,8 +1,8 @@
 # base_advanced_expert_note
 
-'''
-··· base_advanced_expert_note 2022-08-04 09:34:58 by DailyR
-'''
+
+> base_advanced_expert_note 2022-08-04 09:34:58 by DailyR
+
 
 ### base_advanced_expert_note
 
