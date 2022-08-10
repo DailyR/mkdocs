@@ -18,4 +18,4 @@
 
 	- 目的是获取一个cheatsheet(速查表)
 
-		- [What is Python](What_is_Python.md)
+		- [What is Python](./What_is_Python.md)
