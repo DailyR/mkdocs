@@ -18,4 +18,12 @@
 
 	- 目的是获取一个cheatsheet(速查表)
 
-		- [What is Python](/What_is_Python.md)
+	- 目录
+
+		- 入门
+
+			- [What is Python](What_is_Python.md)
+
+			- [python语法]()
+
+			- [变量]()
