@@ -1,4 +1,5 @@
 # 什么是 Python
+>>> 2022-08-10 13:51:38 by DailyR
 
 - Python 是一种流行的编程语言。它由 Guido van Rossum 于 1991 年创建。
 
@@ -23,7 +24,7 @@
 
 	- Python 适用于不同的平台（Windows、Mac、Linux、Raspberry Pi 等）。
 	- Python 具有类似于英语的简单语法。
-	-与其他一些编程语言相比，Python 的语法允许开发人员用更少的行数编写程序。
+	- 与其他一些编程语言相比，Python 的语法允许开发人员用更少的行数编写程序。
 	- Python 在解释器系统上运行，这意味着代码可以在编写后立即执行。这意味着原型制作可以非常快。
 	- Python 可以以过程方式、面向对象方式或函数方式来处理。
 
@@ -35,4 +36,3 @@
 ## 参考
 
 - [ w3schools.com ](https://www.w3schools.com/python/python_intro.asp)
-
