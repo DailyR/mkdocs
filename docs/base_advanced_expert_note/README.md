@@ -12,3 +12,10 @@
 
 	- [编程总思路-noot打包机拆解笔记](../noot/README.md)
 
+	- 想法是将此处的编程思路汇总成自己的core_expert note
+
+	- [本文基本目录遵循learn_python教程](https://github.com/trekhleb/learn-python)
+
+	- 目的是获取一个cheatsheet(速查表)
+
+		- [What is Python](What_is_Python.md)
