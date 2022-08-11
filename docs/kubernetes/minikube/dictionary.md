@@ -65,4 +65,10 @@
 
 - [Table of Contents] 目录
 
-- [explanations] 
+- [explanations] 解释
+
+- [Annotations] 注释，解释，与上面的是近义词
+
+- [illustration] 说明，插图
+
+- [comment] 评论，注解
