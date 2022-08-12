@@ -61,6 +61,7 @@
 
 - [常用变量命名]() Var_Standard_Python自己也写了一些
 
+- [59个具体都书写更优质python代码的方法](59_Specific_Ways_to_Write_Better_Python.md)
 ###
 
 > - auto_reload 用来做开发调试的重载，不用每次都运行执行（用来小规模的开发调试非常方便）
