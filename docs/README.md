@@ -35,20 +35,6 @@
 
 ### 基础
 
-> - print hello world 不算，主要是以下这类的基础 
-
-> - Sys.argv[] 系统级别的输入 
-
->> - 函数MFA 
-
->> - 字符串Str   find  replace rfind 
-
->> - 正则表达式 
-
->> - list set 的交集并集等(数学运算逻辑符)
-
->> - 数据类型包括 dict, tuple, list, set
-
 - [纲领基础](base_advanced_expert_note/README.md)
 
 - [基础练手](base_the_hard_way/README.md)
