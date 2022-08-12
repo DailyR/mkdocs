@@ -33,7 +33,7 @@
 - 隔一段时间再编程的话最好有时间可以再练练基础
 
 
-###
+### 基础
 
 > - print hello world 不算，主要是以下这类的基础 
 
@@ -45,7 +45,12 @@
 
 >>> - 正则表达式 
 
->>> - list set 的交集并集等， 59 specialfic ways to write better python 
+>>> - list set 的交集并集等， 59 specialfic ways to write better python
+
+>>> 数据类型包括 dict, tuple, list, set
+
+- [纲领基础](base_advanced_expert_note/README.md)
+
 
 
 ###
