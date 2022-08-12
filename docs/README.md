@@ -51,6 +51,10 @@
 
 - [纲领基础](base_advanced_expert_note/README.md)
 
+- [基础练手](base_the_hard_way/README.md)
+
+- [功能小试与备忘](advanced-lessons/README.md)
+
 
 
 ###
