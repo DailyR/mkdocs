@@ -1,9 +1,9 @@
 
-- [指南tutorial] tutorial,教程
+- [tutorial] 指南,教程
 
-- [概念]Concepts
+- [Concepts] 概念
 
-- [Overview]概述
+- [Overview] 概述
 
 - [Cluster Architecture]集群架构
 
@@ -72,3 +72,5 @@
 - [illustration] 说明，插图
 
 - [comment] 评论，注解
+
+- [definition] 定义
