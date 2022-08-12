@@ -43,23 +43,26 @@
 
 >> - 字符串Str   find  replace rfind 
 
->>> - 正则表达式 
+>> - 正则表达式 
 
->>> - list set 的交集并集等， 59 specialfic ways to write better python
+>> - list set 的交集并集等(数学运算逻辑符)
 
->>> - 数据类型包括 dict, tuple, list, set
+>> - 数据类型包括 dict, tuple, list, set
 
 - [纲领基础](base_advanced_expert_note/README.md)
 
 - [基础练手](base_the_hard_way/README.md)
 
-- [功能小试与备忘](advanced-lessons/README.md)在书写的同时，可以用flake8和pylint 来检查书写规则，规范书写能让整个文档的可读性变得更强，更舒服。
+- [功能小试与备忘](advanced-lessons/README.md)
 
 - [开发字典](kubernetes/minikube/dictionary.md)
 
 - [常用变量命名](https://segmentfault.com/a/1190000015638398/) Var_Standard_Python自己也写了一些,或者直接点击链接里也有介绍一些name-typing
 
 - [59个具体都书写更优质python代码的方法](59_Specific_Ways_to_Write_Better_Python.md)
+
+	- 在书写的同时，可以用flake8和pylint 来检查书写规则，规范书写能让整个文档的可读性变得更强，更舒服。
+
 
 ### 其他一些小记
 
