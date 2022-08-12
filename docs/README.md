@@ -47,16 +47,17 @@
 
 >>> - list set 的交集并集等， 59 specialfic ways to write better python
 
->>> 数据类型包括 dict, tuple, list, set
+>>> - 数据类型包括 dict, tuple, list, set
 
 - [纲领基础](base_advanced_expert_note/README.md)
 
 - [基础练手](base_the_hard_way/README.md)
 
-- [功能小试与备忘](advanced-lessons/README.md)
+- [功能小试与备忘](/advanced-lessons/README.md)
 
+- 在书写的同时，可以用flake8和pylint 来检查书写规则，规范书写能让整个文档的可读性变得更强，更舒服。
 
-
+- [开发字典](/kubernetes/minikube/dictionary.md)
 ###
 
 > unity打包环境，gradle打包
