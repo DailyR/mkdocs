@@ -59,7 +59,7 @@
 
 - [开发字典](kubernetes/minikube/dictionary.md)
 
-- [常用变量命名]() Var_Standard_Python自己也写了一些
+- [常用变量命名](https://segmentfault.com/a/1190000015638398/) Var_Standard_Python自己也写了一些,或者直接点击链接里也有介绍一些name-typing
 
 - [59个具体都书写更优质python代码的方法](59_Specific_Ways_to_Write_Better_Python.md)
 ###
