@@ -54,6 +54,3 @@
 
 	- [base_expert_note](../base_advanced_expert_note/README.md)
 
-	
-
-
