@@ -58,8 +58,13 @@
 - 在书写的同时，可以用flake8和pylint 来检查书写规则，规范书写能让整个文档的可读性变得更强，更舒服。
 
 - [开发字典](kubernetes/minikube/dictionary.md)
+
+
+
 ###
 
-> unity打包环境，gradle打包
+> - auto_reload 用来做开发调试的重载，不用每次都运行执行（用来小规模的开发调试非常方便）
 
->> 工程化思维
+> - unity打包环境，gradle打包
+
+>> - 工程化思维
