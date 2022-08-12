@@ -59,7 +59,7 @@
 
 - [开发字典](kubernetes/minikube/dictionary.md)
 
-
+- [常用变量命名]() Var_Standard_Python自己也写了一些
 
 ###
 
