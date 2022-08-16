@@ -9,7 +9,7 @@
 
 - [Hub]中心，枢纽，互联网集线器，类似的有unityHUb，github
 
-- [CLI - command-line interface] 命令行界面
+- [CLI - command-line interface] 命令行界面，CMD - Command命令，指令
 
 - [dashboard] 仪表盘
 
