@@ -93,4 +93,22 @@
 
 	- cmdUtil.py 
 
-		-
+		- 执行对应命令的入口
+
+		```python
+		className = packageName[0].upper() +packageName[1:]  + 'Cmd' 
+		print("className")
+		print(className)
+		# 原框架里为了模块分类和架构清晰，选择了在这里做from import操作
+		# 这里不这么繁琐，为了示例，直接import上面的类例子
+		# exec('from XXXX,{0}.{1} import {1}'.format(packageName,className)) 
+		#exec('RunnerCmd')
+		targetClass = eval(className)
+		print(targetClass,targetClass.__doc__)
+
+		print('')
+		print('='*10 ,'[start]',packageName,targetClass.__doc__.strip(),'='*40)
+		print('')
+		cmd = targetClass(argv)
+		executeResult = cmd.execute()
+		```
