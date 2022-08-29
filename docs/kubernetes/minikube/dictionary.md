@@ -74,3 +74,5 @@
 - [comment] 评论，注解
 
 - [definition] 定义
+
+- [outcome] the result or effect of an action or event 结果，效果 We are waiting to hear the final outcome of the negotiations. 我们在等待谈判的最终结果。

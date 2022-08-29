@@ -54,3 +54,43 @@
 
 	- [base_expert_note](../base_advanced_expert_note/README.md)
 
+
+	- 启动用的runner, 详见/noot/nootCmd/runner/RunnerCmd.py  文件
+
+	- RunnerCmd.py内网阅读理解到此处，这个是作为一个监督线程来进行处理的
+
+		- 监督过程先看对文件夹的监管
+
+		- fileUtil包括了常规到文件夹和文件操作，新建删除等，clearFolder这些
+
+		- RunnerCmd.py 79行，进行的是pop处理需要处理的文件
+
+		- 接下来进行runningFile和可只执行参数的实际拼接
+
+		- 这里是每个派发的实际执行处
+
+### 打包机实机拆解例子
+
+- 启动
+
+	- nootMain.py
+
+		- 此处为框架启动的入口
+
+		```python
+		@pyhton3 C:\nooot\jzxx\noonMain.py runner -baseFolder "C:\wamp64\www\build\jzxx\task" -sleepTime "8"
+		```
+
+		- 参数
+
+			- argv 
+
+				- {'baseFolder':"C:\\wamp64\\www\\build\\jzxx\\task","sleepTime":"9"}
+
+				- package_name 
+
+					- runner
+
+	- cmdUtil.py 
+
+		-
