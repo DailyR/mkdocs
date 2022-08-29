@@ -194,11 +194,10 @@ def __executeWaiting(self, waitingFolder, runningFolder, finishedFolder,schedule
 			- self.getBaseFolder(self.version,'bin')  输出路径
 
 			-
-			```python
+```python
 def __getBaseFolder(self,*parList):
 	'''获取基础工作目录'''
 	return os.path.path.join(workspaceFolder,'xproject',*parList)
-
 ```
 
 		- XWindowAssetBundleCmd.py
