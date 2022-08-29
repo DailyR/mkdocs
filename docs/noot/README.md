@@ -77,9 +77,8 @@
 
 		- 此处为框架启动的入口
 
-```CMD
-@pyhton3 C:\nooot\jzxx\noonMain.py runner -baseFolder "C:\wamp64\www\build\jzxx\task" -sleepTime "8"
-```
+		- @pyhton3 C:\nooot\jzxx\noonMain.py runner -baseFolder "C:\wamp64\www\build\jzxx\task" -sleepTime "8"
+
 
 		- 参数
 
