@@ -77,7 +77,7 @@
 
 		- 此处为框架启动的入口
 
-		```python
+		```
 		@pyhton3 C:\nooot\jzxx\noonMain.py runner -baseFolder "C:\wamp64\www\build\jzxx\task" -sleepTime "8"
 		```
 
@@ -95,7 +95,7 @@
 
 		- 执行对应命令的入口
 
-		```python
+		```
 		className = packageName[0].upper() +packageName[1:]  + 'Cmd' 
 		print("className")
 		print(className)
