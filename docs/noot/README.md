@@ -117,7 +117,6 @@ executeResult = cmd.execute()
 
 		- 定时查询需要执行的任务
 
-			- 
 ```python
 def __executeWaiting(self, waitingFolder, runningFolder, finishedFolder,scheduleFolder):
 	'''执行waiting的内容'''
