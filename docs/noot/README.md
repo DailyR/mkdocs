@@ -117,10 +117,15 @@ executeResult = cmd.execute()
 
 		- 定时查询需要执行的任务
 
+			-
 ```python
+
 def __executeWaiting(self, waitingFolder, runningFolder, finishedFolder,scheduleFolder):
 	'''执行waiting的内容'''
+
 ```
+
+
 			- 管理所有的任务
 
 				- waiting 
@@ -152,3 +157,27 @@ def __executeWaiting(self, waitingFolder, runningFolder, finishedFolder,schedule
 			- 桌面ab
 
 			- ......
+
+		- xProjectInfo
+
+			- 每个任务构建所需的信息
+
+				- svn路径
+
+				- Unity版本
+
+				- 包名
+
+				- ......
+
+- 目录相关参数
+
+	- nootMain.py
+
+		- nootFolder 
+
+			- 运行python命令时候带的路径名，python打包脚本的父路径
+
+		- workspaceFolder 
+
+			- nootFolder + '.workspace'
