@@ -119,13 +119,9 @@ executeResult = cmd.execute()
 
 			-
 ```python
-
 def __executeWaiting(self, waitingFolder, runningFolder, finishedFolder,scheduleFolder):
 	'''执行waiting的内容'''
-
 ```
-
-
 			- 管理所有的任务
 
 				- waiting 
