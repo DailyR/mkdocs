@@ -181,3 +181,52 @@ def __executeWaiting(self, waitingFolder, runningFolder, finishedFolder,schedule
 		- workspaceFolder 
 
 			- nootFolder + '.workspace'
+
+
+	- xProjectUpdate.py
+
+		- self.xFolder
+
+			- self.getBaseFolder(self.version,'x') 项目路径
+
+		- self.binFolder
+
+			- self.getBaseFolder(self.version,'bin')  输出路径
+
+			-
+			```python
+def __getBaseFolder(self,*parList):
+	'''获取基础工作目录'''
+	return os.path.path.join(workspaceFolder,'xproject',*parList)
+
+```
+
+		- XWindowAssetBundleCmd.py
+
+
+		- BaseCmd.py
+
+
+- 具体任务流程
+
+	- 通用流程
+
+		- 前置
+
+		- 打包业务
+
+		- 后置
+
+	- 具体业务分发
+
+		- 安卓AB
+
+		- 安卓apk
+
+		- ......
+
+
+- SVN
+
+	- url:xxx
+
