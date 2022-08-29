@@ -225,3 +225,8 @@ def __getBaseFolder(self,*parList):
 
 	- url:xxx
 
+- web 事务事件管理
+
+	- 注意事项
+
+		- php会强制填充version
