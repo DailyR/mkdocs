@@ -110,3 +110,25 @@ cmd = targetClass(argv)
 executeResult = cmd.execute()
 
 ```
+
+
+- 任务执行
+
+	- RunnerCmd.py
+
+		- 定时查询需要执行的任务
+
+			- 
+```python
+def __executeWaiting(self, waitingFolder, runningFolder, finishedFolder,scheduleFolder):
+	'''执行waiting的内容'''
+```
+			- 管理所有的任务
+
+				- waiting 
+
+				- running
+
+				- finished
+
+				- schedule
