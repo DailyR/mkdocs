@@ -132,3 +132,25 @@ def __executeWaiting(self, waitingFolder, runningFolder, finishedFolder,schedule
 				- finished
 
 				- schedule
+
+			- 调用cmdUtil.executeCmd执行具体的命令
+
+
+		- baseFolder
+
+			- 指定工作目录（用于存放waiting,running,finished目录，通常指向www对应的目录）
+
+
+	- nootCmd/*
+
+		- 所有单独命令的实现
+
+			- 安卓apk
+
+			- 安卓ab
+
+			- 桌面exe
+
+			- 桌面ab
+
+			- ......
