@@ -243,3 +243,39 @@ def __getBaseFolder(self,*parList):
 	- runningFile = waitingFile.moveToRunning(runningFolder)
 
 	- 在XIosXcodeCmd.py的最后还引用了跨目录层级调试的例子
+
+
+	- 修改了目录结构和引用模块的方式，使之符合实际项目的真实情况
+
+
+	- 从XIosXcodeCmd 调试，进行了XWindowsExeCmd 到 XBaseCmd 再到BaseCmd 的父类函数的调用
+
+```
+PS D:\Code_Project\git-DailyCode\noot\nootCmd\xIosXcode> python .\XIosXcodeCmd.py
+D:\Code_Project\git-DailyCode\noot\nootCmd\xIosXcode\XIosXcodeCmd.py
+debug in local environment model
+attention now has already close framework update for debuging model
+xIosXcode
+['nootMain.py', 'xIosXcode']
+argv: {}
+here is executeCmd func
+className
+XIosXcodeCmd
+<class 'nootCmd.xIosXcode.XIosXcodeCmd.XIosXcodeCmd'>
+
+        用于生成xcode项目用于macOS发版
+
+
+
+========== [start] xIosXcode 用于生成xcode项目用于macOS发版 ========================================
+
+here is XIosXcodeCmd __init__
+here is XIosXcodeCmd execute
+here is XWindowsExeCmd execute function
+here is XBaseCmd execute function
+here is BaseCmd execute function
+None
+here is XIosXcodeCmd finish
+
+---------- [end] xIosXcode 用于生成xcode项目用于macOS发版 ----------------------------------------
+```
