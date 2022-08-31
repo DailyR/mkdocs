@@ -248,7 +248,7 @@ def __getBaseFolder(self,*parList):
 	- 修改了目录结构和引用模块的方式，使之符合实际项目的真实情况
 
 
-	- 从XIosXcodeCmd 调试，进行了XWindowsExeCmd 到 XBaseCmd 再到BaseCmd 的父类函数的调用
+	- 从XIosXcodeCmd 调试，进行了XWindowsExeCmd 到 XBaseCmd 再到BaseCmd 的父类函数的调用, output输出如图所示
 
 ```
 PS D:\Code_Project\git-DailyCode\noot\nootCmd\xIosXcode> python .\XIosXcodeCmd.py
