@@ -69,6 +69,8 @@
 
 		- 这里是每个派发的实际执行处
 
+
+
 ### 打包机实机拆解例子
 
 - 启动
@@ -230,3 +232,14 @@ def __getBaseFolder(self,*parList):
 	- 注意事项
 
 		- php会强制填充version
+
+
+
+
+### 重新回归主线笔记
+
+	- RunnerCmd.py 里 96行的 runningFile
+
+	- runningFile = waitingFile.moveToRunning(runningFolder)
+
+	- 在XIosXcodeCmd.py的最后还引用了跨目录层级调试的例子
