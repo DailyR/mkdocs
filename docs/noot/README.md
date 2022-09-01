@@ -282,4 +282,4 @@ here is XIosXcodeCmd finish
 
 -
 
-	- 实际上，从noot项目中看子类父类的函数关系会觉得更直接了当，/advanced-lessons/classes 也涉及一些基础，但是不够完整项目的实例明显
+	- 实际上，从noot项目中看子类父类的函数关系会觉得更直接了当，/advanced-lessons/classes 也涉及一些基础，但是不够这个完整的项目的实例明显
