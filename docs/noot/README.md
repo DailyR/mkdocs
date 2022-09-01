@@ -283,3 +283,22 @@ here is XIosXcodeCmd finish
 -
 
 	- 实际上，从noot项目中看子类父类的函数关系会觉得更直接了当，/advanced-lessons/classes 也涉及一些基础，但是不够这个完整的项目的实例明显
+
+
+	- 打包机拆解拆了一周多，进入疲惫期，目前打算先暂停打包机拆解，进入下一个阶段的nodejs云真机测试平台拆解中，此处mark一下，当前看到的是XIosXcodeCmd.py 下次也可以从此处开始进行，然后技术向拆解还有5个如下方面下次继续的时候可以注意
+
+		- HTML，JavaScript, php， 打包机web端
+
+		- XAndroid 包
+
+				- sdk
+
+				- no-sdk
+
+				- callUnity
+
+		- XIOSPackage 包
+
+		- push，sync 推送和上传到外网
+
+		- cdn， cdn的更新和修改对应的cdn目标链接
