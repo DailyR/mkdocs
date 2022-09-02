@@ -1,34 +1,39 @@
-# DailysCodeDocs
+# Node.js学习笔记
 
 '''
-··· coding just for fun by myself
+··· Node.js Next.js Vue.js React.js相关知识 —— 部分笔记也放在了有道云笔记上面
 '''
 
-###分小中大型 模块，大的模块就独立一个项目了，一般也不会用到特别大的模块，能把思路表达清楚就好
+### Node.js  5W2H 分析
 
-- 梳理思路，技术map，重新思考的demo
+- 一些基础概念 - 这里仅介绍node 的脚本， 要获取对应的梳理思路，技术map，重新思考的demo
 
 **更多的是注释和使用**
 
 
 ### 主要关注点：
 
-- 更多的是激发编程热情和思考的能力
+- node和npm安装和实践运行详见下表
 
-- 解决问题的能力
+[3wschool](https://www.runoob.com/nodejs/nodejs-tutorial.html)
 
 - 无它，唯手熟尔
 
 
-练习了gitlab的pages，跟github的挺像的，不过最方便的感觉还是github pages
+- 简单的说 Node.js 就是运行在服务端的 JavaScript。
 
+	- Node.js 是一个基于 Chrome JavaScript 运行时建立的一个平台。
+
+	 - Node.js 是一个事件驱动 I/O 服务端 JavaScript 环境，基于 Google 的 V8 引擎，V8 引擎执行 Javascript 的速度非常快，性能非常好。
 ###
 
-- 加了些 lua ， vbs 的使用例子，由于文件较少，就不单独开立项目了，合并在一处，方便查看
+- 用以下命令来查看当前的 Node 版本
 
-- 一些独立功能，比如svn版本获取，文件遍历功能，这些在navigation的工程下面是以函数形式存在，这些大部分是可以直接拿来用的
-	
-	- 在advanceed里面有细分的小模块，工程化思维的构建，一些process的认知，在EasyTest各个版本的路径下面的sample文件夹里也有不少的demo和sample例子
+```bash
+PS D:\Code_Project\git-DailyCode\noot\nootCmd\xIosXcode> node -v
+v16.15.1
+
+```
 
 - 隔一段时间再编程的话最好有时间可以再练练基础
 
