@@ -39,3 +39,9 @@ v16.15.1
 
 
 ### 
+
+- package.json 与 npm的使用
+
+	- 放在nodejs_test2 文件目录下
+
+	- [package掘金上的描述](https://juejin.cn/post/6844903489651343367#%E4%BB%80%E4%B9%88%E6%98%AF-npm)
