@@ -76,4 +76,43 @@
 
 #### 前端配置文件 `Client/config.js`
 
+#### 服务端配置文件 `Server/config.js`
+
+
+### 服务端部署
+
+- 依赖拉取（不同的系统依赖有所不同）
+
+	- `cd Server && yarn`
+
+- 服务启动
+
+	- 开发环境
+
+		- 全局状态服务启动`yarn run dev:state`
+		- 设备控制服务启动`yarn run dev:control`
+		- 自动测试服务启动`yarn run dev:test`(未完成)
+
+
+	- 生产环境
+		- 全局状态服务启动`yarn run start:state`
+		- 设备控制服务启动`yarn run start:control`
+		- 自动测试服务启动`yarn run start:test`(未完成)
+
+### 前端部署
+
+- 依赖拉取（不同的系统依赖有所不同）
+
+	- `cd Client && yarn`
+
+- 服务启动
+
+	- 开发环境
+
+		- 启动服务`yarn run dev`
+
+	- 生产环境
+		- 编译项目`yarn run build`
+		- 启动服务`yarn run pm2-start`(未完成)
+
 
