@@ -15,9 +15,9 @@
 
 - [nodejs基础](../nodejs/README.md)
 
-- [STF](/Docs/STF.md)
+- [STF](Docs/STF.md)
 
-- [scrcpy](/Docs/scrcpy.md)
+- [scrcpy](Docs/scrcpy.md)
 
 
 练习了gitlab的pages，跟github的挺像的，不过最方便的感觉还是github pages
