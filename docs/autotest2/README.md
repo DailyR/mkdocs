@@ -116,3 +116,4 @@
 		- 启动服务`yarn run pm2-start`(未完成)
 
 
+### nginx 配置
