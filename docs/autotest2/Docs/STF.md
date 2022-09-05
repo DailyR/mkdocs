@@ -1,4 +1,4 @@
-# DailysCodeDocs
+# STF
 
 '''
 ··· coding just for fun by myself
