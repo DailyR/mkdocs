@@ -15,9 +15,9 @@
 
 - [nodejs基础](../nodejs/README.md)
 
-- 解决问题的能力
+- [STF](/Docs/STF.md)
 
-- 无它，唯手熟尔
+- [scrcpy](/Docs/scrcpy.md)
 
 
 练习了gitlab的pages，跟github的挺像的，不过最方便的感觉还是github pages
