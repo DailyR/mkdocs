@@ -52,4 +52,13 @@ v16.15.1
 
 	- [git不提交node_modules文件方法，.gitignore 文件里添加 ](https://blog.csdn.net/m0_61073617/article/details/123926073)
 
-	- 
+	- 解决了mkdocs_move_files里node_modules和 git上传node_modules过多的问题（工程向）
+
+- 实际工程里引入的第三方包
+
+	- [fastify-w3school](https://www.w3cschool.cn/fastify/fastify-47ju35zi.html)
+
+	- [fastify-官网](https://www.fastify.cn/)
+
+	- [nodemon](https://www.jianshu.com/p/a35dfc72c6e6)
+
