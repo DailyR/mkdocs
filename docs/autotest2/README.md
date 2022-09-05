@@ -19,6 +19,14 @@
 
 - [scrcpy](Docs/scrcpy.md)
 
+- [ADB](Docs/ADB.md)
+
+- [API规范](Docs/API规范.md)
+
+- [架构](Docs/架构.md)
+
+
+
 
 练习了gitlab的pages，跟github的挺像的，不过最方便的感觉还是github pages
 
