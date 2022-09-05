@@ -45,3 +45,11 @@ v16.15.1
 	- 放在nodejs_test2 文件目录下
 
 	- [package掘金上的描述](https://juejin.cn/post/6844903489651343367#%E4%BB%80%E4%B9%88%E6%98%AF-npm)
+
+	- [npm 常见用法](https://blog.csdn.net/weixin_62273462/article/details/121110931)
+
+	- 使用 npm install XXXX(包名) --save 可以对package.json里面的dependecies项目进行修改，同理，使用--save-dev 对应修改的是package.json里面对devDependecies项目
+
+	- [git不提交node_modules文件方法，.gitignore 文件里添加 ](https://blog.csdn.net/m0_61073617/article/details/123926073)
+
+	- 
