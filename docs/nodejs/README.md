@@ -62,6 +62,7 @@ v16.15.1
 
 	- [nodemon](https://www.jianshu.com/p/a35dfc72c6e6)
 
+### 客户端使用了nextjs框架，react是个库，nextjs是个框架，基于react的，所以要就直接用next.js就好
 - [react](https://www.runoob.com/react/react-tutorial.html)   
 	- React 教程
 		- React 是一个用于构建用户界面的 JAVASCRIPT 库。
@@ -82,3 +83,12 @@ $ npm start
 ```
 
 - [Next.js](https://www.nextjs.cn/learn/basics/create-nextjs-app)
+
+	- npx create-next-app@lastest 
+
+	- 安装npm-check-updates组件
+```
+npm install -g npm-check-updates
+ncu -u
+```
+	- 
