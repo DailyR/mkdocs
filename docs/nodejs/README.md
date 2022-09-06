@@ -62,3 +62,23 @@ v16.15.1
 
 	- [nodemon](https://www.jianshu.com/p/a35dfc72c6e6)
 
+- [react](https://www.runoob.com/react/react-tutorial.html)   
+	- React 教程
+		- React 是一个用于构建用户界面的 JAVASCRIPT 库。
+		- React 主要用于构建 UI，很多人认为 React 是 MVC 中的 V（视图）。
+		- npm安装react.js
+		- react需要V8以上的node才支持，需要先升级node
+		- 升级node
+		- 到https://nodejs.org/en/下载新版本的 msi 安装包，点击安装，检查node版本
+
+	- 安装 react
+		- create-react-app 是来自于 Facebook，通过该命令我们无需配置就能快速构建 React 开发环境。 create-react-app 自动创建的项目是基于 Webpack + ES6 。
+		- 执行以下命令创建项目：
+```bash
+$ npm install -g create-react-app
+$ create-react-app my-app
+$ cd my-app/
+$ npm start
+```
+
+- [Next.js](https://www.nextjs.cn/learn/basics/create-nextjs-app)
