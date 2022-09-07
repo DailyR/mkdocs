@@ -123,4 +123,4 @@
 - 内网的工程项目现在还看不懂，主要是能看懂使用的框架，但是缺乏对应的JavaScript和react知识
 	- 接下来一段时间里打算完成JavaScript和react的入门
 
-	- 详见[](../nodejs/README.md)
+	- 详见[node.js学习笔记与归纳Daily](../nodejs/README.md)
