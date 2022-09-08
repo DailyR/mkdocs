@@ -91,4 +91,19 @@ $ npm start
 npm install -g npm-check-updates
 ncu -u
 ```
-	- 
+	- 一般使用git bash来执行，这样能方便地使用到某些unix命令支持
+
+	- [autotest2](../autotest2/README.md) 具体的云真机工程和思路目录
+
+	- [node.js 基础知识](https://nextjs.org/docs)
+
+	- [react.js 基础知识和教程](https://reactjs.org/tutorial/tutorial.html)
+
+	- [next.js](https://www.nextjs.cn/docs/getting-started) 中文版 nextjs教程和笔记
+
+	- 上面的中文笔记相对有点滞后，还是多使用org后缀的英文版吧
+
+	- [我的nextjs笔记](NextJS.md)
+
+
+
