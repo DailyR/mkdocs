@@ -80,4 +80,4 @@
 
 - [well worth] 非常值得， be worth
 
-- [basic feature] 基本特征；基本功能；基本特点
+- [basic features] 基本特征；基本功能；基本特点
