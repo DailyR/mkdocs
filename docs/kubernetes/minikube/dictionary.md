@@ -81,3 +81,5 @@
 - [well worth] 非常值得， be worth
 
 - [basic features] 基本特征；基本功能；基本特点
+
+- [Assets] 资产  （类似于资源的换一种统一说法和抽象概念吧）
