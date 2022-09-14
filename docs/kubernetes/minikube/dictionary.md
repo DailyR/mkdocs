@@ -87,3 +87,7 @@
 - [component] 组件，部件
 
 - [Framework] 框架，架构
+
+- [property] 属性，性能，特性，计算机里常用 props. 有点类似attribute,所以说到react里面到就是props属性
+
+- [interpret] [ɪnˈtɜrprət] 解释，阐释
