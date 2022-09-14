@@ -103,7 +103,7 @@ ncu -u
 
 	- 上面的中文笔记相对有点滞后，还是多使用org后缀的英文版吧
 
-	- [我的nextjs笔记](NextJS.md)
+	- [我的nextjs笔记,相当于Next.js的分支](NextJS.md)
 
 
 
