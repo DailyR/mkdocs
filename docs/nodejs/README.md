@@ -91,7 +91,8 @@ $ npm start
 npm install -g npm-check-updates
 ncu -u
 ```
-	- 一般使用git bash来执行，这样能方便地使用到某些unix命令支持
+
+- 一般使用git bash来执行，这样能方便地使用到某些unix命令支持
 
 	- [autotest2](../autotest2/README.md) 具体的云真机工程和思路目录
 
