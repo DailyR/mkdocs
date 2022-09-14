@@ -113,7 +113,7 @@ pnpm create next-app
 
 	- 对象
 
-	- 数组和数组方法
+	- [数组和数组方法](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) 
 
 		- 在/nodejs/nextjs_test/basic_html_css_javascript/javascript_Array_test.html
 
