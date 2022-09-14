@@ -121,7 +121,8 @@ pnpm create next-app
 
 	- 解构
 
-	- 模板文字
+	- [模板文字](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+	
 	- 三元运算符
 
 	- ES 模块和导入/导出语法
