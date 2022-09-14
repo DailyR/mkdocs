@@ -162,4 +162,4 @@ export function draw(ctx, length, x, y, color) {
 		- 属性
 		- 状态
 
-	- 在接下来的部分中，我们将介绍上述概念并提供您可以继续学习它们的资源。
+	
