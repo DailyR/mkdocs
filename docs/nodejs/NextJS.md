@@ -74,6 +74,13 @@ pnpm create next-app
 
 	- 请注意，浏览器无法直接理解 JSX，因此您需要一个 JavaScript 编译器，例如Babel，将您的 JSX 代码转换为常规 JavaScript。
 
+- 什么是 JSX？
+	- JSX 是 JavaScript 的语法扩展，它允许您以熟悉的类似 HTML 的语法来描述您的 UI。JSX 的好处在于，除了遵循三个 JSX 规则之外，您无需学习 HTML 和 JavaScript 之外的任何新符号或语法。
+
+	- 请注意，浏览器无法直接理解 JSX，因此您需要一个 JavaScript 编译器，例如Babel，将您的 JSX 代码转换为常规 JavaScript。
+
+	- 将 Babel 添加到您的项目中，要将 Babel 添加到您的项目中，请将以下脚本复制并粘贴到您的index.html文件中：
+
 ```html
 <html>
   <body>
@@ -91,3 +98,7 @@ pnpm create next-app
 ```
 
 - 上面的就是实际的reactDOM渲染的代码和组件
+
+	- 了解如何通过使用 React 来减少大量重复代码（比javascript代码量精简了很多，也更容易理解）
+
+	- https://beta.reactjs.org/learn/writing-markup-with-jsx
