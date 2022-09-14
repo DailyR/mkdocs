@@ -92,4 +92,8 @@
 
 - [interpret] [ɪnˈtɜrprət] 解释，阐释
 
-- [denote] 标识
+- [denote] 标识，表示
+
+You need a way to denote to React that this is a JavaScript variable.
+
+您需要一种方法向React表示这是一个JavaScript变量。
