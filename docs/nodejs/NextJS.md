@@ -158,9 +158,9 @@ export function draw(ctx, length, x, y, color) {
 	- React 核心概念
 		> 要开始构建 React 应用程序，您需要熟悉 React 的三个核心概念。这些是：
 
-		- 组件
-		- 属性
-		- 状态
+		- 组件(components)
+		- 属性(props)
+		- 状态(state)
 
 	- 在对应的文件中有相应的例子，nodejs/nextjs_test/basic_html_css_javascript/react_jsx_prop_test.html
 
@@ -169,3 +169,5 @@ export function draw(ctx, length, x, y, color) {
 	- prop属性和 state 状态的区别和联系
 
 	- [useEffect](https://www.cnblogs.com/sexintercourse/p/13740371.html)
+
+		- 使用副作用，监听数值变化，采用对应的处理
