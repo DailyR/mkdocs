@@ -102,3 +102,19 @@ pnpm create next-app
 	- 了解如何通过使用 React 来减少大量重复代码（比javascript代码量精简了很多，也更容易理解）
 
 	- https://beta.reactjs.org/learn/writing-markup-with-jsx
+
+
+- React 的基本 JavaScript -  JavaScript 和 React
+
+	- [函数和箭头函数](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+	- 对象
+
+	- 数组和数组方法
+
+	- 解构
+
+	- 模板文字
+	- 三元运算符
+
+	- ES 模块和导入/导出语法
