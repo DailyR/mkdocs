@@ -145,3 +145,14 @@ export function draw(ctx, length, x, y, color) {
 	- 到此，JavaScript的基本基础知识就完成了，实践了一遍，学习实践了
 
 		- 函数，箭头函数，数组和数组方法，模板文字${}, 三元运算符， 模块的到处导入方法 export
+
+
+
+
+#### From JavaScript to React
+
+- 下面继续React的学习
+
+	- 部分React对JavaScript其实是继承的关系，而与此同时也有自己的特色，react是一个库，不是一个框架，next.js是一个框架
+
+	- 
