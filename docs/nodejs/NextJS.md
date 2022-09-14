@@ -106,7 +106,9 @@ pnpm create next-app
 
 - React 的基本 JavaScript -  JavaScript 和 React
 
-	- [函数和箭头函数](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+	- [函数](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) 例子参考 \nextjs_test\basic_html_css_javascript
+
+	- [箭头函数](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 	- 对象
 
