@@ -104,9 +104,10 @@ pnpm create next-app
 	- https://beta.reactjs.org/learn/writing-markup-with-jsx
 
 
-- React 的基本 JavaScript -  JavaScript 和 React
+- React 的基本 JavaScript -  JavaScript 和 React 
+	> (下文对应例子都是在chrome下面按F12用调试窗口查看)
 
-	- [函数](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) 例子参考 \nextjs_test\basic_html_css_javascript
+	- [函数](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) 例子参考 /nextjs_test/basic_html_css_javascript
 
 	- [箭头函数](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
@@ -114,9 +115,14 @@ pnpm create next-app
 
 	- 数组和数组方法
 
+		- 在/nodejs/nextjs_test/basic_html_css_javascript/javascript_Array_test.html
+
+		- 可以看到对应的例子
+
 	- 解构
 
 	- 模板文字
 	- 三元运算符
 
 	- ES 模块和导入/导出语法
+
