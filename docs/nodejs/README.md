@@ -87,7 +87,7 @@ $ npm start
 	- npx create-next-app@lastest 
 
 	- 安装npm-check-updates组件
-```
+```bash
 npm install -g npm-check-updates
 ncu -u
 ```
