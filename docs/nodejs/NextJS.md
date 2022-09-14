@@ -155,4 +155,11 @@ export function draw(ctx, length, x, y, color) {
 
 	- 部分React对JavaScript其实是继承的关系，而与此同时也有自己的特色，react是一个库，不是一个框架，next.js是一个框架
 
-	- 
+	- React 核心概念
+		> 要开始构建 React 应用程序，您需要熟悉 React 的三个核心概念。这些是：
+
+		- 组件
+		- 属性
+		- 状态
+
+	- 在接下来的部分中，我们将介绍上述概念并提供您可以继续学习它们的资源。
