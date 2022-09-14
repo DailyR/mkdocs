@@ -70,3 +70,24 @@ pnpm create next-app
 	- 再后来发现其实直接打开html在chrome浏览器中就行
 
 	- https://www.runoob.com/react/react-tutorial.html 菜鸟教程也包括了一些基本概念concept
+
+
+	- 请注意，浏览器无法直接理解 JSX，因此您需要一个 JavaScript 编译器，例如Babel，将您的 JSX 代码转换为常规 JavaScript。
+
+```html
+<html>
+  <body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- Babel Script -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx">
+      const app = document.getElementById('app');
+      ReactDOM.render(<h1>Develop. Preview. Ship. 🚀</h1>, app);
+    </script>
+  </body>
+</html>
+```
+
+- 上面的就是实际的reactDOM渲染的代码和组件
