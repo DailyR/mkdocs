@@ -127,3 +127,17 @@ pnpm create next-app
 
 	- ES 模块和导入/导出语法
 
+```javascript
+export const name = 'square';
+
+export function draw(ctx, length, x, y, color) {
+  ctx.fillStyle = color;
+  ctx.fillRect(x, y, length, length);
+
+  return { length, x, y, color };
+}
+```
+
+- he first thing you do to get access to module features is export them. This is done using the export statement.The easiest way to use it is to place it in front of any items you want exported out of the module, for example:
+
+	- 要访问模块特性，首先要做的是导出它们。这是使用export语句完成的。例如，使用它最简单的方法是将它放在您希望从模块中导出的任何项的前面
