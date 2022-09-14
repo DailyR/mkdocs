@@ -141,3 +141,7 @@ export function draw(ctx, length, x, y, color) {
 - he first thing you do to get access to module features is export them. This is done using the export statement.The easiest way to use it is to place it in front of any items you want exported out of the module, for example:
 
 	- 要访问模块特性，首先要做的是导出它们。这是使用export语句完成的。例如，使用它最简单的方法是将它放在您希望从模块中导出的任何项的前面
+
+	- 到此，JavaScript的基本基础知识就完成了，实践了一遍，学习实践了
+
+		- 函数，箭头函数，数组和数组方法，模板文字${}, 三元运算符， 模块的到处导入方法 export
