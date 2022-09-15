@@ -170,7 +170,7 @@ export function draw(ctx, length, x, y, color) {
 
 	- /nodejs/nextjs_test/basic_html_css_javascript/react_jsx_state_hook_test.html  对应的state和hook的例子和理解
 
-	- prop属性和 state 状态的区别和联系
+	- props属性和 state 状态的区别和联系
 
 	- [useEffect](https://www.cnblogs.com/sexintercourse/p/13740371.html)
 
