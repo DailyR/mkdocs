@@ -30,11 +30,15 @@ $ npm start
 
 	- [ Document Object Model (DOM).]文档对象模型
 
-	- html,css,php -> javascript     (javascript的分支也别忘记了，jqery，TypeScript)
+	- html,css,php -> javascript     (javascript的分支：jqery，TypeScript，ajax)
+
+	> 一些以前开发的积累经验可以追溯到2014年，2016年的
 
 	- javascript -> react （node.js npm yarn）
 
 	- react -> next.js  ( fs 库，path库，matter库，node.js 应该插在箭头下面，react到next.js的变化是结合里node.js)
+
+
 
 
 ```bash
