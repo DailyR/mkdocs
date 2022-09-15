@@ -32,7 +32,7 @@ $ npm start
 
 	- html,css,php -> javascript     (javascript的分支：jqery，TypeScript，ajax)
 
-	> 一些以前开发的积累经验可以追溯到2014年，2016年的时候（详见百度网盘的flask开发web开发笔记在w网易目录下面的A文章里）
+		- __一些以前开发的积累经验可以追溯到2014年，2016年的时候（详见百度网盘的flask开发web开发笔记在w网易目录下面的A文章里）__
 
 	- javascript -> react （node.js npm yarn）
 
