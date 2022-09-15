@@ -170,4 +170,4 @@ export function draw(ctx, length, x, y, color) {
 
 	- [useEffect](https://www.cnblogs.com/sexintercourse/p/13740371.html)
 
-		- 使用副作用，监听数值变化，采用对应的处理
+		- useEffect使用副作用，监听数值变化，采用对应的处理
