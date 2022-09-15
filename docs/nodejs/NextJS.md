@@ -26,11 +26,11 @@ $ npm start
 
 	- To effectively use Next.js, it helps to be familiar with JavaScript, React, and related web development concepts.
 
-	- 捋一下相关概念的关系
+	- 捋一下相关概念的关系:
 
 	- [ Document Object Model (DOM).]文档对象模型
 
-	- html,css,php -> javascript
+	- html,css,php -> javascript     (javascript的分支也别忘记了，jqery，TypeScript)
 
 	- javascript -> react （node.js npm yarn）
 
