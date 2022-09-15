@@ -175,3 +175,7 @@ export function draw(ctx, length, x, y, color) {
 	- [useEffect](https://www.cnblogs.com/sexintercourse/p/13740371.html)
 
 		- useEffect使用副作用，监听数值变化，采用对应的处理
+
+### 接下来from react to NextJs
+
+- 从react.js 到 Next.js
