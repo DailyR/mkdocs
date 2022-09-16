@@ -182,4 +182,6 @@ export function draw(ctx, length, x, y, color) {
 
 	- [From React to Next.js](https://nextjs.org/learn/foundations/from-react-to-nextjs)
 
-	- 
+		- I was confused about jsx and javascript for a while in the past, 这是一段我在dev.to留言回复的话，现在明晰了
+
+		- [js和jsx的区别](https://www.cnblogs.com/suihang/p/12089128.html)
