@@ -185,3 +185,7 @@ export function draw(ctx, length, x, y, color) {
 		- I was confused about jsx and javascript for a while in the past, 这是一段我在dev.to留言回复的话，现在明晰了
 
 		- [js和jsx的区别](https://www.cnblogs.com/suihang/p/12089128.html)
+
+		- [JSX看起来像是 JavaScript 和 Html 语言的组合，并柔和在一起，她提倡的是组件化的概念。](https://blog.csdn.net/weixin_39521520/article/details/110748137)
+
+			- jsx就是react 搞出的语法糖
