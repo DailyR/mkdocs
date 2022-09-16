@@ -189,3 +189,5 @@ export function draw(ctx, length, x, y, color) {
 		- [JSX看起来像是 JavaScript 和 Html 语言的组合，并柔和在一起，她提倡的是组件化的概念。](https://blog.csdn.net/weixin_39521520/article/details/110748137)
 
 			- jsx就是react 搞出的语法糖
+			- 虽然js和jsx在next的pages目录下面运行效果是一样的，但是一般来说不会使用.js
+			- 因为在项目中，.js一般认为是可以直接引用的，例如功能库
