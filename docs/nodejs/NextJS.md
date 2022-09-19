@@ -176,7 +176,7 @@ export function draw(ctx, length, x, y, color) {
 
 		- useEffect使用副作用，监听数值变化，采用对应的处理
 
-### 接下来from react to NextJs
+#### 接下来from react to NextJs
 
 - 从react.js 到 Next.js
 
@@ -203,7 +203,7 @@ export function draw(ctx, length, x, y, color) {
 
 			- app与元素和ReactDom.render()方法交互的代码。
 
-			- 该Babel脚本是因为 Next.js 有一个编译器，可以将 JSX 转换为浏览器可以理解的有效 JavaScript。<script type="text/jsx">标签。
+			- 该Babel脚本是因为 Next.js 有一个编译器，可以将 JSX 转换为浏览器可以理解的有效 JavaScript。<script type="text/jsx"></script>标签。
 
 			- 功能React.部分_React.useState(0)
 
@@ -218,8 +218,46 @@ export function draw(ctx, length, x, y, color) {
 			- 将默认导出添加到您的主 React 组件，以帮助 Next.js 区分要呈现为该页面的主组件的组件。
 
 
-		- 详情可以看nodejs/nextjs_test/basic_html_css_javascript/from_react_to_nextjs_Next_part/pages/index.jsx  这个next.js的实例，pages目录下面的，实际运行有效
+		- 详情可以看nodejs/nextjs_test/basic_html_css_javascript/from_react_to_nextjs_Next_part/pages/index.jsx 这个next.js的实例，pages目录下面的，实际运行有效
+		- 至此，完成了一个简单的next.js 单页的应用
 
 
+#### 接下来讨论next.js的应用实用细节
 
-		- 至此，完成了一个简单的next.js 单页的应用。
+- Next.js 实战部分
+	
+	- GOAL： 2022-09-19 16:18:52 by DailyR
+
+		- 利用接下来到国庆期间就是十月一号放假不到两周的时间里面完成这个目标
+
+		- 做一个可以增删改查，有本地存储，有特效的Next.js App应用
+
+	- 时间安排
+
+		- 第一周 ： 9月19-9月23日，完成框架搭建，CRUD，Pages,Router路由
+
+		- 第二周 :  9月26-9月30日，完成复盘，打包，经验总结，做个小程序或者HbuildX的尝试
+
+		- 国庆节前收官，进入10月回来之后一个做项目版本，一个是开始正式人工智能之旅
+
+
+	- 项目PDCA 
+
+		- P: goal plan budget
+
+		- D: design
+
+		- C: Choeck, Communicate,Clean , Control
+
+		- A: Act, Aim
+
+
+	- 开始命名为next_navigation
+
+		- npx create-next-app@latest
+
+		- npm run dev 
+
+		- npm run build && npm run start(这个是正式部署，上面是开发环境)
+
+		
