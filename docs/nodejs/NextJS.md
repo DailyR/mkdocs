@@ -260,4 +260,6 @@ export function draw(ctx, length, x, y, color) {
 
 		- npm run build && npm run start(这个是正式部署，上面是开发环境)
 
-		
+	- cd next_navigation 
+
+		- npm run dev 
