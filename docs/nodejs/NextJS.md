@@ -191,3 +191,35 @@ export function draw(ctx, length, x, y, color) {
 			- jsx就是react 搞出的语法糖
 			- 虽然js和jsx在next的pages目录下面运行效果是一样的，但是一般来说不会使用.js
 			- 因为在项目中，.js一般认为是可以直接引用的，例如功能库
+
+
+	- [继续上面的正文](https://nextjs.org/learn/foundations/from-react-to-nextjs/getting-started-with-nextjs)
+
+		- 跳转回index.html文件，可以删除以下代码：
+
+		- react和脚本，react-dom因为您已经使用 NPM 安装了它们。
+
+			- <html>和标签，<body>因为 Next.js 将为您创建这些。
+
+			- app与元素和ReactDom.render()方法交互的代码。
+
+			- 该Babel脚本是因为 Next.js 有一个编译器，可以将 JSX 转换为浏览器可以理解的有效 JavaScript。<script type="text/jsx">标签。
+
+			- 功能React.部分_React.useState(0)
+
+			- 删除上面的行后，添加import { useState } from "react"到文件的顶部。您的代码应如下所示：
+
+			- HTML 文件中剩下的唯一代码是 JSX，因此您可以将文件类型从 更改.html为.js或.jsx.
+
+		- 现在，您还需要做三件事才能完全过渡到 Next.js 应用程序：
+
+			- 将index.js文件移动到一个名为pages（稍后详细介绍）的新文件夹。
+
+			- 将默认导出添加到您的主 React 组件，以帮助 Next.js 区分要呈现为该页面的主组件的组件。
+
+
+		- 详情可以看nodejs/nextjs_test/basic_html_css_javascript/from_react_to_nextjs_Next_part/pages/index.jsx  这个next.js的实例，pages目录下面的，实际运行有效
+
+
+
+		- 至此，完成了一个简单的next.js 单页的应用。
