@@ -273,3 +273,7 @@ export function draw(ctx, length, x, y, color) {
 
 
 	- [React + Next.js + Koa2 开发Github全栈项目](https://zhuanlan.zhihu.com/p/73187063)
+
+	- 虽然 [纯javascript项目也能完成赏心悦目的效果](https://github.com/DailyR/aNavigation)，但是缺乏可以拓展和持续迭代优化的可能（比如利用数据库存储，比如fetch远端数据库数据）
+
+	- 
