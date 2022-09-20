@@ -263,3 +263,13 @@ export function draw(ctx, length, x, y, color) {
 	- cd next_navigation 
 
 		- npm run dev 
+
+
+### nextjs自身带有服务器，只处理 SSR 渲染。
+
+- 所以需要配合使用 koa2 , store.js, react, fastify 这些库
+
+	- 特别是使用了koa2就像是可以把各种东西集成成为中间件请求一样去处理
+
+
+	- [React + Next.js + Koa2 开发Github全栈项目](https://zhuanlan.zhihu.com/p/73187063)
