@@ -292,3 +292,7 @@ export function draw(ctx, length, x, y, color) {
 	- 例如 pages/api/hello.js 里面的res 返回的json 值
 
 	- axios库搭配使用获取最简单的返回值,意思说可以在api里面处理逻辑
+
+- 当前已完成next-navigation 的 pages下面的 posts 下面的index.jsx和first-post.jsx
+
+	- 而
