@@ -283,3 +283,12 @@ export function draw(ctx, length, x, y, color) {
 
 	- Koa
 		- Express原班人马打造，定义为下一代Web开发框架。仅提供一个请求上下文，中间件机制，没有捆绑任何中间件。通过利用async/await，让你写出更优雅的代码。方便开发者针对自身需求开发自定义框架。
+
+
+### next.js 其实可以用很多静态的api
+
+- 在next-navigation 这个测试初始项目里， pages/api 就是用来返回一些静态值方便做测试
+
+	- 例如 pages/api/hello.js 里面的res 返回的json 值
+
+	-  
