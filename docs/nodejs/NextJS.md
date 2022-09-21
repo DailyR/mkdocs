@@ -269,6 +269,8 @@ export function draw(ctx, length, x, y, color) {
 
 - 所以需要配合使用 koa2 , store.js, react, fastify 这些库
 
+
+
 	- 特别是使用了koa2就像是可以把各种东西集成成为中间件请求一样去处理
 
 
@@ -276,4 +278,8 @@ export function draw(ctx, length, x, y, color) {
 
 	- 虽然 [纯javascript项目也能完成赏心悦目的效果](https://github.com/DailyR/aNavigation)，但是缺乏可以拓展和持续迭代优化的可能（比如利用数据库存储，比如fetch远端数据库数据）
 
-	- 
+	- Fastify号称是最快的Nodejs 
+		- web框架，在Json输出的场景下，通过Json Schema序列化为Json数据
+
+	- Koa
+		- Express原班人马打造，定义为下一代Web开发框架。仅提供一个请求上下文，中间件机制，没有捆绑任何中间件。通过利用async/await，让你写出更优雅的代码。方便开发者针对自身需求开发自定义框架。
