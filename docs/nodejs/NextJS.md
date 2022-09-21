@@ -298,3 +298,17 @@ export function draw(ctx, length, x, y, color) {
 	- 而pages下面的api/hello.js可以返回json数据了，详见axios获取api里面的数据
 
 	- [next.js开发实战](https://nextjs-in-action-cn.taonan.lu/#%E8%BF%99%E6%9C%AC%E4%B9%A6%E9%9D%A2%E5%90%91%E7%9A%84%E8%AF%BB%E8%80%85)
+
+	- 做个备份数据吧，axios_test.js
+
+	- 在pages/api/post-rec.js中实验了不同的req.url进行不同的响应函数 if else
+
+- 两个疑问：
+
+	- 1.nextjs中能不能直接使用node.js的语法和模块
+
+	- 2.nextjs中读写文件怎么办
+
+- 回答：
+
+	- 1.可以用，不过要符合import form 的形式，然后指向的path要对应，具体看实例example   pages/post/index.jsx 和 pages/api/post-rec.js 这样就可以实现对应文件的增删改查了，CRUD
