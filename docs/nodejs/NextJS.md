@@ -312,3 +312,5 @@ export function draw(ctx, length, x, y, color) {
 - 回答：
 
 	- 1.可以用，不过要符合import form 的形式，然后指向的path要对应，具体看实例example   pages/post/index.jsx 和 pages/api/post-rec.js 这样就可以实现对应文件的增删改查了，CRUD
+
+	- 2.确实可以直接用nodejs里面的库，只要符合第1条，然后查看[API函数](https://nodejs.org/docs/latest-v17.x/api/fs.html#fswritesyncfd-buffer-offset-length-position)
