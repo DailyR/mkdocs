@@ -295,4 +295,6 @@ export function draw(ctx, length, x, y, color) {
 
 - 当前已完成next-navigation 的 pages下面的 posts 下面的index.jsx和first-post.jsx
 
-	- 而
+	- 而pages下面的api/hello.js可以返回json数据了，详见axios获取api里面的数据
+
+	- [next.js开发实战](https://nextjs-in-action-cn.taonan.lu/#%E8%BF%99%E6%9C%AC%E4%B9%A6%E9%9D%A2%E5%90%91%E7%9A%84%E8%AF%BB%E8%80%85)
