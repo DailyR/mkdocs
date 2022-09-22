@@ -103,3 +103,5 @@ You need a way to denote to React that this is a JavaScript variable.
 - [ORM]对象关系映射（Object Relational Mapping，简称ORM）模式是一种为了解决面向对象与关系数据库存在的互不匹配的现象的技术。ORM框架是连接数据库的桥梁，只要提供了持久化类与表的映射关系，ORM框架在运行时就能参照映射文件的信息，把对象持久化到数据库中。 —— 就是跟数据库相关的。
 
 - [Data Fetching] 数据获取，网络	取；正在获取数据；抓取资料中
+
+- [Query] n.	询问；疑问；问号   v.	询问；怀疑；表示疑虑   网络	查询；质问；问题
