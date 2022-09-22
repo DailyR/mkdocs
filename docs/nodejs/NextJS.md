@@ -317,3 +317,7 @@ export function draw(ctx, length, x, y, color) {
 
 
 - 完成了文件和axios request请求的实践，完成了最简单的增删改查的需求
+
+	- [next.js 开发实战](NextJs_Pro.md) 单篇太长了
+
+		- 就把这篇用来介绍NextJs基本概念和基本操作，新开个next.js开发实战作为笔记好了
