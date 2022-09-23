@@ -322,4 +322,4 @@ export function draw(ctx, length, x, y, color) {
 
 		- 单篇太长了,就把这篇用来介绍NextJs基本概念和基本操作，新开个next.js开发实战作为笔记好了
 
-		- 开会开的什么
+		- 
