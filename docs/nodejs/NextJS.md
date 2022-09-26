@@ -327,3 +327,7 @@ export function draw(ctx, length, x, y, color) {
 		- 在page页就使用base，base_advanced_expert_note 这里面的目录文件夹作为一个记录分页
 
 			- 其中base目录就是用来反思基础知识的，要相信写到5000行代码会带来质变效应
+
+			- 有些在pages/posts 目录下面的例子，和在api目录下面的例子，都写得比较潦草，可以在base里面深化优化帮助记忆和思考
+
+			- 像之前提到的前端实战，[next.js开发实战](https://nextjs-in-action-cn.taonan.lu/#%E8%BF%99%E6%9C%AC%E4%B9%A6%E9%9D%A2%E5%90%91%E7%9A%84%E8%AF%BB%E8%80%85)上面提到的这个，可以优先做一个demo试用一下
