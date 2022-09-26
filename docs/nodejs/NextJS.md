@@ -322,4 +322,8 @@ export function draw(ctx, length, x, y, color) {
 
 		- 单篇太长了,就把这篇用来介绍NextJs基本概念和基本操作，新开个next.js开发实战作为笔记好了
 
-		- 
+		- 有些名字起得太复杂了，文件名，这里稍微规范一下
+
+		- 在page页就使用base，base_advanced_expert_note 这里面的目录文件夹作为一个记录分页
+
+			- 其中base目录就是用来反思基础知识的，要相信写到5000行代码会带来质变效应
