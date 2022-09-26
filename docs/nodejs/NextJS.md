@@ -330,4 +330,17 @@ export function draw(ctx, length, x, y, color) {
 
 			- 有些在pages/posts 目录下面的例子，和在api目录下面的例子，都写得比较潦草，可以在base里面深化优化帮助记忆和思考
 
-			- 像之前提到的前端实战，[next.js开发实战](https://nextjs-in-action-cn.taonan.lu/#%E8%BF%99%E6%9C%AC%E4%B9%A6%E9%9D%A2%E5%90%91%E7%9A%84%E8%AF%BB%E8%80%85)上面提到的这个，可以优先做一个demo试用一下
+			- 像之前提到的前端实战，[next.js开发实战](https://nextjs-in-action-cn.taonan.lu/#%E8%BF%99%E6%9C%AC%E4%B9%A6%E9%9D%A2%E5%90%91%E7%9A%84%E8%AF%BB%E8%80%85)上面提到的这个，可以优先做一个demo试用一下，CRUD工程也好呀
+
+				- 里面提到的技术点：
+
+				- 1.react-query 用来处理请求的
+
+				- 2. next-connect，类似 Express/Koa 这样使用 connect 中间件
+
+					- 修改跨域设置的中间件 cors
+
+				- 3. @hapi/boom 可以在 api route 或者中间件中抛出 Boom 异常
+
+				- 4.Prisma 让你用一个非常简洁易懂的 DSL 语法描述你的数据库结构和表之前的关系，然后自动生成 TypeScript 友好的请求 SDK
+					- 这个就是用来ORM ,跟数据库交互的
