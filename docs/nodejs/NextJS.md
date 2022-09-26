@@ -344,3 +344,7 @@ export function draw(ctx, length, x, y, color) {
 
 				- 4.Prisma 让你用一个非常简洁易懂的 DSL 语法描述你的数据库结构和表之前的关系，然后自动生成 TypeScript 友好的请求 SDK
 					- 这个就是用来ORM ,跟数据库交互的
+
+### 完成了上面的koa2和fastify的试用
+
+- 详见/nextjs_test/koa2_test 和 /nextjs_test/fastify_test 的demo
