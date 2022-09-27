@@ -348,3 +348,7 @@ export function draw(ctx, length, x, y, color) {
 ### 完成了上面的koa2和fastify的试用
 
 - 详见/nextjs_test/koa2_test 和 /nextjs_test/fastify_test 的demo
+
+### 回到基础的知识点，继续NextJs_Pro.md
+
+- [next.js 开发实战](../NextJs_Pro.md) 
