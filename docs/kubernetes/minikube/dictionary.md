@@ -105,3 +105,5 @@ You need a way to denote to React that this is a JavaScript variable.
 - [Data Fetching] 数据获取，网络	取；正在获取数据；抓取资料中
 
 - [Query] n.	询问；疑问；问号   v.	询问；怀疑；表示疑虑   网络	查询；质问；问题
+
+- [CRUD] Create Read Update Put ,CRUD程序员，指的是只会基础会最常用操作的程序员，不过其实为我觉得能熟练的使用CRUD也未尝不可
