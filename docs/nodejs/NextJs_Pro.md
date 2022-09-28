@@ -7,4 +7,6 @@
 
 ### 在/nextjs_test/next_navigation/pages/base 路径下开辟基础知识回顾和温习除
 
-- 
+- 在各自的/nextjs_test/next_navigation/pages/posts/index.jsx路径下使用注释标签
+
+	- tooltip来直接在网页上面使用浮窗来记录知识点，充分利用html的优势
