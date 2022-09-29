@@ -15,3 +15,7 @@
 ### 在 /nextjs_test/next_navigation_ts 路径下完成了一个TypeScript的实践项目
 
 - TypeScript 做了个小demo
+
+	- 短期没看到TyperScript的应用场景，实在需要再学也可以
+
+	- 小程序可以用JavaScript来写，其实TypeScript也是通过转换成Js后才运行的，不需要追求新而追新
