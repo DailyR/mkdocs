@@ -109,3 +109,7 @@ You need a way to denote to React that this is a JavaScript variable.
 - [CRUD] Create Read Update Put ,CRUD程序员，指的是只会基础会最常用操作的程序员，不过其实为我觉得能熟练的使用CRUD也未尝不可
 
 - [handbook] 手册，指南
+
+- [jupyter] 音标:/ˈdʒuːpɪtə(r)/  朱批特儿
+
+	- 默认情况下，Jupyter Notebook 使用Python内核，这就是为什么它原名 IPython Notebook。Jupyter notebook是Jupyter项目的产物——Jupyter这个名字是它要服务的三种语言的缩写：Julia，Python和R，这个名字与“木星（jupiter）”谐音。
