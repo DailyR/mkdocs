@@ -4,13 +4,15 @@
 ··· coding AI
 '''
 
-## 人工智能的话题这几年已经很热 2022-10-09 10:16:56 by DailyR
+## 人工智能的话题这几年已经很热 
 
 - 那么什么是人工智能，要怎么进军人工智能的路线
 
 	- Artificial Intelligence (or AI, for short) is the name given to any attempt to have computers gain attributes of the human mind.
 
 	- 人工智能（缩写为AI）这个名称来源于一些想让计算机拥有某些人类智能属性的尝试。
+
+	- 2022-10-09 10:16:56 by DailyR
 
 **所以人工智能这个东西会有很多的引申和应用**
 
@@ -66,10 +68,11 @@
 
 
 
-### 关于 ipynb 格式 
+### 关于 ipynb 格式  —— Jupyter Notebook Web 端展示的文件
 
 - pip3 install jupyter一个命令就解决了。
 
+	- Jupyter Notebook 使用Python内核，这就是为什么它原名 IPython Notebook。Jupyter notebook是Jupyter项目的产物——Jupyter这个名字是它要服务的三种语言的缩写：Julia，Python和R, 方便数据可视化和结果展示，jupter notebook
+
 	- 安装好以后，并不是对着.ipynb文件双击或者右键选择notebook就能打开，我们还要在终端里打开。要知道，我们前面也说了，这个是web应用程序，所以更多在web端执行。所以，我们在终端里执行jupyter notebook，（需要先切换到upynb的文件目录下面启动最好）
 
-	- Jupyter Notebook 使用Python内核，这就是为什么它原名 IPython Notebook。Jupyter notebook是Jupyter项目的产物——Jupyter这个名字是它要服务的三种语言的缩写：Julia，Python和R, 方便数据可视化和结果展示，jupter notebook
