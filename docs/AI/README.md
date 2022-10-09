@@ -17,55 +17,50 @@
 
 ### 主要关注点：
 
-- 更多的是激发编程热情和思考的能力
+- 人工智能的进展，目标，当前可以用来完成基础学科的部分
 
 - 解决问题的能力
 
-- 无它，唯手熟尔
+- 无它，人工智能是未来的必然方向，但是又是漫长而又需要一定基础发展的东西
 
+- 2022-10-09 14:06:57 by DailyR
 
-练习了gitlab的pages，跟github的挺像的，不过最方便的感觉还是github pages
+- 然而行业发展虽慢但是于个人来说，落地可能没那么多场景，而且依赖基础学科和大框架的发展，但是指不定某天就会有突破性应用
 
-###
+- [百度百科：人工智能](https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/9180?fromtitle=AI&fromid=25417&fr=aladdin)
 
-- 加了些 lua ， vbs 的使用例子，由于文件较少，就不单独开立项目了，合并在一处，方便查看
+### 于个人而言
 
-- 一些独立功能，比如svn版本获取，文件遍历功能，这些在navigation的工程下面是以函数形式存在，这些大部分是可以直接拿来用的
+- 未来发展人工智能虽然是【漫长】的事件，但是【确定性】非常高，保持一定的认知和学习，才能让自己紧跟时代，当然也不应过于沉迷，获得一个这种性价比的点，其实做个人工智能CRUD，调包侠也未尝不可，一个是提高自己的身价，和解决问题的实际能力
+
+- 今年2022年 2022-10-09 15:14:19 by DailyR
 	
-	- 在advanceed里面有细分的小模块，工程化思维的构建，一些process的认知，在EasyTest各个版本的路径下面的sample文件夹里也有不少的demo和sample例子
+	- 下半年的时候爆发了一波人工智能自动画画的学习模型，可以看到有相当的应用场景（策划提需求沟通），（生成自动海报），这几年应该是人工智能阶段性高速发展的年景，只要有合适的应用场景和加速的模型，人工智能的钱景会非常好
 
-- 隔一段时间再编程的话最好有时间可以再练练基础
-
-
-### 基础
-
-- [纲领基础](base_advanced_expert_note/README.md)
-
-- [基础练手](base_the_hard_way/README.md)
-
-- [功能小试与备忘](advanced-lessons/README.md)
-
-- [开发字典](kubernetes/minikube/dictionary.md)
-
-- [常用变量命名](https://segmentfault.com/a/1190000015638398/) Var_Standard_Python自己也写了一些,或者直接点击链接里也有介绍一些name-typing
-
-- [59个具体都书写更优质python代码的方法](59_Specific_Ways_to_Write_Better_Python.md)
-
-	- 在书写的同时，可以用flake8和pylint 来检查书写规则，规范书写能让整个文档的可读性变得更强，更舒服。
+- 就算现在不学，到时候也还是需要学习的，隔一段时间再编程的话最好有时间可以再练练基础，保持自己对前沿的理解
 
 
-### 其他一些小记
+### Data-Science-Notes
 
-> - auto_reload 用来做开发调试的重载，不用每次都运行执行（用来小规模的开发调试非常方便）
+- 数据科学的笔记以及资料搜集，目前尚在更新，部分内容来源于github搜集。
 
-> - unity打包环境，gradle打包
+	[0.math](0.math) （数学基础）
 
->> - 工程化思维
+	[1.python-basic](1.python-basic) （python基础）
 
-#### 很多时候其实是积累的力量，量变引起的质变
+	[2.numpy](2.numpy)（numpy基础）
 
-- 走了很远，但是别忘记自己出发时候的样子
+	[3.pandas](3.pandas)（pandas基础）
 
-	- 知乎上面一堆laodmap学习路线图，但是感觉学与用严重脱节，而且都是类似培训班似都东一点西一点，还不如自己慢慢查资料和看书，总比被误导都强。
+	[4.scipy](4.scipy)（scipy基础）
 
-	- 编程的自信程度，介于高手和大牛之间吧，还达不到大神都程度，但是算菜鸟和入门也不至于，经常练习，经受岁月的洗礼，提升自己解决问题的能力和思维就是对自己最大的肯定，相信自己。
+	[5.data-visualization](5.data-visualization)（数据可视化基础，包含matplotlib和seaborn）
+
+	[6.scikit-learn](6.scikit-learn)（scikit-learn基础）
+
+	[7.machine-learning](7.machine-learning)（机器学习基础）
+
+	[8.deep-learning](8.deep-learning)（深度学习基础）
+
+	[9.feature-engineering](9.feature-engineering)（特征工程基础）
+
