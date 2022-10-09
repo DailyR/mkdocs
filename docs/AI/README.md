@@ -71,3 +71,5 @@
 - pip3 install jupyter一个命令就解决了。
 
 	- 安装好以后，并不是对着.ipynb文件双击或者右键选择notebook就能打开，我们还要在终端里打开。要知道，我们前面也说了，这个是web应用程序，所以更多在web端执行。所以，我们在终端里执行jupyter notebook，（需要先切换到upynb的文件目录下面启动最好）
+
+	- Jupyter Notebook 使用Python内核，这就是为什么它原名 IPython Notebook。Jupyter notebook是Jupyter项目的产物——Jupyter这个名字是它要服务的三种语言的缩写：Julia，Python和R, 方便数据可视化和结果展示，jupter notebook
