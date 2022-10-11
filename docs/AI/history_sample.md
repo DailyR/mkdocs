@@ -6,6 +6,7 @@
     - 新功能：
         - 去百度网盘找了一些高数资料pdf
         - 想了想了解了Aritificial Intelligence的基本概念和原理了
+        - 回去继续完成工程类实用应用型创新和体系积累 react nextjs了
     
     - 高数第一章：
         - 函数与极限
