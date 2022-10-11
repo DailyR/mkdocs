@@ -23,3 +23,10 @@
 	- 由于人工智能侧的进展和基础概念的掌握完成，继续回来做react和JavaScript相关的项目了  ——2022-10-11 15:09:28 by DailyR
 
 
+### [目标:Goal,完成实战](https://nextjs-in-action-cn.taonan.lu/#%E8%BF%99%E6%9C%AC%E4%B9%A6%E9%9D%A2%E5%90%91%E7%9A%84%E8%AF%BB%E8%80%85)
+
+- 拆解，分析
+
+
+
+
