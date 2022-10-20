@@ -72,6 +72,8 @@
 
 - 决定使用最新版bootstrap5
 
+- 最终下载版本是[bootstrap-5.1.3-dist](https://v5.bootcss.com/docs/getting-started/download/)
+
 ### 基础
 
 - [纲领基础](base_advanced_expert_note/README.md)
