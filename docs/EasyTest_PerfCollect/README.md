@@ -8,6 +8,10 @@
 
 - 全称为 EasyTest Performace Collect Platform
 
+- 正式命名  EasyTest Perf Collecting Platform
+
+- 昵称 EasyTest Cloud Perfmance Platform
+
 **EasyTest性能收集平台**
 
 
@@ -61,6 +65,12 @@
 - 5.简单的route展示
 
 
+
+### 当前目标：route页 展示美化
+
+- bootstrap5 版本看着展示比3，4更符合现代人的审美 2022-10-20 16:01:07 by DailyR
+
+- 决定使用最新版bootstrap5
 
 ### 基础
 
