@@ -32,9 +32,12 @@
 
 - 一些独立功能，比如文件遍历功能，这些在navigation的工程下面是以函数形式存在，这些大部分是可以直接拿来用的
 	
-	- 在advanceed里面有细分的小模块，工程化思维的构建，一些process的认知，在EasyTest各个版本的路径下面的sample文件夹里也有不少的demo和sample例子
+	- 例如在django html 页面展示数据，传值views下的render接口
 
-- 隔一段时间再编程的话最好有时间可以再练练基础
+	- render接口传字典，字典里可以是dict，可以是list或者set,但是首先它是个字典
+
+	- 然后注意点是echart里面的M需要去除，echart只能渲染数字形式的数字或者字符串
+
 
 
 ### 基础
