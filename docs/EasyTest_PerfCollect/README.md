@@ -63,6 +63,8 @@
 - 4.解析parse数据和template展示
 
 - 5.简单的route展示
+	
+	- 看半天没找到bootstrap分页的好例子，最后找的了django自己实现的分页功能，简单易懂
 
 
 
@@ -74,7 +76,11 @@
 
 - 最终下载版本是[bootstrap-5.1.3-dist](https://v5.bootcss.com/docs/getting-started/download/)
 
-### 基础
+### 一些小技巧
+
+- 利用选中的代码，在sublime里面 快捷键 ctrl + shift + / 就可以快速注释了
+
+- 
 
 - [纲领基础](base_advanced_expert_note/README.md)
 
