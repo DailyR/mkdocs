@@ -95,7 +95,7 @@
 
 ### 阶段性总结
 
-- 
+- 重新温习了django, django-admin startproject myproject 开始一个新的文件
 
 #### 很多时候其实是积累的力量，量变引起的质变
 
