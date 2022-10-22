@@ -123,6 +123,8 @@
 
 		- 在这里 fenye/ 说用来做数据分页例子的，关键是 from django.core.paginator import Paginator 这个django的分页类
 
+		- 完成对应例子的测试，在引入boostrap，之后用了一些card类型丰富主页，简洁又大方美观，果然使用 bootstrap5 是能跟据现代人的审美进行进化的
+
 #### 很多时候其实是积累的力量，量变引起的质变
 
 - 走了很远，但是别忘记自己出发时候的样子
