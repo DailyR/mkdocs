@@ -119,7 +119,9 @@
 
 	- 这个时候还需要一个漂亮的跳转如何汇总页
 
-		- startapp了一个
+		- startapp了一个 bootstrap_demo 用来做汇总页，里面包括boostrap的各个格式的尝试，nav 也好，container布局也好，button也好，<a>标签也好，确实是熟能生巧的事情
+
+		- 在这里 fenye/ 说用来做数据分页例子的，关键是 from django.core.paginator import Paginator 这个django的分页类
 
 #### 很多时候其实是积累的力量，量变引起的质变
 
