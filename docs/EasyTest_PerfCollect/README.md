@@ -121,7 +121,7 @@
 
 		- startapp了一个 bootstrap_demo 用来做汇总页，里面包括boostrap的各个格式的尝试，nav 也好，container布局也好，button也好，<a>标签也好，确实是熟能生巧的事情
 
-		- 在这里 fenye/ 说用来做数据分页例子的，关键是 from django.core.paginator import Paginator 这个django的分页类
+		- 在这里 fenye/ 说用来做数据分页例子的，关键是 from django.core.paginator import Paginator 这个django的分页类，完成了数据分页功能
 
 		- 完成对应例子的测试，在引入boostrap，之后用了一些card类型丰富主页，简洁又大方美观，果然使用 bootstrap5 是能跟据现代人的审美进行进化的
 
@@ -145,7 +145,7 @@
 
 	- 以后再遇到这种类似的需求，就可以进阶的去尝试了
 
-- 还
+- 还有
 
 
 
