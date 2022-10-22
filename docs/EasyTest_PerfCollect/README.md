@@ -111,7 +111,9 @@
 
 	- 然后templates ，static 这些引入是为了echart 和 bootstrap来做准备的。
 
-	- 之后接收到文件之后最重要就说用echart来渲染图表，专门startapp了一个echarts_demo来做echart的测试和样例
+	- 之后接收到文件之后最重要就说用echart来渲染图表，专门startapp了一个echarts_demo来做echart的测试和样例。
+
+		- 这一步也相对简单，直接在 template下面新建了很多 echart_test，echart_line， echart_bar1 ,echart_bar2 什么的，很多不同类型功能用于测试echart.js库的样例。
 
 #### 很多时候其实是积累的力量，量变引起的质变
 
