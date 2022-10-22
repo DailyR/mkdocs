@@ -107,7 +107,7 @@
 
 	- 先启动了django post 去接收和存档一个文件，详见upload_app
 
-	- 因为想着不跟主目录混淆所以用的upload_app，中间有些小问题但是最后调通了，这样就完成了数据文件的获取
+	- 因为想着不跟主目录混淆所以用的upload_app，最重要的是from django.forms import forms 这个专门用来接收文件的类，中间有些小问题但是最后调通了，这样就完成了数据文件的获取
 
 	- 然后templates ，static 这些引入是为了echart 和 bootstrap来做准备的。
 
