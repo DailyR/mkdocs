@@ -111,6 +111,8 @@
 
 	- 然后templates ，static 这些引入是为了echart 和 bootstrap来做准备的。
 
+	- 之后接收到文件之后最重要就说用echart来渲染图表，专门startapp了一个echarts_demo来做echart的测试和样例
+
 #### 很多时候其实是积累的力量，量变引起的质变
 
 - 走了很远，但是别忘记自己出发时候的样子
