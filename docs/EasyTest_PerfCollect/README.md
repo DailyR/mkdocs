@@ -95,7 +95,12 @@
 
 ### 阶段性总结
 
-- 重新温习了django, django-admin startproject myproject 开始一个新的文件
+- 重新温习了django
+	- django-admin startproject myproject 开始一个新的项目
+
+	- python manage.py startapp myapp 新建一个app（就是在项目里添加对应的文件夹目录模板脚手架）
+
+- 
 
 #### 很多时候其实是积累的力量，量变引起的质变
 
