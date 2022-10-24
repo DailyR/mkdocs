@@ -170,3 +170,20 @@
 - 备选：
 
 - [Django 富文本编辑器 - ckeditor 的安装、配置、使用](https://my.oschina.net/u/3537796/blog/5525098)
+
+
+
+
+
+- [一些小技巧- Django套用模板](https://www.likecs.com/show-203571711.html)
+
+
+- 6、套用模版
+
+	-｛% block 名字 %}
+
+	- { % endblock %}
+
+	- {% extends 'base.html' %}
+
+	- {% include 'newslistpic.html' %}
