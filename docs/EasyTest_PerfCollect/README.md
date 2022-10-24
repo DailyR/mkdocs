@@ -172,8 +172,19 @@
 - [Django 富文本编辑器 - ckeditor 的安装、配置、使用](https://my.oschina.net/u/3537796/blog/5525098)
 
 
+###  django的登陆功能
+- [样例1](https://zhuanlan.zhihu.com/p/42240900)
+
+- [样例2](https://zhuanlan.zhihu.com/p/39287464?utm_medium=social&utm_oi=71661554499584&utm_psn=1567399059144253440&utm_source=wechat_session&utm_id=0)
+
+- 思考和实践过程
+
+	- Python manage.py startapp login_demo 
+
+	- 新起了个app来进行测试登陆功能， authenticate() 关键函数已经可以跑通了，2022-10-24 17:57:41 by DailyR 明天继续验证
 
 
+###
 
 - [一些小技巧- Django套用模板](https://www.likecs.com/show-203571711.html)
 
@@ -187,3 +198,4 @@
 	- {% extends 'base.html' %}
 
 	- {% include 'newslistpic.html' %}
+
