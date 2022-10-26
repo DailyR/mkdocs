@@ -177,6 +177,8 @@
 
 - [样例2](https://zhuanlan.zhihu.com/p/39287464?utm_medium=social&utm_oi=71661554499584&utm_psn=1567399059144253440&utm_source=wechat_session&utm_id=0)
 
+- [django中如何使用login_required来解决登陆的麻烦](https://www.dandelioncloud.cn/article/details/1504101063149056001)
+
 - 思考和实践过程
 
 	- Python manage.py startapp login_demo 
