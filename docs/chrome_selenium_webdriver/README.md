@@ -29,6 +29,6 @@
 
 >> server端的话，把驱动放到chrome.exe同路径下，然后把chrome路径加入环境变量
 
->> linux的话最好用docker来装
+>> linux的话最好用docker来装，而且要centOS 7以上的版本才支持
 
 
