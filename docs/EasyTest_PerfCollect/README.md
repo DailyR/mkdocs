@@ -222,3 +222,12 @@
 	- 那么就平稳的还完房贷吧，不要想着什么事情都把控在自己手里，很多事情不要想着不甘心，不要想着再拼一拼什么的，都么有调整自己的当前心态和状态，完成个人品牌构建的重要。
 
 	- 大量的文档其实不是为了凸显自己的文笔有多好，而是为了对抗遗忘罢了
+
+
+- 增加背景页面功能
+
+```html
+<!-- 增加了页面背景和style的用法测试 -->
+  <body style="background-attachment: fixed;background:url(/static/images/bg-night.jpg) no-repeat;background-size: cover;">
+
+```
