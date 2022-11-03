@@ -231,3 +231,10 @@
   <body style="background-attachment: fixed;background:url(/static/images/bg-night.jpg) no-repeat;background-size: cover;">
 
 ```
+
+- 我不确定这是最近添加的内容，但在 Bootstrap v4.5 中，您只需将bg-transparent类名添加到导航栏的类属性中，如下所示：
+```html
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+``` 
+
+- 这样上面解决了导航栏透明的问题
