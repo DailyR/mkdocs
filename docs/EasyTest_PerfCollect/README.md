@@ -241,3 +241,8 @@
 
 
 - 这个项目还解决了读取文本内容进行分析解析的功能和先例
+
+
+- pipreqs . --encoding=utf8 --force
+
+	- 可以用来生成对应的requirement.txt 依赖
