@@ -18,4 +18,12 @@
 
 - 各个Template里面要新建对应app用到的html，不要单独一个总目录，看起来比较杂乱，不好看
 
--
+
+
+### 思考与步骤
+
+- 1.增加login目录
+
+	- 测试完毕对应html存放的template 和对应的static 里面的css和js
+
+	- F12进行调试
