@@ -42,4 +42,4 @@
 
 	- pipreqs . --encoding=utf8 --force 也好，生成依赖也好
 
-	- 然后在目录下面学习EasyTest 的
+	- 然后在目录下面学习EasyTest 的架构和目录，新建Docs或者叫Doc的目录文件夹，存放必要的Diagram的画图，和原来的图表示project级别的思路，或者module级别的想法，这样就可以真正完美的做到拆解最小MVP，做成实际的计算机科班出身的拆解和组合
