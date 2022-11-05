@@ -19,3 +19,27 @@
 		- 像里面日志README里面说的 任何工程都是思想思路的逻辑表达， 这点在今年这个阶段自己深有体会2022-11-05 14:32:46 by DailyR
 
 		- 特别是做完了EasyTest PerifCollect 这个项目之后，深刻体会到，设计概念，组件控件，输出文档，界面交互的意义，有时候也不能闭门造车，需要保持自己在一个优秀，卓越持续学习的小团体里面，这点是哈佛幸福课里面说的
+
+	- 捋一下相关概念的关系:
+
+	- [ Document Object Model (DOM).]文档对象模型
+
+	- html,css,php -> javascript     (javascript的分支：jqery，TypeScript，ajax)
+
+		- __一些以前开发的积累经验可以追溯到2014年，2016年的时候（详见百度网盘的flask开发web开发笔记在w网易目录下面的A文章里）__
+
+	- javascript -> react （node.js npm yarn）
+
+	- react -> next.js  ( fs 库，path库，matter库，node.js 应该插在箭头下面，react到next.js的变化是结合里node.js)
+
+	- 2022-11-05 14:38:24 by DailyR
+
+	- 这个上面的笔记出处是 /nodejs/NextJS.md 
+
+	- 而终于能按照自己的思路和说话准确表达自己的我 2022-11-05 14:39:49 by DailyR
+
+	- 准备花一些时间重构，或者是说重写一个项目，目的是改造 Navigation, 升级成4.0版本的django , 项目名叫做DailyNavigation，这样把各种好看的功能也好，各个测试尝试点也好，
+
+	- pipreqs . --encoding=utf8 --force 也好，生成依赖也好
+
+	- 然后在目录下面学习EasyTest 的
