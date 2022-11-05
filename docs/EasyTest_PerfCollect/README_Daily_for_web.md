@@ -79,3 +79,7 @@
 	- python manage.py startapp myapp 新建一个app（就是在项目里添加对应的文件夹目录模板脚手架）
 
 	- 还不要忘记在setting中添加对应的配置修改
+
+	- 螺旋式开发，先写demo， example， sample ，然后就小的mvp进行拓展
+
+	- 这个比较符合自己的个人思路
