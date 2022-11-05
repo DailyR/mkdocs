@@ -13,7 +13,7 @@
 
 
  - 0.0.2-alpha
- 	- 
+ 	- python manage.py startapp login 添加登陆及相关模块
    - 
 
 
