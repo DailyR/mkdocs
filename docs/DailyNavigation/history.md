@@ -14,7 +14,7 @@
 
  - 0.0.2-alpha
  	- python manage.py startapp login 添加登陆及相关模块
-   - 
+   - 一个空的框架
 
 
  - 0.0.1- 新建文件夹
