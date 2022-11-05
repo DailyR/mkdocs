@@ -70,3 +70,12 @@
 	- The purpose of computing is insight , not numbers.
 
 	- 要关注于本质不变的东西
+
+
+- django 新起一个新项目
+
+	- django-admin startproject myproject 开始一个新的项目
+
+	- python manage.py startapp myapp 新建一个app（就是在项目里添加对应的文件夹目录模板脚手架）
+
+	- 还不要忘记在setting中添加对应的配置修改
