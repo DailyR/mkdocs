@@ -246,3 +246,5 @@
 - pipreqs . --encoding=utf8 --force
 
 	- 可以用来生成对应的requirement.txt 依赖
+
+- [开一篇新的md用来做阶段性的web开发总结](README_Daily_for_web.md)
