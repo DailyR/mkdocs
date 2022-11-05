@@ -1,15 +1,18 @@
-# DailysCodeDocs
+# DailyNavigation
 
 '''
-··· coding just for fun by myself
+··· Navigation V4.0 版本 
 '''
 
-###分小中大型 模块，大的模块就独立一个项目了，一般也不会用到特别大的模块，能把思路表达清楚就好
+### 2022-11-05 15:27:56 by DailyR
 
-- 梳理思路，技术map，重新思考的demo
+- django 新起一个新项目
 
-**更多的是注释和使用**
+	- django-admin startproject myproject 开始一个新的项目
 
+	- python manage.py startapp myapp 新建一个app（就是在项目里添加对应的文件夹目录模板脚手架）
+
+	- 还不要忘记在setting中添加对应的配置修改
 
 ### 主要关注点：
 
