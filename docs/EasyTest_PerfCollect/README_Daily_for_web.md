@@ -72,7 +72,7 @@
 	- 要关注于本质不变的东西
 
 
-- django 新起一个新项目
+- django 新起一个新项目  2022-11-09 14:26:18 by DailyR
 
 	- django-admin startproject myproject 开始一个新的项目
 
