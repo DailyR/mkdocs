@@ -1,5 +1,5 @@
 # AppOnPhone
 
 '''
-··· coding just for fun by myself
+··· coding just for fun
 '''
