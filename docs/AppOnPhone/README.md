@@ -33,4 +33,10 @@
 
 	- App开发 start   —— 2022-11-25 16:17:54 by DailyR
 
-- 
+- 由于之前的笔记记录内容相当之多，就做了一下分类
+
+	- [APP开发环境设置](App_Dev_Environment.md) 
+
+	- [APP 开发技术栈 Java,JDK,Android SDK,React,Node,React Native](APP_Dev_Java_JDK_React_thinking.md)
+
+	- 一些需要用图记录的，就放在/Docs/AppOnPhone-Daily.docx DOC文件里
