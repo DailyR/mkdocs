@@ -40,3 +40,7 @@
 	- [APP 开发技术栈 Java,JDK,Android SDK,React,Node,React Native](APP_Dev_Java_JDK_React_thinking.md)
 
 	- 一些需要用图记录的，就放在/Docs/AppOnPhone-Daily.docx DOC文件里
+
+
+	- [React Native 官网文档](https://reactnative.dev/docs/environment-setup)
+	- [React Native 中文官网文档](https://reactnative.cn/docs/getting-started)
