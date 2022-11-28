@@ -48,6 +48,8 @@
 
 - 运行一个Demo AewsomeProject ,  
 
-	- 自22年6月份后再次运行RN项目demo成功  2022-11-28 14:44:18 by DailyR
+	- 自22年6月份后再次运行RN项目demo成功  2022-11-28 14:44:18 by DailyR 当前是11月，
+
+	- 也就是时隔5个月，中间几个月把next和react和js一些基本的都过了，所以也是不错的，现在再回头看
 
 	- 详见 Docs/AppOnPhone.docx 里面的success 截图
