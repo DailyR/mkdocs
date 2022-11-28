@@ -42,7 +42,22 @@
 	- [React Native 官网文档](https://reactnative.dev/docs/environment-setup)
 	- [React Native 中文官网文档](https://reactnative.cn/docs/getting-started)
 
+	- [一个LoadMap](RoadMap.md)
+
 
 - 运行一个Demo AewsomeProject ,  
+
 	- 自22年6月份后再次运行RN项目demo成功  2022-11-28 14:44:18 by DailyR 当前是22年11月，也就是时隔5个月，中间几个月把next和react和js一些基本的都过了，所以也是不错的，现在再回头看
 	- 详见 Docs/AppOnPhone.docx 里面的success 截图
+
+- 选一个UI 框架 （选型）：
+
+	- 
+
+- 初心： 2022-11-28 17:34:54 by DailyR
+
+	- 完成一个分支包管理的app，
+	- 完成一个log上传和直接打开log路径的app，现在每次打开都要抓文件找半天
+	- 完成一个Todo Task的app
+
+	- 以上功能3选1，并完成到日常投入使用
