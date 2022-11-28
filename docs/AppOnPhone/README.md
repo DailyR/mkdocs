@@ -46,4 +46,8 @@
 	- [React Native 中文官网文档](https://reactnative.cn/docs/getting-started)
 
 
-- 必须要看的注意事项三：请不要使用一些移植的终端环境，例如git bash或mingw等等，这些在 windows 下可能导致找不到环境变量。请使用系统自带的命令行（CMD 或 powershell）运行。
+- 运行一个Demo AewsomeProject ,  
+
+	- 自22年6月份后再次运行RN项目demo成功  2022-11-28 14:44:18 by DailyR
+
+	- 详见 Docs/AppOnPhone.docx 里面的success 截图
