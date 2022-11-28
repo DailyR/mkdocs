@@ -19,3 +19,5 @@
 	- java JDK
 
 	- 
+
+- [打包发布](https://reactnative.cn/docs/signed-apk-android)
