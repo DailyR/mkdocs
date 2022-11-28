@@ -12,3 +12,10 @@
 	- 当前 ： 0.70.6
 
 	- 2022-11-28 15:35:31 by DailyR
+
+
+- androiad studio
+
+	- java JDK
+
+	- 
