@@ -40,9 +40,9 @@
 
 
 	- [React Native 官网文档](https://reactnative.dev/docs/environment-setup)
-	- [React Native 中文官网文档](https://reactnative.cn/docs/getting-started)
+	- [React Native 中文官网文档](https://reactnative.cn/docs/getting-started) 其实可以看到中文和英文都是0.70版本的，所以可以对照着看
 
-	- [一个LoadMap](RoadMap.md)
+	- [一个LoadMap](RoadMap.md) 
 
 
 - 运行一个Demo AewsomeProject ,  
