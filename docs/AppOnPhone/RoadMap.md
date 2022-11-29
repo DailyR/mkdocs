@@ -20,9 +20,9 @@
 
 	- npx nrm use taobao  使用淘宝源
 
-	- 初始化一个叫做AwesomeProject的react-native脚手架项目
+	- npx react-native init AwesomeProject 初始化一个叫做AwesomeProject的react-native脚手架项目(一般使用cmd原生，使用git-bash这种第三方容易找不到环境变量)
 
-	- cd "C:\Users\Administrator\AwesomeProject" && npx react-native run-android    运行项目
+	- cd "C:\Users\Administrator\AwesomeProject" && npx react-native run-android    运行项目，运行个安卓虚拟机（需要提前配置好环境）
 
 
 - 2022-11-29 17:40:05 by DailyR
@@ -35,7 +35,7 @@
 
 	- Atest - Demo 项目打包完毕 【Done】
 
-	- 带新包的话，不用把依赖都删掉，只要把 outputs 下面的  apk目录和 log目录删掉就ok了，上一级的,就是跟outputs同级的tmp目录最好也删除掉
+	- 带新包的话，不用把依赖都删掉，只要把 outputs 下面的  apk目录和 log目录删掉就ok了，上一级的,就是跟outputs同级的tmp目录最好也删除掉(前置步骤要打包签名那些)
 
 	- 删除完成之后再在Android Studio下面的terminal 执行 ./gradlew assembleRelease (Project 的Android目录下运行)（运行过程中会把虚拟机连接的node干掉，用上面的npx react-native run-android或者 yarn react-native run-android再开起来就行）
 
@@ -49,9 +49,9 @@
 
 	- 初步想还是 
 
-		- demo
-		- componentTest
-		- NavigationTest
+		- demo\Demo （其实大小写都成功，但是为了好看还是弄个大写的了,之后发现大小写不能相同，所以命名成DemoTest）
+		- ComponentTest
+		- Navigation
 		- AwesomeProjectTest
 
 	- 这几个名字
