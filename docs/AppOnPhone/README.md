@@ -41,6 +41,7 @@
 
 	- [React Native 官网文档](https://reactnative.dev/docs/environment-setup)
 	- [React Native 中文官网文档](https://reactnative.cn/docs/getting-started) 其实可以看到中文和英文都是0.70版本的，所以可以对照着看
+	- [React Native Component & API](https://reactnative.cn/docs/components-and-apis)
 
 	- [一个LoadMap](RoadMap.md) 
 
@@ -52,7 +53,7 @@
 
 - 选一个UI 框架 （选型）：
 
-	- 
+	- react-native-elements\NativeBase\react-native-paper\react-native-ui-lib\beeshell
 
 - 初心： 2022-11-28 17:34:54 by DailyR
 
