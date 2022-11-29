@@ -14,3 +14,47 @@
 	- react-native-ui-lib
 
 	- 加上美团 beeshell 2.0
+
+
+- Step by Step
+
+	- npx nrm use taobao  使用淘宝源
+
+	- 初始化一个叫做AwesomeProject的react-native脚手架项目
+
+	- cd "C:\Users\Administrator\AwesomeProject" && npx react-native run-android    运行项目
+
+
+- 2022-11-29 17:40:05 by DailyR
+
+	- 趟了一天的虚拟机AVD的坑之后，新建虚拟机PIXEL5解决问题
+
+	- D:\Code_Project\git-DailyCode\AppOnPhone\ATest\android\app\build\outputs\apk
+
+	- 输出的包在这里，通过飞书互传，在华为手机上验证和启动ok
+
+	- Atest - Demo 项目打包完毕 【Done】
+
+	- 带新包的话，不用把依赖都删掉，只要把 outputs 下面的  apk目录和 log目录删掉就ok了，上一级的,就是跟outputs同级的tmp目录最好也删除掉
+
+	- 删除完成之后再在Android Studio下面的terminal 执行 ./gradlew assembleRelease (Project 的Android目录下运行)（运行过程中会把虚拟机连接的node干掉，用上面的npx react-native run-android或者 yarn react-native run-android再开起来就行）
+
+- 到这里，使用React Native打包发布包即可完成了
+
+	- 终于可以往下进行了这样就不会觉得在迷宫里看不到出口而怀疑自己了！
+
+	- Atest项目使命完成，保留不动，验证打包和发布成功
+
+- 使用新项目
+
+	- 初步想还是 
+
+		- demo
+		- componentTest
+		- NavigationTest
+		- AwesomeProjectTest
+
+	- 这几个名字
+
+		- 分别的用途到时候再推进具体的，今天用脑太多，要休息一下，明天再继续推进
+		- 2022-11-29 17:55:06 by DailyR
