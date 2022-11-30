@@ -64,4 +64,4 @@
 
 - [开始阅读Api文档](https://reactnative.cn/docs/components-and-apis)
 
-	- 启用ComponentTest项目
+	- 启用ComponentTest项目，用来在阅读api的时候对照和实践pratise
