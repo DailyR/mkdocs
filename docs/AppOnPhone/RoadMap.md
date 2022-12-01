@@ -70,4 +70,8 @@
 
 	- [使用fetch获取数据](https://reactnative.cn/docs/network)
 
+		- 最常用的数据获取，axios也可以在这里用
+
 	- [使用导航器跳转页面](https://reactnavigation.org/docs/navigating)
+
+		- 侧边导航栏也在上面这个链接里面，然后一些适配这里面也有说
