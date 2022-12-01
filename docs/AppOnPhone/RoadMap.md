@@ -67,3 +67,5 @@
 	- 启用ComponentTest项目，用来在阅读api的时候对照和实践pratise
 
 	- 测试过程中，如果不符合语法要求会直接弹出红屏警告，这样就能快速定位到出问题的地方了
+
+	- [使用fetch获取数据](https://reactnative.cn/docs/network)
