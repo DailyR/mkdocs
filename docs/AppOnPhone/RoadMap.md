@@ -69,3 +69,5 @@
 	- 测试过程中，如果不符合语法要求会直接弹出红屏警告，这样就能快速定位到出问题的地方了
 
 	- [使用fetch获取数据](https://reactnative.cn/docs/network)
+
+	- [使用导航器跳转页面](https://reactnavigation.org/docs/navigating)
