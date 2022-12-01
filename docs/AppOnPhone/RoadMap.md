@@ -70,7 +70,7 @@
 
 	- [使用fetch获取数据](https://reactnative.cn/docs/network)
 
-		- 最常用的数据获取，axios也可以在这里用
+		- 最常用的数据获取，axios也可以在这里用，networking部分
 
 	- [使用导航器跳转页面](https://reactnavigation.org/docs/navigating)
 
