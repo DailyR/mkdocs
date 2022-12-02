@@ -62,3 +62,5 @@ cd# AppOnPhone
 	- 完成一个Todo Task的app
 
 	- 以上功能3选1，并完成到日常投入使用
+
+	- 2022-12-02 17:12:03 by DailyR  上个节点在[一个LoadMap](RoadMap.md) 里面有写，项目比较急，先处理项目的事情， 12月8日再回来看（计划）
