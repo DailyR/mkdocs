@@ -82,4 +82,6 @@
 
 		- 2022-12-28 14:33:44 by DailyR wecenter这种国内试用了一年然后就要收费的，非常不友好，本身也不是什么硬性的指标需要去学习迭代，国内就想着割韭菜，不给长时间的免费和社区版的都不太行
 
-		- 2022-12-28 17:04:14 by DailyR 测试了数据的备份操作，navicat和mysql，wampserver
+		- 2022-12-28 17:04:14 by DailyR 测试了数据的备份操作，navicat和mysql，wampserver，phpmyadmin操作数据库
+
+		- 2022-12-29 15:03:46 by DailyR 
