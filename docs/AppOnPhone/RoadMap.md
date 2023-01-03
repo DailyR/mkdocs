@@ -77,3 +77,20 @@
 		- 侧边导航栏也在上面这个链接里面，然后一些适配这里面也有说
 
 		- 2022-12-30 16:53:51 by DailyR 梳理了2023年目标，虽迟但到
+
+		- 2023-01-03 11:29:53 by DailyR 好好说话
+
+- 来自chatGPT的回答
+	- react native学习路线
+		- 学习 React Native 的路线可能会因人而异，但是大多数人可能会选择以下路线：
+		- 了解 React Native 的基本概念，包括它是什么以及它能做什么。
+		- 了解 React，这是一种用于构建用户界面的 JavaScript 库。React Native 是建立在 React 之上的，所以学习 React 是学习 React Native 的基础。
+		- 安装 React Native 开发环境。这包括安装 Node.js、React Native 命令行工具以及适用于你的操作系统的必要工具。
+		- 通过学习 React Native 文档和示例来学习如何使用 React Native 构建应用。
+		- 尝试自己创建一个简单的 React Native 应用。
+		- 了解如何使用 React Native 开发工具，例如热重载和调试工具，来提高开发效率。
+		- 学习如何使用 React Native 的组件和 API 来实现特定的功能。
+		- 学习如何在不同的平台上部署 React Native 应用。
+		- 尝试使用第三方库或自定义组件扩展应用的功能。
+		- 了解如何测试和优化 React Native 应用以提高性能和用户体验。
+	- 希望这些建议能帮助你开始学习 React Native！
