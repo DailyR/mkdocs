@@ -94,3 +94,12 @@
 		- 尝试使用第三方库或自定义组件扩展应用的功能。
 		- 了解如何测试和优化 React Native 应用以提高性能和用户体验。
 	- 希望这些建议能帮助你开始学习 React Native！
+
+
+- 2023-01-03 14:49:54 by DailyR
+
+- 这一步是学习使用控件
+
+	- 已经在ComponentTest这个项目下面使用了Button,View，Text这3个基础控件
+
+	- 事实证明，使用在一级目录路径下的Other.js,移动到base目录下面就可以继续使用了，只要有正确的引用关系声明，例如App.js里面的import * as Other from './base/Other.js'; 
