@@ -103,3 +103,8 @@
 	- 已经在ComponentTest这个项目下面使用了Button,View，Text这3个基础控件
 
 	- 事实证明，使用在一级目录路径下的Other.js,移动到base目录下面就可以继续使用了，只要有正确的引用关系声明，例如App.js里面的import * as Other from './base/Other.js'; 
+
+	- 通过navigation.navigate()  —— App.js 里面的进行分页
+
+	- 然后不同业对应不同的base里面的文件来进行例子输出，组件Component的实验和试用
+	- 2023-01-04 15:25:58 by DailyR 今日组件，flatlist
