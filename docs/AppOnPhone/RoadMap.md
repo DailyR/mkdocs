@@ -114,3 +114,17 @@
 	- 高性能的分组(section)列表组件  SectionList  这两个例子都已经完成
 
 	- 思考了一下像美团，淘宝这种，其实就是image， text ，button ，底下两个button，加入购物车，立即购买而已，所以实际上根据CRUD,这几个组合已经能完成笔记复杂的应用了，当然还需要很多的实践和尝试来理解里面具体的意思和差别来
+
+- React 基础
+	- React Native 的基础是React， 是在 web 端非常流行的开源 UI 框架。要想掌握 React Native，先了解 React 框架本身是非常有帮助的。本文旨在为初学者介绍一些 react 的入门知识。
+
+- 本文主要会探讨以下几个 React 的核心概念：
+
+	- components 组件
+	- JSX
+	- props 属性
+	- state 状态
+
+- 各个Componennt功能都了解了一遍，实例也运行了  2023-01-06 17:51:31 by DailyR
+	- 下周计划
+	- arguments console.log测试准备
