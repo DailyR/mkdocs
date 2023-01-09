@@ -128,3 +128,6 @@
 - 各个Componennt功能都了解了一遍，实例也运行了  2023-01-06 17:51:31 by DailyR
 	- 下周计划
 	- arguments console.log测试准备
+
+
+	- console.log确实可以在控制台打印东西
