@@ -129,5 +129,11 @@
 	- 下周计划
 	- arguments console.log测试准备
 
-
 	- console.log确实可以在控制台打印东西
+
+	- [React Native 中文官网文档](https://reactnative.cn/docs/getting-started) 其实可以看到中文和英文都是0.70版本的，所以可以对照着看
+	- [React Native Component & API](https://reactnative.cn/docs/components-and-apis)
+
+	- 这两个文档里的中英文控件已经看完 2023-01-09 13:58:32 by DailyR
+
+	- 下个阶段看书本形成体系
