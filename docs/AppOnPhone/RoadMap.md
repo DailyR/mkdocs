@@ -149,3 +149,8 @@
 	-  cosnt必须有初始值，没有初始值会报错
 
 	- let可以没有初始值，后面再声明修改也可以
+
+- JS基本数据类型之symbol  2023-01-11 15:07:13 by DailyR
+
+	- Symbol是一种基本数据类型。Symbol()函数会返回symbol类型的值。该类型具有静态属性和静态方法。
+	- 每个从Symbol()返回的symbol值都是唯一的。一个symbol值能作为对象属性的标识符。(https://www.jianshu.com/p/3ac9a471e63d)
