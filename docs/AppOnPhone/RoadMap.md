@@ -171,4 +171,6 @@
 
 	- 假设const [x，setX] = useState("默认值")
 
-	- 
+	- 详见 ComponentTest/utils/Text.js  和 ComponentTest/utils/FlatList_Basics.js 里面的刷新的例子
+
+	- 首次在RN下面调通即显示，可喜可贺，今日目标达成
