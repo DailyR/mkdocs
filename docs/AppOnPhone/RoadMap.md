@@ -183,4 +183,11 @@
 
 	- 鉴权可以之后再看，然后到网路fetch获取数据
 
-	
+	- 小知识点：在html里面使用注释可以用这种格式"{/*  */}" 内容
+
+	- 达成了获取textinput
+
+	- 下一步目标 props ，组件的传参
+
+	- 目前ComponentTest/utils/TextInput.js 这个例子里面已经很直观的表现了props的使用
+
