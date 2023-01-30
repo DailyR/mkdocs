@@ -173,4 +173,14 @@
 
 	- 详见 ComponentTest/utils/Text.js  和 ComponentTest/utils/FlatList_Basics.js 里面的刷新的例子
 
-	- 首次在RN下面调通即显示，可喜可贺，今日目标达成
+	- 首次在RN下面调通即显示，可喜可贺，今日目标达成！
+
+- 2023-01-30 09:49:22 by DailyR 
+	
+	- 今日目标是一个利用props进行控件之间的传参
+
+	- 一个是传参完之后进行storage的实验，达成本地重启应用之后数据也不会消失的目标
+
+	- 鉴权可以之后再看，然后到网路fetch获取数据
+
+	
