@@ -231,3 +231,5 @@
 - 2023-02-09 10:48:01 by DailyR
 
 	- 沿用上面的 Storage_data_test和FlatList_Basics拼接，开始实施
+
+	- 基本的基础测试例子已经完成，等待详细联调，已经组装成功了一个todo_list = [] ，用列表来组装赋值对应的key和value（在例子里用name表示）
