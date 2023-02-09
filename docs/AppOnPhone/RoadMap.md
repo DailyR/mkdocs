@@ -223,4 +223,8 @@
 
 	- 今天开始 TODO list 的构想和设计
 
+	- 完成了Storage本地存储的CRUD ComponentTest/utils/Storage_data_test.js 详见例子
+
+	- 下一步把Storage_data_test和FlatList_Basics拼接起来，完成TODO List
+
 
