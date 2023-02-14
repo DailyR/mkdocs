@@ -226,10 +226,16 @@
 	- 完成了Storage本地存储的CRUD ComponentTest/utils/Storage_data_test.js 详见例子
 
 	- 下一步把Storage_data_test和FlatList_Basics拼接起来，完成TODO List  2023-02-08
- 
+
 
 - 2023-02-09 10:48:01 by DailyR
 
 	- 沿用上面的 Storage_data_test和FlatList_Basics拼接，开始实施
 
 	- 基本的基础测试例子已经完成，等待详细联调，已经组装成功了一个todo_list = [] ，用列表来组装赋值对应的key和value（在例子里用name表示）
+
+- 2023-02-14 14:00:46 by DailyR
+
+	- 情人节
+
+	- CRUD sample2   CREATE
