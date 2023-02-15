@@ -238,4 +238,10 @@
 
 	- 情人节
 
-	- CRUD sample2   CREATE
+	- CRUD sample2   CREATE  TextInput 输入框例子  Insert
+
+- 2023-02-15 15:56:33 by DailyR 
+
+	- 完成V1可使用版本
+
+	- 可用版本将服务于日常使用
