@@ -45,3 +45,7 @@
     - 第一步，先确认erl的环境和版本，使用的是要尽量跟项目当前的erlang版本对齐的环境。
     - doc目录用来放一些学习资料， 或者cookbook 手册之类的
     - [一个LoadMap](RoadMap.md) 
+
+- 一些安装环境和文件
+
+    - [Erlang官网下载](https://www.erlang.org/downloads)
