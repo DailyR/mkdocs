@@ -36,8 +36,11 @@
 
         - 当前的路径及目录格式为
 ```bash
-        └─erl_script
-            └─gs
-        ├─config
-        └─src
+    ├─doc
+    ├─erl_script
+    │  └─gs
+    │      ├─config
+    │      └─src
+    ├─src
+    └─system
 ```
