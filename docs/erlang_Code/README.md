@@ -36,11 +36,16 @@
 
         - 当前的路径及目录格式为
 ```bash
-    ├─doc
-    ├─erl_script
-    │  └─gs
-    │      ├─config
-    │      └─src
-    ├─src
-    └─system
+├─doc
+├─erl_script
+│  └─gs
+│      ├─config
+│      └─src
+├─src
+├─system
+└─tools
 ```
+
+- 增加一个tools目录用来存放erl版本数据
+
+    - 2023-02-27 11:03:34 by DailyR
