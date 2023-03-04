@@ -30,3 +30,32 @@
 - 2023-03-01 17:01:32 by DailyR
 
 	- 二月结束，三月依始，开始做远程erlang的一些调试和试用
+
+	- 调用了一些机器人接口
+
+```
+用于调用erlang 命令
+
+
+cmd   使用   bash -c  就相当于 cygwin bash直接执行啦。
+在内网成功执行了cmd来对游戏进行影响
+可以正常运行的cmd，  需要在有beam的目录下执行
+bash -c "erl -name tmp@localhost -hidden -noinput -pa ebin/game -setcookie node-cookie -s game_ctl extra game_4399_s8@172.18.40.79 eval 'db:count(role)'"
+
+可以正常运行的cmd，这个的目的就是在开启robot节点的情况下，在根目录下的ebi\game 路径目录下面执行，
+在机器人节点下执行的 机器人模板初始化
+bash -c "erl -name tmp@localhost -hidden -noinput -pa ebin/game -setcookie node-cookie -s robot_ctl extra robot_app_4399_s8@172.18.40.79 eval 'rm:init_troops_data(60,[[1,2,3],[4,5,6],[21,23,24],[25,26,41,[42,43,44],[81,83,91]]).'"
+
+开个EXE账号去  2034,，1737 观察坐标
+
+%% 执行正常， spawn 的写法也是可以的，但是String里面如果带有函数，
+%% 就要在 fun -> 箭头增加双引号 ">"  ， 这里初步估计是跟cmd下面的特殊字符串有关系， > 需要增加两个引号
+bash -c "erl -name tmp@localhost -hidden -noinput -pa ebin/game -setcookie node-cookie -s game_ctl extra game_4399_s8@172.18.40.79 eval \"serv_ets_handler:cast({func,fun()-">"test_troop:loop_check(5,'robot_app_4399_s8@172.18.40.79') end}).\""
+
+(Ps:一些可以补充的前置条件，比如需要robot节点打开，执行时候需要经常看机器人节点的表现
+Pss: 本质是利用erl的同局域网下的node节点 cluster 集群特性来进行 远程注入执行的，这样就像websocket一样达成远程通信的目的，目标)
+```
+
+- 2023-03-04 14:21:01 by DailyR
+
+	- 
