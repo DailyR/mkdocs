@@ -49,7 +49,9 @@ bash -c "erl -name tmp@localhost -hidden -noinput -pa ebin/game -setcookie node-
 开个EXE账号去  2034,，1737 观察坐标
 
 %% 执行正常， spawn 的写法也是可以的，但是String里面如果带有函数，
-%% 就要在 fun -> 箭头增加双引号 ">"  ， 这里初步估计是跟cmd下面的特殊字符串有关系， > 需要增加两个引号
+%% 就要在 fun -> 箭头增加双引号 ">"  ， 这里初步估计是跟cmd下面的特殊字符串有关系， > 需要增加两个引号，、
+%% 事实证明，不能那么轻易就放弃，自己不断尝试，在别人都放弃的情况下还能朝准方向
+%% 尝试下来，这样外部调用erl就成为了可能，这为以后的道理铺平了基础。
 bash -c "erl -name tmp@localhost -hidden -noinput -pa ebin/game -setcookie node-cookie -s game_ctl extra game_4399_s8@172.18.40.79 eval \"serv_ets_handler:cast({func,fun()-">"test_troop:loop_check(5,'robot_app_4399_s8@172.18.40.79') end}).\""
 
 (Ps:一些可以补充的前置条件，比如需要robot节点打开，执行时候需要经常看机器人节点的表现
