@@ -3,4 +3,4 @@
 - [erlang官方直营](https://www.erlang.org/doc/efficiency_guide/introduction.html)
 
 
-- [dictionary](../../kubernetes/minikubedictionary.md)
+- [dictionary](../kubernetes/minikubedictionary.md)
