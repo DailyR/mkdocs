@@ -1,1 +1,6 @@
-Base_Knowledge_point.md
+## 阅读erlang官方指引做的笔记以及知识点
+
+- [erlang官方直营](https://www.erlang.org/doc/efficiency_guide/introduction.html)
+
+
+- [dictionary](../../kubernetes/minikubedictionary.md)

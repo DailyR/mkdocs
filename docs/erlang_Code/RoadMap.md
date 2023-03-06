@@ -61,3 +61,17 @@ Pss: 本质是利用erl的同局域网下的node节点 cluster 集群特性来�
 	- erlang基础
 
 	- 新起一个技术点文档，这样在做笔记的时候就可以用 [Base_Knowledge_point](Base_Knowledge_point.md)
+	
+-  对于通常意义来说 2023-03-06 10:42:56 by DailyR
+ 
+	- 如果我们要学习一个语言，最先学习的是各种print，或者说log
+
+	- 然后是各种基础逻辑预防，if...else， while什么的
+
+	- 程序 = 数据结构 + 算法，这个法则在计算机编程领域还是一直比较通用的，
+
+		- 详细一点就是数据结构 ，数组， list列表这些要怎么表达
+
+		- Str，number ,To String ，To number
+
+	- 然后再到各种语法糖和特性
