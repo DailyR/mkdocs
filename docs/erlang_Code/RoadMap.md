@@ -75,3 +75,5 @@ Pss: 本质是利用erl的同局域网下的node节点 cluster 集群特性来�
 		- Str，number ,To String ，To number
 
 	- 然后再到各种语法糖和特性
+
+	- 学习资料一般说 w3c 的主要是术的层面，而 官方文档的主要是 道的层面，术与道相结合吧
