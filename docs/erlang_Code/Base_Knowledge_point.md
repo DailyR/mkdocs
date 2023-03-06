@@ -8,8 +8,9 @@
 - [Erlang Dictionary](Dictionary.md)
 
 
-- erlang 应用程序的几种运行方式
+### erlang 应用程序的几种运行方式
 
+-	运行方式：
 
 -	1.在erlang shell中编译运行
 
@@ -62,3 +63,19 @@ chmod
 +x hello 
 ./hello
 ```
+
+- 以上就是erl运行的三种方式了
+
+- 对于1，2都是比较好理解的例子 sample，直接在命令行下面进入 erl 的解释器，然后进行编译就好了， c(filename), 生成个对应的filename.beam ,然后运行 filename：函数名(). 就可以了
+
+- 第2种整体也不算很难
+
+- 第3种直接在作为可执行脚本直接调用，跳过编译步骤和前两种方法差别还是比较大的，进行尝试的时候发现也是经常不得要领，最后发现在windows端的话在命令行里（windows端就是  escript.exe filename.escript argus）使用这个命令就可以达成直接当成escript来运行的目的。
+
+	- 详见例子中的 factorial.erl 及里面的注解。
+
+- 而第3中方式在内网linux中也是一样，作为escript 直接 ./test.escript 在linux中一样有效，可以参看/lidai/test_Code目录看test.escript例子，在内网linux中运行生效。
+
+- 但是回过来看，最常用的还是应该是第一种编译成beam形式的直接调用。
+
+
