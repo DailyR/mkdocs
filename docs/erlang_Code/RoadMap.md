@@ -68,7 +68,12 @@ Pss: 本质是利用erl的同局域网下的node节点 cluster 集群特性来�
  
 	- 如果我们要学习一个语言，最先学习的是各种print，或者说log
 
+		- 这个对应的就是erl里的  io:format("XXXX")
+
 	- 然后是各种基础逻辑预防，if...else， while什么的
+	
+		- erlang里面包含case
+
 
 	- 程序 = 数据结构 + 算法，这个法则在计算机编程领域还是一直比较通用的，
 
