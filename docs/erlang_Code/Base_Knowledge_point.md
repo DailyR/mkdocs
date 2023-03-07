@@ -8,7 +8,7 @@
 - [Erlang Dictionary](Dictionary.md)
 
 
-### erlang 应用程序的几种运行方式
+### erlang 应用程序的几种运行方式（知识点1）
 
 -	运行方式：
 
@@ -80,4 +80,8 @@ chmod
 
 
 - 到此，erl运行环境问题得到解决。2023-03-06 15:10:28 by DailyR 
+
+	
+
+### 新的知识点
 
