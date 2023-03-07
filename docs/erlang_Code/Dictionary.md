@@ -10,4 +10,4 @@
 
 - [FOUNDATION] 基础
 
-- 
+- [deprecations] 反对，或者是已经弃用的功能
