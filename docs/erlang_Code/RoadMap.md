@@ -90,3 +90,7 @@ Pss: 本质是利用erl的同局域网下的node节点 cluster 集群特性来�
 	- 详见factorial.erl, 和sample1 也有说
 
 - 在想按照上面的基础从 if..else开始，还是从阅读[erlang官方文档](https://www.erlang.org/doc/index.html)开始
+
+	- 整体感觉，无论是之前python, nodejs，JavaScript ， lua， 这些语言层面的东西，基本都难不倒了，shell，bat， 所以再直接增加一门只知道术的语言也没什么必要，所以打算从文档全文阅读开始，以阅读英文原版文档为主线，这样能增加“道”层面的理解
+
+		- 采用形式，跟之前NextJs的框架理解一样，先进行双语版翻译，然后一些重点笔记就在dictionary.md里面进行记录。
