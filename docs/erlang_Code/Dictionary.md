@@ -17,3 +17,13 @@
 - [assumed] 假设
 
 - [grammar; syntax] 语法
+
+- [Pattern matching] 模式匹配
+
+- [Guard] Guard 第一版翻译为「断言」，第二版翻译为关卡。
+
+Guard 是一种结构，由一系列「guard expression」组成，用逗号「,」分隔，是模式匹配的一种扩展，用于提高模式匹配的作用，通过使用 Guard 可以对某个模式里的变量执行简单的测试和比较。
+
+只有在所有的「guard expression」值为 true 时，guard 才为 true。
+
+由于模式匹配无副作用，所以为了保证 guard 的执行不带副作用，在 guard 内是不能调用用户自定义函数的。
