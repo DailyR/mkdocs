@@ -35,7 +35,7 @@ Guard 是一种结构，由一系列「guard expression」组成，用逗号「,
 - [Knowledge sharing and collaboration without distractions](https://stackoverflow.co/teams/)
 - 无干扰的知识共享和协作. 至今仍然非常喜欢Stack Overflow的这句solgon,比起百度上面的很多浪费时间精力的搜索和结果，https://stackoverflow.co/teams/上面的话真的深入我心。
 
+
 - [the world open itself before those with noble hearts]只要不失去你的崇高，整个世界都会向你敞开” https://www.zhihu.com/question/455378265/answer/2012289850
 
-	
 	
