@@ -72,7 +72,9 @@
 
 - pip3 install jupyter一个命令就解决了。
 
-	- Jupyter Notebook 使用Python内核，这就是为什么它原名 IPython Notebook。Jupyter notebook是Jupyter项目的产物——Jupyter这个名字是它要服务的三种语言的缩写：Julia，Python和R, 方便数据可视化和结果展示，jupter notebook 音标:/ˈdʒuːpɪtə(r)/  朱批特儿
+	- Jupyter Notebook 使用Python内核，这就是为什么它原名 IPython Notebook。Jupyter notebook是Jupyter项目的产物——Jupyter这个名字是它要服务的三种语言的缩写：Julia，Python 和 R, 方便数据可视化和结果展示，jupter notebook 音标:/ˈdʒuːpɪtə(r)/  朱批特儿
+
+		- ipynb  .ipynb 结尾的都是 Jupyter Notebook 的文件，在对应的目录下面运行下面的jupyter notebook命令，可以启动一个web可编辑的副本，点击.ipynb的文件可以进行对应的编辑和实验进行思路表达，相当方便，只要在对应存放 .ipynb文件的目录下去执行这个命令就好了。
 
 	- 安装好以后，并不是对着.ipynb文件双击或者右键选择notebook就能打开，我们还要在终端里打开。要知道，我们前面也说了，这个是web应用程序，所以更多在web端执行。所以，我们在终端里执行jupyter notebook，（需要先切换到upynb的文件目录下面启动最好）
 
