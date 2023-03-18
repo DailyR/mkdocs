@@ -86,3 +86,9 @@ $ tree -d -L 2
 ```
 
 - 这样改造的目录比之前直观些，然后ControlNet纯代码，不包括训练集的话（各种pth文件），其实并不大，大概90多，快100M 这样，比很多软件都要小了。
+
+- [Dictionary](Dictionary.md) 
+
+- 下周继续 2023-03-18 17:45:47 by DailyR
+
+	- 主要运行ControlNet 项目和一些基础知识
