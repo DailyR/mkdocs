@@ -21,3 +21,5 @@
 - [file folder] 文件夹
 
 - [directory] 英 /dəˈrektəri 美 /[dəˈrektəri] n.(计算机文件或程序的)目录;名录;电话号码簿;公司名录 adj.管理的
+
+- 
