@@ -66,4 +66,23 @@ $ tree -d -L 2
 	- 现在要改变目录结构，把ControlNet和Stable Diffusionzz类似的AI项目也包括进去，
 
 
-	
+```bash
+$ tree -d -L 2
+.
+├── lessons
+│   ├── 0.Math
+│   ├── 1.python-basic
+│   ├── 2.numpy
+│   ├── 3.pandas
+│   ├── 4.scipy
+│   ├── 5.data-visualization
+│   ├── 6.scikit-learn
+│   ├── 7.machine-learning
+│   ├── 8.deep-learning
+│   └── 9.feature-engineering
+└── projects
+    └── ControlNet
+
+````
+
+	- 这样改造的目录比之前直观些，然后ControlNet纯代码，不包括训练集的话（各种pth文件），其实并不大，大概90多，快100M 这样，比很多软件都要小了。
