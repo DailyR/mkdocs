@@ -64,10 +64,13 @@ $ tree -d -L 2
 - 可以看到当前的AI目录是去年22年10月份左右做的目录路径，大部分是lession说明概念的
 
 	- 现在要改变目录结构，把ControlNet和Stable Diffusionzz类似的AI项目也包括进去。
-	
+
+
+
 
 
 ```bash
+
 $ tree -d -L 2
 .
 ├── lessons
