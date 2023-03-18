@@ -36,4 +36,5 @@ Guard 是一种结构，由一系列「guard expression」组成，用逗号「,
 
 - [the world open itself before those with noble hearts]只要不失去你的崇高，整个世界都会向你敞开” https://www.zhihu.com/question/455378265/answer/2012289850
 
+- [STEM] STEM是科学（Science），技术（Technology），工程（Engineering），数学（Mathematics）四门学科英文首字母的缩写，其中科学在于认识世界、解释自然界的客观规律；技术和工程则是在尊重自然规律的基础上改造世界、实现与自然界的和谐共处、解决社会发展过程中遇到的难题；数学则作为技术与工程学科的基础工具。
 	
