@@ -65,10 +65,6 @@ $ tree -d -L 2
 
 	- 现在要改变目录结构，把ControlNet和Stable Diffusionzz类似的AI项目也包括进去。
 
-
-
-
-
 ```bash
 
 $ tree -d -L 2
