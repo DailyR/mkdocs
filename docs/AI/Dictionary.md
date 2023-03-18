@@ -16,3 +16,8 @@
 - [Stable Diffusion](https://stablediffusionweb.com/)稳定扩散是一种潜在的文本到图像扩散模型，能够在任何文本输入的情况下生成逼真的图像，培养自主自由来产生令人难以置信的图像，使数十亿人能够在几秒钟内创造令人惊叹的艺术。Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input, cultivates autonomous freedom to produce incredible imagery, empowers billions of people to create stunning art within seconds.
 
 - [utility] 英[juːˈtɪləti]  美[juːˈtɪləti] n.  公用事业; 实用; 效用; 有用; 实用程序; 公用程序; adj.    多用途的; 多效用的; 多功能的;    计算机里也经常用这个词来表示能力，例如微信小程序每次新增都会增加utility这个能力这个词。
+
+
+- [file folder] 文件夹
+
+- [directory] 英 /dəˈrektəri 美 /[dəˈrektəri] n.(计算机文件或程序的)目录;名录;电话号码簿;公司名录 adj.管理的
