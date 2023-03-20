@@ -22,5 +22,7 @@
 
 - [directory] 英 /dəˈrektəri 美 /[dəˈrektəri] n.(计算机文件或程序的)目录;名录;电话号码簿;公司名录 adj.管理的
 
-- [GNU] 美 /[nuː]  牛羚;角马，GNU是一个操作系统，其内容软件完全以GPL方式发布。这个操作系统是GNU计划的主要目标，名称来自GNU's Not Unix!的递归缩写，因为GNU的设计类似Unix，但它不包含具著作权的Unix代码。我们建议安装这些 GNU 版本（更确切地说是，GNU/Linux 发行版）（白水字： 革奴）
-- [GUN历史和渊源](https://blog.csdn.net/qq_43617936/article/details/104504992)
+- [GNU] 美 /[nuː]  牛羚;角马，GNU是一个操作系统，其内容软件完全以GPL方式发布。这个操作系统是GNU计划的主要目标，名称来自GNU's Not Unix!的递归缩写，因为GNU的设计类似Unix，但它不包含具著作权的Unix代码。我们建议安装这些 GNU 版本（更确切地说是，GNU/Linux 发行版）（白水字： 革奴）为了区别和英语角马，发音前面多了个G 哥
+- [GUN历史和渊源](https://blog.csdn.net/qq_43617936/article/details/104504992) GCC和GDP也是这个大神写的
+
+- 
