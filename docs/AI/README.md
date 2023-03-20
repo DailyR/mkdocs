@@ -144,7 +144,10 @@
 
 	- 公众号写学习文章和学习思考过程，引流
 
-- [RoadMap](AI_RoadMap.md) 
+- [RoadMap](AI_RoadMap.md) 其实最打动人的是RoadMap那段不要轻易放弃的话。
 
 - [Dictionary](Dictionary.md) 
+
+
+
 
