@@ -89,9 +89,7 @@ $ tree -d -L 2
 
 - [Dictionary](Dictionary.md) 
 
-- 下周继续 2023-03-18 17:45:47 by DailyR
 
-	- 主要运行ControlNet 项目和一些基础知识
 
 ### 这里添加一段自己的感想
 
@@ -102,6 +100,8 @@ $ tree -d -L 2
 	- 想尽一切办法，不要轻易放弃 。 ——  2023-03-20 14:29:04 by DailyR
 
 
-### 开启双重验证测试，增加了MicroSoft 微软验证
+- 下周继续 2023-03-18 17:45:47 by DailyR
 
-- Github验证通过
+	- 主要运行ControlNet 项目和一些基础知识
+
+- 2023-03-22 14:02:28 by DailyR
