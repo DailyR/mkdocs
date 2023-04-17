@@ -28,3 +28,5 @@
 - [workbench] 工作台
 
 - [dashboard] 仪表盘
+
+- [working table] 工作台
