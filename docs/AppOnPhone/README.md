@@ -131,6 +131,12 @@ cd# AppOnPhone
 	- 花了将近一个星期进行新方向和现阶段优先级的思考。
 
 	- 得出上面这主要3个方面的调整和细化。
-
 		- 由于决定从1开始着手，初心3选1任务，从连通erl开始继续往下推进，这部分的主要目标和手段是cmd连通erl环境,所以git-DailyCode/erlang_Code 从这个erlang相关的目录重新开始使用。
+
+- 2023-04-23 19:11:35 by DailyR
+	
+	- EasyTestMobileProject 决定重新从新项目开始，新建 [EasyTestMobileProject](EasyTestMobileProject.md)
+
+
+
 

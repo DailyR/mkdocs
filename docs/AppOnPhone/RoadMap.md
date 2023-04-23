@@ -258,3 +258,7 @@
 - 2023-04-23 17:29:49 by DailyR
 
 	- link到有道云笔记 想到的【个人项目】 [some thing special - run simple bussiness](https://note.youdao.com/web/#/file/recent/note/WEB7019db2075b55a036a6e60623adb788a/)
+
+	- 新起一个项目来用来存放这个单，起名叫 EasyTestMobileProject ，暂用名是这个，用来app存放各种路径和apk,ipa下载的目的，对标网易的各类包分支管理系统
+
+	- 快速完成各种包路径和信息配置
