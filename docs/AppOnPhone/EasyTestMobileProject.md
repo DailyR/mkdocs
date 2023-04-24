@@ -69,3 +69,11 @@
 		- 开始小组推广试用（）
 
 	- 开始总结经验进行下一个自己的RUB *****
+
+
+
+- 2023-04-24 11:03:20 by DailyR
+
+	- cd EasyTestMobileProject && npx react-native run-android    运行项目
+
+	- [目前初始化默认项目使用的是tsx，看起来是从2022年12月开始生效](https://reactnative.dev/docs/typescript#using-javascript-instead-of-typescript)
