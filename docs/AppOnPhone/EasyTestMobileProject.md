@@ -66,7 +66,7 @@
 
 	- 开始日常使用（一周）
 
-		- 开始小组推广试用（）
+		- 开始小组推广试用（估计一周吧）
 
 	- 开始总结经验进行下一个自己的RUB *****
 
@@ -87,3 +87,22 @@
 	- [打包发布中文版](https://reactnative.cn/docs/signed-apk-android)
 
 	- [打包发布英文版](https://reactnative.dev/docs/signed-apk-android)
+
+	- 在对应工程的npm目录下面Android目录下执行了./gradlew assembleRelease 失败
+```bash
+	- 打新包的话，不用把依赖都删掉，只要把 outputs 下面的  apk目录和 log目录删掉就ok了，上一级的,就是跟outputs同级的tmp目录最好也删除掉(前置步骤要打包签名那些)
+
+	- 删除完成之后再在Android Studio下面的terminal 执行 ./gradlew assembleRelease (Project 的Android目录下运行)（运行过程中会把虚拟机连接的node干掉，用上面的npx react-native run-android或者 yarn react-native run-android再开起来就行）
+
+—— 来源[RoadMap](RoadMap.md)
+```
+
+- 第一次构建失败了，查看报错信息在后面增加 --stacktrace 发现是缺少了对应的库包
+
+	- 在stackoverflow查找发现是缺少了对应的库包的缘故
+
+	- 回到工程根目录下面执行npm install安装必要的库包
+
+	- 安装完成之后继续用上面的./gradlew assembleRelease命令尝试
+
+	- ./gradlew bundleRelease 这个命令是生成发行用的abb包（就是以前的apk）
