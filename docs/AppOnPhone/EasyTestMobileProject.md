@@ -80,4 +80,10 @@
 	
 	- [看起来ts替换js是大势所趋](https://blog.csdn.net/shifang07/article/details/105371268/)
 
-	- 
+	- EasyTestMobileProject 这是第一个tsx的react native项目
+
+- 下一步进行打包验证
+
+	- [打包发布中文版](https://reactnative.cn/docs/signed-apk-android)
+
+	- [打包发布英文版](https://reactnative.dev/docs/signed-apk-android)
