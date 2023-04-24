@@ -77,3 +77,7 @@
 	- cd EasyTestMobileProject && npx react-native run-android    运行项目
 
 	- [目前初始化默认项目使用的是tsx，看起来是从2022年12月开始生效](https://reactnative.dev/docs/typescript#using-javascript-instead-of-typescript)
+	
+	- [看起来ts替换js是大势所趋](https://blog.csdn.net/shifang07/article/details/105371268/)
+
+	- 
