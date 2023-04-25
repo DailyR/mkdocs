@@ -137,6 +137,12 @@ cd# AppOnPhone
 	
 	- EasyTestMobileProject 决定重新从新项目开始，新建 [EasyTestMobileProject](EasyTestMobileProject.md)
 
+	- 2023-04-25 14:49:51 by DailyR
+
+	- 新建完成，EasyTestApp，打包验证完成，可以做真机上面运行。
+
+	
+
 	
 
 
