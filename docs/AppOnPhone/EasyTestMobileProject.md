@@ -103,6 +103,40 @@
 
 	- 回到工程根目录下面执行npm install安装必要的库包
 
-	- 安装完成之后继续用上面的./gradlew assembleRelease命令尝试
+	- 安装完成之后继续用上面的 ./gradlew assembleRelease 命令尝试
 
 	- ./gradlew bundleRelease 这个命令是生成发行用的abb包（就是以前的apk）
+
+	- 用的都是Android studio 下面的terminal进行的打包
+
+	- 打包成功！飞书传输，真机运行成功！
+
+		- 但是出现报错，发现没有打正式包成功
+
+		- Android studio 环境 AVD 启动失败
+
+			- 重装升级完成从21.2 版本升级到22.2 ，虚拟机完成启动
+
+			- 如果打完包，发现影响了 npx react-native run-android ，就删除Android Studio虚拟机，重新新建一个完整的，没损坏的就好
+
+		- 新建项目 TypeScriptTestApp 使用命令 npx react-native init MyApp --template react-native-template-typescript
+		[原文地址](https://reactnative.cn/docs/typescript)
+
+			- 这样可以达成全面从js转向ts
+
+			- 至于使用ts的原因也比较明确了，支持静态类型检查，ts，开发效率会比js快不少，debug效率，而本身ts比js的学习曲线难度是差不多的。
+
+		- 对新项目 TypeScriptTestApp 进行打包
+
+			- [按照网页进行签名配置，打包在手机真机运行成功](https://reactnative.cn/docs/signed-apk-android)
+
+
+	- 至此，完整项目已全部转为ts打包了，RN 技术栈 typescript整理完毕
+
+	- 完美
+
+- 2023-04-25 11:16:33 by DailyR
+
+	- 目前为止，新建的这个两个 app工程 ， EasyTestApp 和 TypeScriptTestApp，都能很好的本地运行和打包进真机运行，这样就具备了基础的ts开发app的条件
+	- 这样我们就可以继续用chatGPT开发之后的东西啦。
+	-  chatGPT的一个好处是把已经自己走通的框架更深入的发挥自己的实力和能力 ，加速度的作用，放大自己的成功和成果(Yes, Just do it.)
