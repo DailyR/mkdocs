@@ -184,4 +184,6 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 - 安装引用的新包，详见package.json
 
-	- 实现客户端请求功能
+	- 实现客户端请求功能 
+
+		- [网络模块](https://reactnative.cn/docs/network)
