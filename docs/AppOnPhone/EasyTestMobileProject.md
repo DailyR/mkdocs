@@ -175,4 +175,13 @@
 - 开始客户端请求功能  【Start】 2023-04-25 11:44:58 by DailyR
 
 	- 先测试客户端tsx的各类功能
-	- 
+
+```typescript
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+```
+
+- 安装引用的新包，详见package.json
+
+	- 实现客户端请求功能
