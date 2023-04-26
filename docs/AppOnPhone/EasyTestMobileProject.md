@@ -189,3 +189,15 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 		- [网络模块](https://reactnative.cn/docs/network)
 
 	- 使用Linking 模块进行打开网页和打开包下载地址验证成功
+
+- 2023-04-26 14:02:23 by DailyR
+	
+	- 重新梳理需求，已完成客户端fetch请求验证
+
+	- 增加link包括easytest 性能收集web
+
+	- 增加服务端处理json文件数据 【Doing】
+
+	- 获取json文件后处理 prop, 让其及时显示在手机客户端中
+
+	- 排版美化 + bug fix
