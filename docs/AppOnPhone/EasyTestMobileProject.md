@@ -187,3 +187,5 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 	- 实现客户端请求功能 
 
 		- [网络模块](https://reactnative.cn/docs/network)
+
+	- 使用Linking 模块进行打开网页和打开包下载地址验证成功
