@@ -196,7 +196,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 	- 增加link包括easytest 性能收集web
 
-	- 增加服务端处理json文件数据 【Doing】
+	- 增加服务端处理json文件数据 【Doing】 【Done】 2023-04-26 20:42:54 by DailyR
 
 	- 获取json文件后处理 prop, 让其及时显示在手机客户端中
 
