@@ -198,6 +198,10 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 	- 增加服务端处理json文件数据 【Doing】 【Done】 2023-04-26 20:42:54 by DailyR
 
-	- 获取json文件后处理 prop, 让其及时显示在手机客户端中
+	- 获取json文件后处理 prop, 让其及时显示在手机客户端中 【Done】 
 
-	- 排版美化 + bug fix
+	- 排版美化 + bug fix 
+
+- 2023-04-26 20:47:28 by DailyR
+
+	- 美化和排版
